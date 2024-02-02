@@ -135,7 +135,7 @@ def RFmap_prob(head, separator, data_path, save_path, abundance_path = None):
     df['abundance'] = abundance_col #add column 
     df['cover']     = cover_col #add column
         
-    df.to_csv(save_path + '/ P_matrix_.csv',index=False) #save df
+    df.to_csv(save_path + '/df.csv',index=False) #save df
     return df
 
 def RFmap_mat(df, save_path):
@@ -185,8 +185,8 @@ def RFmap_mat(df, save_path):
             array.append(value)
         RFmap_matrix[function] = array
         
-    RFmap_matrix.to_csv(save_path + '/probabilities_with_abundance_cover_matrix_mode.csv',index=False) #save df
     
+    RFmap_matrix.loc[:, ["plant_sp"] + [fun for fun in functions]].to_csv(save_path + '/P_matrix_df.csv',index=False)
     return RFmap_matrix, species, functions
 
 

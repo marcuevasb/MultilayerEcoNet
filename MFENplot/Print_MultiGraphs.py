@@ -7,13 +7,13 @@ import networkx as nx
 import numpy as np
 
 '''data'''
-data_path = 'data/NaRedona_observed_6layers.csv' 
-abundance_path = 'data/NaRedona_plant_abundance.csv' 
+data_path = '../data/NaRedona_observed_6layers.csv' 
+abundance_path = '../data/NaRedona_plant_abundance.csv' 
 
 
 # '''TESTING DATA'''
-# data_path = '../data/data_test.csv'
-# abundance_path = None
+data_path = '../data/data_test.csv'
+abundance_path = None
 
 
 head = 0 #header
@@ -68,7 +68,7 @@ for real in range(1):
     
     '''layout'''
     # The network layout is obtained using Infomap communities
-    node_layout_inf =get_community_layout(list(H.edges()), node_to_community=community_dict_inf )
+    node_layout_inf =get_community_layout(list(H.edges()), node_to_community=community_dict_inf, origin=(0, 0), scale=(1, 1))
 
     '''multiedges'''
     multi_edges_tuple = [(u,v) for u,v,d in multi_edges_over]

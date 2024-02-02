@@ -1,0 +1,78 @@
+plant_sp,interaction_type,probability,abundance,cover
+Arisarum vulgare,decomposition,1.0,1,1.0
+Arisarum vulgare,fungal pathogenicity,1.0,1,1.0
+Arisarum vulgare,nutrient uptake,1.0,1,1.0
+Asparagus horridus,decomposition,1.0,1,1.0
+Asparagus horridus,fungal pathogenicity,1.0,1,1.0
+Asparagus horridus,nutrient uptake,1.0,1,1.0
+Chenopodium murale,decomposition,1.0,1,1.0
+Chenopodium murale,fungal pathogenicity,1.0,1,1.0
+Chenopodium murale,nutrient uptake,1.0,1,1.0
+Chenopodium murale,pollination,1.0,1,1.0
+Diplotaxis ibicensis,decomposition,1.0,1,1.0
+Diplotaxis ibicensis,fungal pathogenicity,1.0,1,1.0
+Diplotaxis ibicensis,herbivory,1.0,1,1.0
+Diplotaxis ibicensis,nutrient uptake,1.0,1,1.0
+Diplotaxis ibicensis,pollination,1.0,1,1.0
+Ephedra fragilis,decomposition,1.0,1,1.0
+Ephedra fragilis,fungal pathogenicity,1.0,1,1.0
+Ephedra fragilis,herbivory,1.0,1,1.0
+Ephedra fragilis,nutrient uptake,1.0,1,1.0
+Ephedra fragilis,pollination,1.0,1,1.0
+Euphorbia dendroides,decomposition,1.0,1,1.0
+Euphorbia dendroides,fungal pathogenicity,1.0,1,1.0
+Euphorbia dendroides,herbivory,1.0,1,1.0
+Euphorbia dendroides,nutrient uptake,1.0,1,1.0
+Euphorbia dendroides,pollination,1.0,1,1.0
+Euphorbia dendroides,seed dispersal,1.0,1,1.0
+Fagonia cretica,decomposition,1.0,1,1.0
+Fagonia cretica,fungal pathogenicity,1.0,1,1.0
+Fagonia cretica,nutrient uptake,1.0,1,1.0
+Fagonia cretica,pollination,1.0,1,1.0
+Fagonia cretica,seed dispersal,1.0,1,1.0
+Geranium molle,decomposition,1.0,1,1.0
+Geranium molle,fungal pathogenicity,1.0,1,1.0
+Geranium molle,nutrient uptake,1.0,1,1.0
+Geranium molle,pollination,1.0,1,1.0
+Geranium molle,seed dispersal,1.0,1,1.0
+Heliotropium europaeum,decomposition,1.0,1,1.0
+Heliotropium europaeum,fungal pathogenicity,1.0,1,1.0
+Heliotropium europaeum,nutrient uptake,1.0,1,1.0
+Heliotropium europaeum,pollination,1.0,1,1.0
+Lavatera maritima,decomposition,1.0,1,1.0
+Lavatera maritima,fungal pathogenicity,1.0,1,1.0
+Lavatera maritima,herbivory,1.0,1,1.0
+Lavatera maritima,nutrient uptake,1.0,1,1.0
+Lavatera maritima,pollination,1.0,1,1.0
+Lavatera maritima,seed dispersal,1.0,1,1.0
+Limonium sp,decomposition,1.0,1,1.0
+Limonium sp,fungal pathogenicity,1.0,1,1.0
+Limonium sp,nutrient uptake,1.0,1,1.0
+Limonium sp,seed dispersal,1.0,1,1.0
+Medicago arborea,decomposition,1.0,1,1.0
+Medicago arborea,fungal pathogenicity,1.0,1,1.0
+Medicago arborea,herbivory,1.0,1,1.0
+Medicago arborea,nutrient uptake,1.0,1,1.0
+Medicago arborea,pollination,1.0,1,1.0
+Medicago arborea,seed dispersal,1.0,1,1.0
+Narcissus tazetta,decomposition,1.0,1,1.0
+Narcissus tazetta,fungal pathogenicity,1.0,1,1.0
+Narcissus tazetta,nutrient uptake,1.0,1,1.0
+Narcissus tazetta,pollination,1.0,1,1.0
+Olea europaea var. sylvestris,decomposition,1.0,1,1.0
+Olea europaea var. sylvestris,fungal pathogenicity,1.0,1,1.0
+Olea europaea var. sylvestris,herbivory,1.0,1,1.0
+Olea europaea var. sylvestris,nutrient uptake,1.0,1,1.0
+Olea europaea var. sylvestris,seed dispersal,1.0,1,1.0
+Suaeda vera,decomposition,1.0,1,1.0
+Suaeda vera,fungal pathogenicity,1.0,1,1.0
+Suaeda vera,herbivory,1.0,1,1.0
+Suaeda vera,nutrient uptake,1.0,1,1.0
+Suaeda vera,pollination,1.0,1,1.0
+Suaeda vera,seed dispersal,1.0,1,1.0
+Withania frutescens,decomposition,1.0,1,1.0
+Withania frutescens,fungal pathogenicity,1.0,1,1.0
+Withania frutescens,herbivory,1.0,1,1.0
+Withania frutescens,nutrient uptake,1.0,1,1.0
+Withania frutescens,pollination,1.0,1,1.0
+Withania frutescens,seed dispersal,1.0,1,1.0
