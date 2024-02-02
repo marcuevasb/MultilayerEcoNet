@@ -1,5 +1,5 @@
 # MultilayerEcoNet
-The architecture of Multilayer Ecological Networks
+On the structure of species-function1 participation in multilayer ecological networks
 
 All computational analysis was made using Python 3.10.8 running in  a Linux desktop (version 22). Dependencies are listed at the begining of each file.
 python3_enviroment contains the requirements.txt and enviroment_droplet.yml files needed to recreate a python environment with all libraries adn dependencies needed.
@@ -12,7 +12,7 @@ python3_enviroment contains the requirements.txt and enviroment_droplet.yml file
 
 In Null_models.ipynb:
 
-1- Import the resource-function matrix $\bf P$, computed from the RCF tensor of the Na Redona dataset based on Eq.1 of the paper.
+1- Import the resource-function matrix $\bf P$, computed from the RCF tensor of the Na Redona dataset based on Eq.1 of the paper generated in FullCode.ipyng.
 
 2- Visualize $\bf P$ along with some randomizations and compute NODF for binarizations.
 
@@ -29,7 +29,7 @@ In Null_models.ipynb:
 
 # Nestedness 
 
-NODF_WNODF contains all the necesary material to reproduce NODF and WNODF results from the main text using fortran90. 
+NODF_WNODF contains all the necesary material to reproduce NODF and WNODF results from the main text using fortran90 using the resource-function matrix $\bf P$ of the paper generated in FullCode.ipyng. 
 
 For NODF:
 
