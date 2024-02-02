@@ -385,7 +385,7 @@ def color_of_nodes_edges(G,node_att, cmap = plt.cm.rainbow):
     edge_to_int      = {f:i for i, f in enumerate(np.unique(node_colors))}
     node_edge_color  = {}
     
-    #If data is default dataset or has the same ecological functions uses pre-established colors
+    #If data is default dataset or has the same ecological functions uses pre-established colors)
     if Counter([a for a in edge_to_int]) == Counter(['herbivory','pollination','decomposition','seed dispersal', 'nutrient uptake', 'plant','fungal pathogenicity']):
         edge_to_color_dict= {'herbivory': (0.5780392156862744, 0.4545098039215687, 0.6905882352941175),
         'plant': (0.33203125, 0.55078125, 0.25),
@@ -401,8 +401,7 @@ def color_of_nodes_edges(G,node_att, cmap = plt.cm.rainbow):
         0.6182352941176471),
         'nutrient uptake': (0.8266666666666667,
         0.5301960784313726,
-        0.7360784313725488),
-        'total': 'tab:grey'}
+        0.7360784313725488)}
         node_colors_dict = {u: edge_to_color_dict[d[node_att][0]] for u,d in G.nodes(data=True)}
         node_edge_color = {u: edge_to_color_dict[d[node_att][0]] for u,d in G.nodes(data=True)}
         
@@ -475,8 +474,7 @@ def legend_plot(node_label, plant_label_color, dict_att_to_color, H, func_to_col
             elif rest == 'nutrient uptake':
                 legend_elements.append(Line2D([0], [0], marker='o', color="w", label='Symbiotic fungi', markerfacecolor=dict_att_to_color[rest], markersize=15))
             else:
-                legend_elements.append(Line2D([0], [0], marker='o', color="w", label=rest.title(), markerfacecolor=dict_att_to_color[rest], markersize=15))
-                print(rest)
+                legend_elements.append(Line2D([0], [0], marker='o', color="w", label=rest.capitalize(), markerfacecolor=dict_att_to_color[rest], markersize=15))
     legend_elements.append(Line2D([0], [0], marker='o', label= "$\\bf{Edges}$", markerfacecolor='g', markersize=0,color='w') )  
     for i in set(np.unique([d['interaction_type'] for u,v,d in H.edges(data=True)])):
         color = func_to_color[i]
