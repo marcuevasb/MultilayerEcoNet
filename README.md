@@ -12,7 +12,7 @@ python3_enviroment contains the requirements.txt and enviroment_droplet.yml file
 
 In Null_models.ipynb:
 
-1- Import the resource-function matrix $\bf P$, computed from the RCF tensor of the Na Redona dataset based on Eq.1 of the paper generated in FullCode.ipyng.
+1- Import the resource-function matrix $\bf P$, computed from the RCF tensor of the Na Redona dataset based on Eq.1 of the paper generated in FullCode.ipynb.
 
 2- Visualize $\bf P$ along with some randomizations and compute NODF for binarizations.
 
@@ -29,7 +29,7 @@ In Null_models.ipynb:
 
 # Nestedness 
 
-NODF_WNODF contains all the necesary material to reproduce NODF and WNODF results from the main text using fortran90 using the resource-function matrix $\bf P$ of the paper generated in FullCode.ipyng. 
+NODF_WNODF contains all the necesary material to reproduce NODF and WNODF results from the main text using fortran90 using the resource-function matrix $\bf P$ of the paper generated in FullCode.ipynb. 
 
 For NODF:
 
