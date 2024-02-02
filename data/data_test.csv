@@ -1,201 +1,201 @@
 plant_sp,animal_sp,interaction_type,frequency_of_occurrence_weighted_by_sampling_effort
-Arisarum vulgare,ASV_26,decomposition,1.0
-Arisarum vulgare,ASV_379,fungal pathogenicity,1.0
-Arisarum vulgare,ASV_97,nutrient uptake,1.0
-Asparagus horridus,ASV_618,decomposition,1.0
-Asparagus horridus,ASV_67,fungal pathogenicity,1.0
-Asparagus horridus,ASV_252,nutrient uptake,1.0
-Chenopodium murale,ASV_589,decomposition,1.0
-Chenopodium murale,ASV_18,fungal pathogenicity,1.0
+Arisarum vulgare,ASV_106,decomposition,1.0
+Arisarum vulgare,ASV_415,fungal pathogenicity,1.0
+Arisarum vulgare,ASV_216,nutrient uptake,1.0
+Asparagus horridus,ASV_37,decomposition,1.0
+Asparagus horridus,ASV_62,fungal pathogenicity,1.0
+Asparagus horridus,ASV_103,nutrient uptake,1.0
+Chenopodium murale,ASV_73,decomposition,1.0
+Chenopodium murale,ASV_228,fungal pathogenicity,1.0
 Chenopodium murale,ASV_385,nutrient uptake,1.0
 Chenopodium murale,Podarcis lilfordi,pollination,1.0
-Diplotaxis ibicensis,ASV_809,decomposition,1.0
-Diplotaxis ibicensis,ASV_45,fungal pathogenicity,1.0
+Diplotaxis ibicensis,ASV_157,decomposition,1.0
+Diplotaxis ibicensis,ASV_22,fungal pathogenicity,1.0
 Diplotaxis ibicensis,Tineidae,herbivory,1.0
-Diplotaxis ibicensis,ASV_103,nutrient uptake,1.0
-Diplotaxis ibicensis,Diptera sp.1,pollination,1.0
-Ephedra fragilis,ASV_280,decomposition,1.0
-Ephedra fragilis,ASV_880,fungal pathogenicity,1.0
+Diplotaxis ibicensis,ASV_90,nutrient uptake,1.0
+Diplotaxis ibicensis,Agromyzidae,pollination,1.0
+Ephedra fragilis,ASV_226,decomposition,1.0
+Ephedra fragilis,ASV_4,fungal pathogenicity,1.0
 Ephedra fragilis,Braconidae,herbivory,1.0
-Ephedra fragilis,ASV_181,nutrient uptake,1.0
-Ephedra fragilis,Dasytidae,pollination,1.0
-Euphorbia dendroides,ASV_166,decomposition,1.0
-Euphorbia dendroides,ASV_410,fungal pathogenicity,1.0
-Euphorbia dendroides,Aphididae sp.1,herbivory,1.0
-Euphorbia dendroides,ASV_102,nutrient uptake,1.0
+Ephedra fragilis,ASV_182,nutrient uptake,1.0
+Ephedra fragilis,Podarcis lilfordi,pollination,1.0
+Euphorbia dendroides,ASV_735,decomposition,1.0
+Euphorbia dendroides,ASV_2,fungal pathogenicity,1.0
+Euphorbia dendroides,Cydnus aterrimus  ,herbivory,1.0
+Euphorbia dendroides,ASV_341,nutrient uptake,1.0
 Euphorbia dendroides,Diptera sp.4,pollination,1.0
 Euphorbia dendroides,Larus michahellis,seed dispersal,1.0
-Fagonia cretica,ASV_192,decomposition,1.0
-Fagonia cretica,ASV_30,fungal pathogenicity,1.0
-Fagonia cretica,ASV_142,nutrient uptake,1.0
-Fagonia cretica,Podarcis lilfordi,pollination,1.0
+Fagonia cretica,ASV_66,decomposition,1.0
+Fagonia cretica,ASV_750,fungal pathogenicity,1.0
+Fagonia cretica,ASV_129,nutrient uptake,1.0
+Fagonia cretica,Anthophora balearica,pollination,1.0
 Fagonia cretica,Camponotus sp.,seed dispersal,1.0
-Geranium molle,ASV_544,decomposition,1.0
-Geranium molle,ASV_5,fungal pathogenicity,1.0
-Geranium molle,ASV_766,nutrient uptake,1.0
+Geranium molle,ASV_435,decomposition,1.0
+Geranium molle,ASV_267,fungal pathogenicity,1.0
+Geranium molle,ASV_41,nutrient uptake,1.0
 Geranium molle,Diptera sp.3,pollination,1.0
 Geranium molle,Camponotus sp.,seed dispersal,1.0
-Heliotropium sp,ASV_221,decomposition,1.0
-Heliotropium sp,ASV_461,fungal pathogenicity,1.0
-Heliotropium sp,ASV_550,nutrient uptake,1.0
-Heliotropium sp,Podarcis lilfordi,pollination,1.0
-Lavatera maritima,ASV_134,decomposition,1.0
-Lavatera maritima,ASV_267,fungal pathogenicity,1.0
-Lavatera maritima,Ectobius sp. ,herbivory,1.0
-Lavatera maritima,ASV_855,nutrient uptake,1.0
+Heliotropium europaeum,ASV_723,decomposition,1.0
+Heliotropium europaeum,ASV_328,fungal pathogenicity,1.0
+Heliotropium europaeum,ASV_550,nutrient uptake,1.0
+Heliotropium europaeum,Utetheisa pulchella,pollination,1.0
+Lavatera maritima,ASV_26,decomposition,1.0
+Lavatera maritima,ASV_69,fungal pathogenicity,1.0
+Lavatera maritima,Dicyphus sp.,herbivory,1.0
+Lavatera maritima,ASV_225,nutrient uptake,1.0
 Lavatera maritima,Sylvia melanocephala,pollination,1.0
 Lavatera maritima,Camponotus sp.,seed dispersal,1.0
-Limonium sp,ASV_872,decomposition,1.0
-Limonium sp,ASV_67,fungal pathogenicity,1.0
-Limonium sp,ASV_697,nutrient uptake,1.0
+Limonium sp,ASV_280,decomposition,1.0
+Limonium sp,ASV_135,fungal pathogenicity,1.0
+Limonium sp,ASV_92,nutrient uptake,1.0
 Limonium sp,Podarcis lilfordi,seed dispersal,1.0
-Medicago arborea,ASV_40,decomposition,1.0
-Medicago arborea,ASV_67,fungal pathogenicity,1.0
-Medicago arborea,Sarcophaga sp. ,herbivory,1.0
-Medicago arborea,ASV_57,nutrient uptake,1.0
-Medicago arborea,Eristalis tenax,pollination,1.0
+Medicago arborea,ASV_366,decomposition,1.0
+Medicago arborea,ASV_69,fungal pathogenicity,1.0
+Medicago arborea,Aphididae sp.1,herbivory,1.0
+Medicago arborea,ASV_838,nutrient uptake,1.0
+Medicago arborea,Podarcis lilfordi,pollination,1.0
 Medicago arborea,Camponotus sp.,seed dispersal,1.0
-Narcissus tazetta,ASV_20,decomposition,1.0
-Narcissus tazetta,ASV_133,fungal pathogenicity,1.0
-Narcissus tazetta,ASV_194,nutrient uptake,1.0
-Narcissus tazetta,Eristalis tenax,pollination,1.0
-Olea europaea var. sylvestris,ASV_47,decomposition,1.0
-Olea europaea var. sylvestris,ASV_56,fungal pathogenicity,1.0
-Olea europaea var. sylvestris,Anthicus sp.,herbivory,1.0
-Olea europaea var. sylvestris,ASV_150,nutrient uptake,1.0
-Olea europaea var. sylvestris,Larus michahellis,seed dispersal,1.0
-Suaeda vera,ASV_283,decomposition,1.0
-Suaeda vera,ASV_141,fungal pathogenicity,1.0
-Suaeda vera,Tettigometra (Mitricephalus) sp.,herbivory,1.0
-Suaeda vera,ASV_252,nutrient uptake,1.0
-Suaeda vera,Podarcis lilfordi,pollination,1.0
-Suaeda vera,Larus michahellis,seed dispersal,1.0
-Withania frutescens,ASV_723,decomposition,1.0
-Withania frutescens,ASV_2,fungal pathogenicity,1.0
-Withania frutescens,Dicyphus sp.,herbivory,1.0
-Withania frutescens,ASV_181,nutrient uptake,1.0
-Withania frutescens,Amegilla sp.,pollination,1.0
-Withania frutescens,Camponotus sp.,seed dispersal,1.0
-Chenopodium murale,ASV_162,fungal pathogenicity,1.0
-Heliotropium sp,ASV_664,decomposition,1.0
-Ephedra fragilis,ASV_161,nutrient uptake,1.0
-Geranium molle,ASV_141,fungal pathogenicity,1.0
-Withania frutescens,ASV_366,decomposition,1.0
-Withania frutescens,Anthomyidae,herbivory,1.0
-Limonium sp,ASV_761,decomposition,1.0
-Heliotropium sp,ASV_678,decomposition,1.0
-Euphorbia dendroides,Podarcis lilfordi,pollination,1.0
-Limonium sp,ASV_3,decomposition,1.0
-Euphorbia dendroides,ASV_115,nutrient uptake,1.0
-Olea europaea var. sylvestris,ASV_201,nutrient uptake,1.0
-Chenopodium murale,ASV_781,decomposition,1.0
-Geranium molle,ASV_884,decomposition,1.0
-Heliotropium sp,ASV_30,fungal pathogenicity,1.0
-Euphorbia dendroides,ASV_8,decomposition,1.0
-Withania frutescens,ASV_246,nutrient uptake,1.0
-Ephedra fragilis,ASV_194,nutrient uptake,1.0
-Narcissus tazetta,ASV_19,decomposition,1.0
-Olea europaea var. sylvestris,ASV_662,decomposition,1.0
-Asparagus horridus,ASV_713,decomposition,1.0
-Olea europaea var. sylvestris,ASV_146,nutrient uptake,1.0
-Chenopodium murale,ASV_80,fungal pathogenicity,1.0
-Lavatera maritima,ASV_131,nutrient uptake,1.0
-Withania frutescens,Sarcophaga sp. ,herbivory,1.0
-Asparagus horridus,ASV_665,decomposition,1.0
-Limonium sp,ASV_828,decomposition,1.0
-Withania frutescens,ASV_47,decomposition,1.0
-Medicago arborea,ASV_203,decomposition,1.0
-Chenopodium murale,ASV_17,decomposition,1.0
-Geranium molle,ASV_594,fungal pathogenicity,1.0
-Olea europaea var. sylvestris,ASV_178,nutrient uptake,1.0
-Chenopodium murale,ASV_613,fungal pathogenicity,1.0
-Heliotropium sp,ASV_243,fungal pathogenicity,1.0
-Suaeda vera,ASV_12,decomposition,1.0
-Narcissus tazetta,ASV_67,fungal pathogenicity,1.0
-Olea europaea var. sylvestris,ASV_66,decomposition,1.0
-Lavatera maritima,ASV_681,decomposition,1.0
-Withania frutescens,ASV_180,decomposition,1.0
-Arisarum vulgare,ASV_45,fungal pathogenicity,1.0
-Ephedra fragilis,ASV_272,nutrient uptake,1.0
-Asparagus horridus,ASV_891,decomposition,1.0
-Geranium molle,ASV_164,decomposition,1.0
-Geranium molle,ASV_43,fungal pathogenicity,1.0
-Olea europaea var. sylvestris,ASV_79,decomposition,1.0
-Ephedra fragilis,ASV_8,decomposition,1.0
-Withania frutescens,ASV_83,decomposition,1.0
-Limonium sp,ASV_96,fungal pathogenicity,1.0
-Withania frutescens,ASV_14,decomposition,1.0
-Diplotaxis ibicensis,ASV_69,fungal pathogenicity,1.0
-Diplotaxis ibicensis,ASV_193,fungal pathogenicity,1.0
-Medicago arborea,ASV_107,fungal pathogenicity,1.0
-Lavatera maritima,ASV_290,decomposition,1.0
-Ephedra fragilis,ASV_222,decomposition,1.0
-Withania frutescens,ASV_58,decomposition,1.0
-Fagonia cretica,ASV_441,fungal pathogenicity,1.0
-Withania frutescens,ASV_698,decomposition,1.0
-Lavatera maritima,ASV_28,fungal pathogenicity,1.0
-Withania frutescens,Tineidae,herbivory,1.0
-Heliotropium sp,ASV_610,fungal pathogenicity,1.0
-Narcissus tazetta,ASV_107,fungal pathogenicity,1.0
-Asparagus horridus,ASV_28,fungal pathogenicity,1.0
-Arisarum vulgare,ASV_106,decomposition,1.0
-Narcissus tazetta,ASV_85,decomposition,1.0
-Euphorbia dendroides,ASV_126,nutrient uptake,1.0
-Withania frutescens,ASV_95,nutrient uptake,1.0
-Heliotropium sp,ASV_757,decomposition,1.0
-Lavatera maritima,ASV_178,nutrient uptake,1.0
-Diplotaxis ibicensis,ASV_684,decomposition,1.0
-Olea europaea var. sylvestris,ASV_230,nutrient uptake,1.0
-Medicago arborea,ASV_700,decomposition,1.0
-Suaeda vera,ASV_593,decomposition,1.0
-Asparagus horridus,ASV_37,decomposition,1.0
-Suaeda vera,ASV_144,fungal pathogenicity,1.0
-Ephedra fragilis,ASV_162,fungal pathogenicity,1.0
-Diplotaxis ibicensis,ASV_201,nutrient uptake,1.0
-Geranium molle,ASV_267,fungal pathogenicity,1.0
-Suaeda vera,ASV_96,fungal pathogenicity,1.0
-Geranium molle,ASV_258,decomposition,1.0
-Ephedra fragilis,ASV_133,fungal pathogenicity,1.0
-Euphorbia dendroides,ASV_40,decomposition,1.0
-Olea europaea var. sylvestris,ASV_576,nutrient uptake,1.0
-Withania frutescens,ASV_28,fungal pathogenicity,1.0
-Suaeda vera,ASV_220,nutrient uptake,1.0
-Euphorbia dendroides,ASV_602,fungal pathogenicity,1.0
-Ephedra fragilis,ASV_3,decomposition,1.0
-Suaeda vera,ASV_196,nutrient uptake,1.0
-Euphorbia dendroides,ASV_691,decomposition,1.0
-Withania frutescens,Podarcis lilfordi,seed dispersal,1.0
-Olea europaea var. sylvestris,ASV_364,fungal pathogenicity,1.0
-Heliotropium sp,ASV_106,decomposition,1.0
-Limonium sp,ASV_350,decomposition,1.0
-Ephedra fragilis,ASV_28,fungal pathogenicity,1.0
-Limonium sp,ASV_657,fungal pathogenicity,1.0
-Chenopodium murale,ASV_340,fungal pathogenicity,1.0
-Heliotropium sp,Ancistocerus ebusianus,pollination,1.0
+Narcissus tazetta,ASV_149,decomposition,1.0
+Narcissus tazetta,ASV_56,fungal pathogenicity,1.0
+Narcissus tazetta,ASV_249,nutrient uptake,1.0
+Narcissus tazetta,Coenosia sp.,pollination,1.0
 Olea europaea var. sylvestris,ASV_280,decomposition,1.0
-Heliotropium sp,ASV_399,fungal pathogenicity,1.0
-Withania frutescens,ASV_205,nutrient uptake,1.0
-Fagonia cretica,ASV_709,decomposition,1.0
-Narcissus tazetta,ASV_28,fungal pathogenicity,1.0
-Geranium molle,ASV_129,nutrient uptake,1.0
-Limonium sp,ASV_20,decomposition,1.0
-Asparagus horridus,ASV_114,decomposition,1.0
-Limonium sp,ASV_535,fungal pathogenicity,1.0
-Medicago arborea,ASV_15,decomposition,1.0
-Geranium molle,ASV_293,decomposition,1.0
-Geranium molle,ASV_11,decomposition,1.0
-Medicago arborea,ASV_106,decomposition,1.0
-Olea europaea var. sylvestris,ASV_163,decomposition,1.0
-Ephedra fragilis,ASV_49,decomposition,1.0
-Arisarum vulgare,ASV_16,decomposition,1.0
+Olea europaea var. sylvestris,ASV_223,fungal pathogenicity,1.0
+Olea europaea var. sylvestris,Anthicus sp.,herbivory,1.0
+Olea europaea var. sylvestris,ASV_257,nutrient uptake,1.0
+Olea europaea var. sylvestris,Larus michahellis,seed dispersal,1.0
+Suaeda vera,ASV_20,decomposition,1.0
+Suaeda vera,ASV_121,fungal pathogenicity,1.0
+Suaeda vera,Colydiidae,herbivory,1.0
+Suaeda vera,ASV_249,nutrient uptake,1.0
+Suaeda vera,Podarcis lilfordi,pollination,1.0
+Suaeda vera,Camponotus sp.,seed dispersal,1.0
+Withania frutescens,ASV_79,decomposition,1.0
+Withania frutescens,ASV_368,fungal pathogenicity,1.0
+Withania frutescens,Tettigometra (Mitricephalus) sp.,herbivory,1.0
+Withania frutescens,ASV_191,nutrient uptake,1.0
 Withania frutescens,Podarcis lilfordi,pollination,1.0
-Ephedra fragilis,ASV_433,nutrient uptake,1.0
-Narcissus tazetta,ASV_313,nutrient uptake,1.0
-Heliotropium sp,ASV_851,decomposition,1.0
-Medicago arborea,ASV_47,decomposition,1.0
-Chenopodium murale,ASV_222,decomposition,1.0
-Lavatera maritima,ASV_531,decomposition,1.0
-Olea europaea var. sylvestris,Camponotus sp.,seed dispersal,1.0
-Withania frutescens,ASV_529,nutrient uptake,1.0
-Chenopodium murale,ASV_9,fungal pathogenicity,1.0
-Geranium molle,ASV_102,nutrient uptake,1.0
+Withania frutescens,Podarcis lilfordi,seed dispersal,1.0
+Geranium molle,ASV_279,decomposition,1.0
+Olea europaea var. sylvestris,ASV_525,fungal pathogenicity,1.0
+Medicago arborea,ASV_198,decomposition,1.0
+Limonium sp,ASV_141,fungal pathogenicity,1.0
+Ephedra fragilis,ASV_534,nutrient uptake,1.0
+Fagonia cretica,ASV_131,nutrient uptake,1.0
+Ephedra fragilis,ASV_190,nutrient uptake,1.0
+Heliotropium europaeum,ASV_631,fungal pathogenicity,1.0
+Withania frutescens,ASV_416,nutrient uptake,1.0
+Heliotropium europaeum,Ancistocerus ebusianus,pollination,1.0
+Diplotaxis ibicensis,ASV_16,decomposition,1.0
+Chenopodium murale,ASV_781,decomposition,1.0
+Geranium molle,ASV_78,decomposition,1.0
+Olea europaea var. sylvestris,ASV_653,decomposition,1.0
+Medicago arborea,ASV_775,fungal pathogenicity,1.0
+Diplotaxis ibicensis,ASV_858,decomposition,1.0
+Geranium molle,ASV_445,fungal pathogenicity,1.0
+Heliotropium europaeum,ASV_757,decomposition,1.0
+Ephedra fragilis,ASV_280,decomposition,1.0
+Lavatera maritima,ASV_161,nutrient uptake,1.0
+Ephedra fragilis,ASV_40,decomposition,1.0
+Olea europaea var. sylvestris,ASV_155,decomposition,1.0
+Arisarum vulgare,ASV_88,decomposition,1.0
+Euphorbia dendroides,ASV_41,nutrient uptake,1.0
+Lavatera maritima,ASV_230,nutrient uptake,1.0
+Geranium molle,ASV_876,decomposition,1.0
+Asparagus horridus,ASV_83,decomposition,1.0
+Lavatera maritima,ASV_451,decomposition,1.0
+Withania frutescens,ASV_17,decomposition,1.0
+Narcissus tazetta,ASV_65,decomposition,1.0
+Ephedra fragilis,ASV_162,fungal pathogenicity,1.0
+Asparagus horridus,ASV_152,decomposition,1.0
+Asparagus horridus,ASV_491,decomposition,1.0
+Ephedra fragilis,ASV_718,fungal pathogenicity,1.0
+Withania frutescens,ASV_788,decomposition,1.0
+Withania frutescens,ASV_89,decomposition,1.0
+Lavatera maritima,Sylvia balearica,pollination,1.0
+Euphorbia dendroides,ASV_402,fungal pathogenicity,1.0
+Lavatera maritima,Tettigometra (Mitricephalus) sp.,herbivory,1.0
+Arisarum vulgare,ASV_17,decomposition,1.0
+Lavatera maritima,ASV_178,nutrient uptake,1.0
+Withania frutescens,ASV_80,fungal pathogenicity,1.0
+Asparagus horridus,ASV_182,nutrient uptake,1.0
+Medicago arborea,ASV_19,decomposition,1.0
+Geranium molle,ASV_503,fungal pathogenicity,1.0
+Narcissus tazetta,ASV_341,nutrient uptake,1.0
+Withania frutescens,ASV_12,decomposition,1.0
+Limonium sp,ASV_200,decomposition,1.0
+Medicago arborea,Eristalis tenax,pollination,1.0
+Withania frutescens,ASV_518,decomposition,1.0
+Heliotropium europaeum,ASV_745,decomposition,1.0
+Medicago arborea,ASV_738,decomposition,1.0
+Withania frutescens,ASV_238,nutrient uptake,1.0
+Asparagus horridus,ASV_252,nutrient uptake,1.0
+Olea europaea var. sylvestris,Spilostethus pandurus,herbivory,1.0
+Lavatera maritima,ASV_40,decomposition,1.0
+Asparagus horridus,ASV_339,nutrient uptake,1.0
+Euphorbia dendroides,ASV_585,nutrient uptake,1.0
+Fagonia cretica,ASV_30,fungal pathogenicity,1.0
+Medicago arborea,ASV_85,decomposition,1.0
+Medicago arborea,ASV_2,fungal pathogenicity,1.0
+Withania frutescens,ASV_14,decomposition,1.0
+Chenopodium murale,ASV_80,fungal pathogenicity,1.0
+Olea europaea var. sylvestris,ASV_8,decomposition,1.0
+Diplotaxis ibicensis,ASV_300,decomposition,1.0
+Arisarum vulgare,ASV_250,nutrient uptake,1.0
+Lavatera maritima,ASV_45,fungal pathogenicity,1.0
+Olea europaea var. sylvestris,ASV_85,decomposition,1.0
+Ephedra fragilis,ASV_134,decomposition,1.0
+Diplotaxis ibicensis,ASV_354,decomposition,1.0
+Ephedra fragilis,ASV_2,fungal pathogenicity,1.0
+Withania frutescens,ASV_38,decomposition,1.0
+Ephedra fragilis,ASV_127,decomposition,1.0
+Asparagus horridus,ASV_477,decomposition,1.0
+Euphorbia dendroides,ASV_527,decomposition,1.0
+Ephedra fragilis,ASV_283,decomposition,1.0
+Withania frutescens,ASV_472,nutrient uptake,1.0
+Geranium molle,ASV_697,nutrient uptake,1.0
+Geranium molle,ASV_274,fungal pathogenicity,1.0
+Ephedra fragilis,ASV_152,decomposition,1.0
+Asparagus horridus,ASV_22,fungal pathogenicity,1.0
+Ephedra fragilis,ASV_161,nutrient uptake,1.0
+Withania frutescens,ASV_8,decomposition,1.0
+Asparagus horridus,ASV_78,decomposition,1.0
+Ephedra fragilis,ASV_124,decomposition,1.0
+Narcissus tazetta,ASV_784,fungal pathogenicity,1.0
+Chenopodium murale,ASV_18,fungal pathogenicity,1.0
+Withania frutescens,Anthomyidae,herbivory,1.0
+Euphorbia dendroides,Camponotus sp.,seed dispersal,1.0
+Euphorbia dendroides,ASV_305,nutrient uptake,1.0
+Withania frutescens,ASV_640,nutrient uptake,1.0
+Ephedra fragilis,ASV_28,fungal pathogenicity,1.0
+Limonium sp,ASV_164,decomposition,1.0
+Chenopodium murale,ASV_446,decomposition,1.0
+Euphorbia dendroides,ASV_217,fungal pathogenicity,1.0
+Ephedra fragilis,ASV_229,decomposition,1.0
+Medicago arborea,ASV_398,fungal pathogenicity,1.0
+Limonium sp,ASV_150,nutrient uptake,1.0
+Narcissus tazetta,ASV_2,fungal pathogenicity,1.0
+Narcissus tazetta,ASV_229,decomposition,1.0
+Olea europaea var. sylvestris,ASV_510,decomposition,1.0
+Lavatera maritima,ASV_164,decomposition,1.0
+Ephedra fragilis,ASV_237,decomposition,1.0
+Olea europaea var. sylvestris,ASV_196,nutrient uptake,1.0
+Diplotaxis ibicensis,Episyrphus balteatus,pollination,1.0
+Diplotaxis ibicensis,ASV_193,fungal pathogenicity,1.0
+Diplotaxis ibicensis,ASV_175,decomposition,1.0
+Asparagus horridus,ASV_114,decomposition,1.0
+Euphorbia dendroides,ASV_50,decomposition,1.0
+Asparagus horridus,ASV_105,decomposition,1.0
+Ephedra fragilis,ASV_300,decomposition,1.0
+Heliotropium europaeum,ASV_485,decomposition,1.0
+Ephedra fragilis,ASV_77,decomposition,1.0
+Olea europaea var. sylvestris,ASV_524,decomposition,1.0
+Medicago arborea,ASV_279,decomposition,1.0
+Withania frutescens,ASV_369,decomposition,1.0
+Suaeda vera,ASV_782,decomposition,1.0
+Chenopodium murale,ASV_3,decomposition,1.0
+Olea europaea var. sylvestris,Danacea sp.,herbivory,1.0
+Suaeda vera,Sarcophaga sp. ,herbivory,1.0
+Diplotaxis ibicensis,ASV_3,decomposition,1.0
+Geranium molle,ASV_243,fungal pathogenicity,1.0
+Limonium sp,ASV_656,decomposition,1.0

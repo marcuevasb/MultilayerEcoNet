@@ -6,15 +6,14 @@ from netgraph import Graph, get_community_layout
 import networkx as nx
 import numpy as np
 
-
 '''data'''
-data_path = '../data/NaRedona_observed_6layers_final.csv' 
-abundance_path = '../data/NaRedona_observed_6layers_final_sinthetyc_abundance.cs' 
+data_path = 'data/NaRedona_observed_6layers.csv' 
+abundance_path = 'data/NaRedona_plant_abundance.csv' 
 
 
-## TESTING DATA
-data_path = '../data/data_test.csv'
-abundance_path = None
+# '''TESTING DATA'''
+# data_path = '../data/data_test.csv'
+# abundance_path = None
 
 
 head = 0 #header
