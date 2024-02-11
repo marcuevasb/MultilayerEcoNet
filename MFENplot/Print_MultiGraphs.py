@@ -6,13 +6,10 @@ from netgraph import Graph, get_community_layout
 import networkx as nx
 import numpy as np
 
-'''data'''
-data_path = '../data/NaRedona_observed_6layers.csv' 
-abundance_path = '../data/NaRedona_plant_abundance.csv' 
 
 
-# '''TESTING DATA'''
-data_path = '../data/data_test.csv'
+# '''DATA'''
+data_path = '../data/input/data_test.csv'
 abundance_path = None
 
 
@@ -22,7 +19,8 @@ sep=','
 
 '''saving'''
 #returns saving directory a new folder in the dataser folder
-net_dir, plt_dir = creat_dir(data_path)
+out_dir = creat_dir(data_path)
+saving = False
 
 
 '''Multigraph'''
@@ -36,7 +34,7 @@ G, node_label, plant_label_color, node_label_name= build_G(head, sep,data_path, 
 '''Graph'''
 
 # If the dataset is a multigraph, builds a graph  using Eq.(1) from the main manuscript.
-H, multi_edges_over, multi_edges_save  = Multi_to_Graph(G,net_dir)
+H, multi_edges_over, multi_edges_save  = Multi_to_Graph(G,out_dir, saving = saving)
 # Calculates communities using Infomap setting them as node attributes and a dic object of every node and their community.
 H, community_dict_inf = inf_communities(H) # we obtain communities using the converted multiedge
 H.add_edges_from(multi_edges_save) #we change the edges to the correct width of one multiedge and plot the other appart
@@ -75,11 +73,11 @@ for real in range(1):
     multi_edge_color= {(u,v):func_to_color[d['interaction_type']] for u,v,d in multi_edges_over}
     multi_edge_width = {(u,v):d['width'] for u,v,d in multi_edges_over}
 
+
     for u,v,d in multi_edges_over:
         multi_edge_color[(v,u)] = func_to_color[d['interaction_type']]
     for u,v,d in multi_edges_over:
         multi_edge_width[(v,u)] = d['width']
-
     '''Plots'''       
 
     '''
@@ -143,8 +141,8 @@ for real in range(1):
     for n, text in enumerate( l.get_texts()):
         if n == len(legend_elements_type)-1:
             text.set_color("w")
-
-    plt.savefig(plt_dir+ f'/real_{real}.pdf', bbox_inches='tight' )
+    if saving:
+        plt.savefig(out_dir+ f'/real_{real}.pdf', bbox_inches='tight' )
 
 
 # %%

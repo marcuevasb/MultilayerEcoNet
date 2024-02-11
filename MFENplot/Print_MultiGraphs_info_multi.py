@@ -9,13 +9,9 @@ from infomap import Infomap
 
 
 
-'''data'''
-data_path = '../data/NaRedona_observed_6layers_final.csv' 
-abundance_path = '../data/NaRedona_observed_6layers_final_sinthetyc_abundance.cs' 
 
-
-## TESTING DATA
-data_path = '../data/data_test.csv'
+## DATA
+data_path = '../data/input/data_test.csv'
 abundance_path = None
 
 
@@ -25,7 +21,8 @@ sep=','
 
 '''saving'''
 # returns saving directory a new folder in the dataser folder
-net_dir, plt_dir = creat_dir(data_path)
+out_dir = creat_dir(data_path)
+saving = False
 
 
 '''Multigraph'''
@@ -66,7 +63,7 @@ nx.set_node_attributes(G, node_to_module, "community inf")
 '''Graph'''
 
 # If the dataset is a multigraph, builds a graph  using Eq.(1) from the main manuscript.
-H, multi_edges_over, multi_edges_save  = Multi_to_Graph(G,net_dir)
+H, multi_edges_over, multi_edges_save  = Multi_to_Graph(G,out_dir, saving = saving)
 H.add_edges_from(multi_edges_save) # we change the edges to the correct width of one multiedge and plot the other appart
 
 """Colors from types"""
@@ -93,7 +90,7 @@ for real in range(1):
     
     '''layout'''
     # The network layout is obtained using Infomap communities
-    node_layout_inf =get_community_layout(list(H.edges()), node_to_community=node_to_module )
+    node_layout_inf =get_community_layout(list(H.edges()), node_to_community=node_to_module, origin=(0, 0), scale=(1, 1))
 
     '''multiedges'''
     multi_edges_tuple = [(u,v) for u,v,d in multi_edges_over]
@@ -165,7 +162,7 @@ for real in range(1):
     for n, text in enumerate( l.get_texts()):
         if n == len(legend_elements_type)-1:
             text.set_color("w")
-
-    plt.savefig(plt_dir+ f'/multi_real_{real}.pdf', bbox_inches='tight' )
+    if saving:
+        plt.savefig(out_dir+ f'/multi_real_{real}.pdf', bbox_inches='tight' )
 
 # %%

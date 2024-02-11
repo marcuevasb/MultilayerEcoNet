@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 28 16:25:10 2022
-
-@author: gorka
-"""
 
 import networkx as nx
 import numpy as np
@@ -19,7 +14,7 @@ import os
 
 
 
-def creat_dir(path):
+def creat_dir(path, saving=False):
     
     ''' Create folder for saving.
     
@@ -30,20 +25,17 @@ def creat_dir(path):
     
     Returns
     ----------
-    plt_dir: str 
-        Path to the created folder to save results.  
+    result_dir: str
+        Path to the output folder.  
         
     '''
     
-    directory = os.path.dirname(path)
-    result_dir = directory+ '/Results' # First folder
-    os.makedirs(result_dir, exist_ok=True) # works also if the dir already exists
-    net_dir = result_dir + '/Plots_complete_network' # Second folder (saving)
-    plt_dir = net_dir + '/Plots'
-    os.makedirs(net_dir, exist_ok=True)
-    os.makedirs(plt_dir, exist_ok=True)
+    directory  = os.path.dirname(path)        # directory of file
+    result_dir = "/".join(directory.split('/')[:-1])+ '/output' # First folder
+    os.makedirs(result_dir, exist_ok=True)    # works also if the dir already exists
     
-    return net_dir, plt_dir
+    return result_dir
+
 
 def createSinAbundance(abundance_path, dataDF, data_path):
     """
@@ -169,7 +161,7 @@ def build_G(head, separator,data_path, abundance_path= []):
     
     return G, node_label, plant_label_color, node_label_name
 
-def Multi_to_Graph(G,save_path):
+def Multi_to_Graph(G,save_path, saving = False):
     
     ''' Build networkx graph from networkx multigraph. 
     
@@ -210,7 +202,7 @@ def Multi_to_Graph(G,save_path):
         if len(width)>1:
             multi_edges.loc[len(multi_edges.index)] = [u, v,G[u][v][0]["interaction_type"],G[u][v][1]["interaction_type"]]
             
-        width =1 - np.product(1 - np.array(width))
+        width =1 - np.prod(1 - np.array(width))
         # set same attributes
         att_dict = {'interaction_type': interaction_type, 'width': width}
         H.add_edge(u,v)
@@ -218,7 +210,8 @@ def Multi_to_Graph(G,save_path):
     nx.set_node_attributes(H, dict(G.nodes(data=True)))
     multi_edges_width = np.array(multi_edges_width)
     
-    multi_edges.to_csv(save_path + '/multi_edges.csv',index=False) 
+    if saving:
+        multi_edges.to_csv(save_path + '/multi_edges.csv',index=False) 
     
     return H, multi_edges_tuple, multi_edges_save 
 
