@@ -1,9 +1,9 @@
 # MultilayerEcoNet
 
-GitHub repository for the manuscript "On the structure of species-function participation in multilayer ecological networks" and its supplementary information. Here, you'll find all the necessary materials to reproduce all results contained in the manuscript, including input data stored in the 'data/input' folder and output results stored in the 'data/output' folder.
+GitHub repository for the manuscript **On the structure of species-function participation in multilayer ecological networks** and its supplementary information. Here, you'll find all the necessary materials to reproduce all results contained in the manuscript, including input data stored in the 'data/input' folder and output results stored in the 'data/output' folder.
 
 
-# P_processing
+# P processing
 
 All computational analysis was made using Python 3.10.8 running in  a Linux desktop (version 22). Dependencies are listed at the beginning of each file.
 python3_enviroment contains the requirements.txt and enviroment_droplet.yml files needed to recreate a python environment with all libraries adn dependencies needed. To install the environment with conda, run conda env create -f environment_droplet.yml.
@@ -23,13 +23,13 @@ In `P_analytics.ipynb`:
 
 2- Visualize $\bf P$ along with some randomizations and compute NODF for binarizations.
 
-3- Build nestedness-based rankings (ordering species and functions in terms of their participation strength in $\bf P$), along with suitably defined null models.
+3- Build nestedness-based rankings (ordering species and functions in terms of their participation strength in $\mathbf{P}$), along with suitably defined null models.
 
-4- Build and plot $\Phi$ and $\Pi$.
+4- Build and plot $\mathbf{\Phi}$ and $\mathbf{\Pi}$.
 
 5- Look into hierarchical clustering properties of $\mathbf{P}$.
 
-6- Compute the conditioned $\Phi|_i$ and $\Pi|^\alpha$, and the keystonness scores.
+6- Compute the conditioned $\mathbf{\Phi}|_i$ and $\mathbf{\Pi}|^\alpha$, and the keystonness scores.
 
 7- Build a null model for the keystonness scores.
 
