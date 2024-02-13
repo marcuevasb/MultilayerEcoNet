@@ -12,7 +12,7 @@ python3_enviroment contains the requirements.txt and enviroment_droplet.yml file
 
 2- `FullCode.ipynb` is the notebook, and functions used are stored in `FullCodeFunctions.py`.
 
-3- Two very resource consuming plots have been separated from the rest. They are in the folder MFENplot, wchich contains two python scripts to depict the Multifunctional Ecological Network (MFEN) and a third one with the functions used in both.
+3- Two very resource consuming plots have been separated from the rest. They are in the folder `MFENplot`, wchich contains two python scripts to depict the Multifunctional Ecological Network (MFEN) (`Print_MultiGraphs.py` generates Figure 2 from the main manusccripy and `Print_MultiGraphs_info_multi.py` Figure 1a from SI) and a third one with the functions used in both (`Plot_Mcomm_Lib.py`) using Netgraph.
 
 
 # P analytics
