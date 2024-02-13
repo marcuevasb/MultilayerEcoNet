@@ -39,9 +39,9 @@ In `P_analytics.ipynb`:
 `NODF_WNODF` contains all the necessary material to reproduce NODF and WNODF results from the main text using fortran90 using the resource-function matrix $\mathbf{P}$ of the paper generated in `FullCode.ipynb`. 
 
 For NODF:
-'''
+
 $ f90 -O3 read_n.f. nest_nodf.f dranxor.f -o nest.x
-'''
+
 For WNODF:
 $ f90 -O3 read_w.f. nest_wnodf.f dranxor.f -o nest_w.x
 
