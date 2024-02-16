@@ -7,23 +7,17 @@ import networkx as nx
 import numpy as np
 from infomap import Infomap 
 
-
-
-
 ## DATA
 data_path = '../data/input/data_test.csv'
 abundance_path = None
 
-
 head = 0 #header
 sep=','
-
 
 '''saving'''
 # returns saving directory a new folder in the dataser folder
 out_dir = creat_dir(data_path)
 saving = False
-
 
 '''Multigraph'''
 # Builds the networkx object from the dataset. Returns the network G, a dict object to label plant species nodes and a dict to
@@ -33,14 +27,11 @@ saving = False
 G, node_label, plant_label_color, node_label_name= build_G(head, sep,data_path, abundance_path)
 # Calculates communities using Louvain setting them as node attributes and a dic object of every node and their community.
 
-
 node_label_dict = {node:i for i,node in enumerate(G.nodes())}
 label_node_dict = {int(node_label_dict[node]): node for node in node_label_dict}
 
-
 edge_type_list = list(set(nx.get_edge_attributes(G, 'interaction_type').values()))
 edge_label_dict = {edge_type: i for i, edge_type in enumerate(edge_type_list)}
-
 
 """Communities
 Compute communities using Infomap where each ecological function is a layer in the multigraph.
@@ -55,10 +46,6 @@ for u,v,data in G.edges(data=True):
 im.run()
 node_to_module = {label_node_dict[node.node_id]: node.module_id for node in im.tree if node.is_leaf}
 nx.set_node_attributes(G, node_to_module, "community inf")
-
-
-
-
 #%%
 '''Graph'''
 
@@ -164,5 +151,4 @@ for real in range(1):
             text.set_color("w")
     if saving:
         plt.savefig(out_dir+ f'/multi_real_{real}.pdf', bbox_inches='tight' )
-
 # %%

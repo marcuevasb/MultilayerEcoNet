@@ -6,22 +6,17 @@ from netgraph import Graph, get_community_layout
 import networkx as nx
 import numpy as np
 
-
-
 # '''DATA'''
 data_path = '../data/input/data_test.csv'
 abundance_path = None
 
-
 head = 0 #header
 sep=','
-
 
 '''saving'''
 #returns saving directory a new folder in the dataser folder
 out_dir = creat_dir(data_path)
 saving = False
-
 
 '''Multigraph'''
 # Builds the networkx object from the dataset. Returns the network G, a dict object to label plant species nodes and a dict to
@@ -30,7 +25,6 @@ saving = False
 # and the intrection type (plant species and animal/fungi within function). As node attributes it has the interaction type and the width (frequency_of_occurrence).
 G, node_label, plant_label_color, node_label_name= build_G(head, sep,data_path, abundance_path)
 #%%
-
 '''Graph'''
 
 # If the dataset is a multigraph, builds a graph  using Eq.(1) from the main manuscript.
@@ -39,25 +33,21 @@ H, multi_edges_over, multi_edges_save  = Multi_to_Graph(G,out_dir, saving = savi
 H, community_dict_inf = inf_communities(H) # we obtain communities using the converted multiedge
 H.add_edges_from(multi_edges_save) #we change the edges to the correct width of one multiedge and plot the other appart
 
-
 """Colors from types"""
 # returns a dic of nodes colors according to species, Louvain communities and Infomap communities.
 # additionally returns a dic object of function interaction type: color or community: color.
 node_colors_dict_type, func_to_color, node_edge_color_type = color_of_nodes_edges(H, node_att = 'type')
 # node_colors_dict_comm_inf, comm_to_color_inf,node_edge_color_inf  = color_of_nodes_edges(H, node_att = "community inf")
 
-
 """nodes"""
 # Dict object with the size of the nodes. Since abundacnes are very heterogeneous they are plotted using:
 # f_{i,x}^alpha / (f.max()*3) .
 node_size_dict =  size_of_nodes(H, node_att = 'abundance')
 
-
 """ edges """
 # Edge color accounts for the ecological function involved and width to the frequency of occurrence.
 edge_color_type = {(u,v): func_to_color[d['interaction_type']] for u,v,d in H.edges(data=True)}
 edge_width = {(u,v): d['width'] for u,v,d in H.edges(data=True)}
-
 
 fontsize =  14
 for real in range(1):
@@ -72,7 +62,6 @@ for real in range(1):
     multi_edges_tuple = [(u,v) for u,v,d in multi_edges_over]
     multi_edge_color= {(u,v):func_to_color[d['interaction_type']] for u,v,d in multi_edges_over}
     multi_edge_width = {(u,v):d['width'] for u,v,d in multi_edges_over}
-
 
     for u,v,d in multi_edges_over:
         multi_edge_color[(v,u)] = func_to_color[d['interaction_type']]
@@ -143,6 +132,4 @@ for real in range(1):
             text.set_color("w")
     if saving:
         plt.savefig(out_dir+ f'/real_{real}.pdf', bbox_inches='tight' )
-
-
 # %%

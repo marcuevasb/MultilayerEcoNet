@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
+#%%
 import networkx as nx
 import numpy as np
 import sys
@@ -11,8 +9,6 @@ from matplotlib.lines import Line2D
 from infomap import Infomap 
 from collections import Counter
 import os
-
-
 
 def creat_dir(path, saving=False):
     
@@ -36,8 +32,8 @@ def creat_dir(path, saving=False):
     
     return result_dir
 
-
 def createSinAbundance(abundance_path, dataDF, data_path):
+
     """
     Create a synthetic abundance file if it is not provided.
     abundance_path: str or None
@@ -53,6 +49,7 @@ def createSinAbundance(abundance_path, dataDF, data_path):
         if abundance_path is None, it returns the path to the synthetic abundance file. Otherwise, it returns the same path.
 
     """
+
     if abundance_path == None:
         unique_Species = dataDF['plant_sp'].unique()
         abundance = np.ones(len(unique_Species))
@@ -63,8 +60,6 @@ def createSinAbundance(abundance_path, dataDF, data_path):
         abundanceDF.to_csv(abundance_path, index=False)
         print('Synthetic abundance file created in: ', abundance_path)  
     return abundance_path
-
-
 
 def build_G(head, separator,data_path, abundance_path= []):
     
@@ -101,8 +96,6 @@ def build_G(head, separator,data_path, abundance_path= []):
 
     # check if abundance file is provided and if not, create a synthetic one
     abundance_path = createSinAbundance(abundance_path, df, data_path)
-
-        
 
     #We add two columns with the corresponding abundance and species cover of each plant sp
     abundance = pd.read_csv(abundance_path, header= head,  index_col=0) # abundance dataset 
@@ -180,6 +173,7 @@ def Multi_to_Graph(G,save_path, saving = False):
         Edge interaction type is assigned by default to the latest in alphabetical order.
     
     '''
+
     multi_edges = pd.DataFrame(columns=['plant', 'animal', 'interaction_1', 'interaction_2'])
     multi_edges_tuple = []
     multi_edges_width = []
@@ -214,9 +208,6 @@ def Multi_to_Graph(G,save_path, saving = False):
         multi_edges.to_csv(save_path + '/multi_edges.csv',index=False) 
     
     return H, multi_edges_tuple, multi_edges_save 
-
-
-
 
 def lou_communities(G, seed=1234):
     
@@ -323,7 +314,7 @@ def color_of_edges(G, edge_att = 'interaction_type',cmap = plt.cm.rainbow):# run
         Use later to obtain colors from cmp_edges.
         
     '''
-     
+
     colors = [d[edge_att] for u,v,d in G.edges(data = True)]
     colors = np.array(colors)
     Ncolors = len(np.unique(colors))
@@ -339,6 +330,7 @@ def color_of_edges(G, edge_att = 'interaction_type',cmap = plt.cm.rainbow):# run
     else: 
         weigt_dict = {edge: {"weight" : dict_str_to_int[color]} for edge,color in zip(G.edges(), colors)}
     nx.set_edge_attributes(G, weigt_dict)
+    
     return cmp_edges, colors, dict_str_to_int
 
 def color_of_nodes_edges(G,node_att, cmap = plt.cm.rainbow):
@@ -365,8 +357,7 @@ def color_of_nodes_edges(G,node_att, cmap = plt.cm.rainbow):
     
     edge_to_color_dict: dict
         Edges set color dict according to node att. Edge: color. Used to plot animal/fungi species and corresponding edges in same color.
-        
-        
+           
     '''
 
     if node_att == 'type':
@@ -411,20 +402,18 @@ def color_of_nodes_edges(G,node_att, cmap = plt.cm.rainbow):
             if len(d['type'])>1:
                 node_edge_color[u] = cmp_nodes.colors[edge_to_int[d[node_att][1]]]
         
-        edge_to_color_dict    = {k:cmp_nodes.colors[i] for k,i in edge_to_int.items()}
-        
+        edge_to_color_dict    = {k:cmp_nodes.colors[i] for k,i in edge_to_int.items()}  
     
     return node_colors_dict, edge_to_color_dict, node_edge_color
 
-
-####voy por aqui 
 def size_of_nodes(G, node_att = 'abundance'):
+    
     node_size_dict = {u: d[node_att] for u,d in G.nodes(data=True)}
+    
     return node_size_dict
 
-
-
 def node_edge(G, node_colors, node_label):
+    
     node_edge_color = {i[0]: i[1] for i in node_colors.items()}
     node_edge_width = {i:0 for i in G.nodes()}
     for i in node_label.keys():
@@ -440,7 +429,6 @@ def edge_color_width(H, cmp_edges):
     
     return dict_edge_color_rgba, edge_width 
 
-
 def legend_plot(node_label, plant_label_color, dict_att_to_color, H, func_to_color, node_att="type", label= False):
     legend_elements = []
     if node_att =="type": 
@@ -448,8 +436,6 @@ def legend_plot(node_label, plant_label_color, dict_att_to_color, H, func_to_col
     for elem in node_label.items():
         if node_att=="type" and label ==True:
             legend_elements.append(Line2D([0], [0], marker='o', color='w', label=f'{elem[1]}: {elem[0]}', markerfacecolor='g', markersize=0))
-
-      
     if node_att=="type":
         legend_elements.append(Line2D([0], [0], marker='o', color="w", markerfacecolor=dict_att_to_color['plant'], label='Plant species', markersize=15))
         for rest in set(dict_att_to_color.keys())-{'plant'}:
@@ -475,5 +461,5 @@ def legend_plot(node_label, plant_label_color, dict_att_to_color, H, func_to_col
 
     if node_att !="type" or label==False: 
        legend_elements.append(Line2D([0], [0], marker='o', color='w', label='19: Withania frutescens', markerfacecolor='g', markersize=0))
-
+    
     return legend_elements
