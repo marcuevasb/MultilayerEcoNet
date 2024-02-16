@@ -23,9 +23,6 @@ from itertools import permutations
 from scipy.sparse import csr_matrix
 from scipy.sparse.csgraph import connected_components
 
-
-
-
 def creat_dir(path, saving=False):
     
     ''' Create folder for saving.
@@ -49,6 +46,7 @@ def creat_dir(path, saving=False):
     return result_dir
 
 def createSinAbundance(abundance_path, dataDF, data_path):
+    
     """
     Create a synthetic abundance file if it is not provided.
     abundance_path: str or None
@@ -64,6 +62,7 @@ def createSinAbundance(abundance_path, dataDF, data_path):
         if abundance_path is None, it returns the path to the synthetic abundance file. Otherwise, it returns the same path.
 
     """
+   
     if abundance_path == None:
         unique_Species = dataDF['plant_sp'].unique()
         abundance = np.ones(len(unique_Species))
@@ -73,9 +72,11 @@ def createSinAbundance(abundance_path, dataDF, data_path):
         abundance_path = data_path[:-4]+'_sinthetyc_abundance.csv'
         abundanceDF.to_csv(abundance_path, index=False)
         print('Synthetic abundance file created in: ', abundance_path)  
+   
     return abundance_path
 
 def RFmap_prob(head, separator, data_path, save_path, abundance_path = None):
+    
     ''' Build probability dataframe.
     
     Parameters
@@ -121,6 +122,7 @@ def RFmap_prob(head, separator, data_path, save_path, abundance_path = None):
         i += 1
     df['abundance'] = abundance_col #add column 
     df['cover']     = cover_col #add column
+    
     return df
 
 def RFmap_mat(df, save_path):
@@ -169,13 +171,12 @@ def RFmap_mat(df, save_path):
                 value = 0 #if it does nor participate, the probability is assigned to 0
             array.append(value)
         RFmap_matrix[function] = array
-        
-    
     RFmap_matrix.loc[:, ["plant_sp"] + [fun for fun in functions]].to_csv(save_path + '/P_matrix.csv',index=False)
+    
     return RFmap_matrix, species, functions
 
-
 def acronyms(stng):
+    
     '''
     Given an input string, returns another string with its acronym, 
     considering spaces and hyphens as separators.
@@ -187,7 +188,6 @@ def acronyms(stng):
             oupt += stng[i]        
     oupt = oupt.upper()
     return oupt
-
 
 def dic_fun(function_list):
     
@@ -204,6 +204,7 @@ def dic_fun(function_list):
         Dictionary: interaction_type: label (acronym).
     
     '''
+
     # Some default acronyms for our ecological functions
     if Counter(function_list) == Counter(['decomposition','fungal pathogenicity','herbivory','nutrient uptake','pollination','seed dispersal']): #if you are using our ecological functions we have predefine acronyms
         dic_functions = {'seed dispersal':'SD',
@@ -283,6 +284,7 @@ def p_matrix(RFmap_matrix, functions):
     return P_matrix_df, P_matrix, P_matrix_t
 
 def sort_RFmap_matrix(RFmap_matrix, axis_1_sort, axis_0_sort):
+    
     """
     Sort the matrix by the ecological function and plant species
 
@@ -306,18 +308,14 @@ def sort_RFmap_matrix(RFmap_matrix, axis_1_sort, axis_0_sort):
     RFmap_matrix['plant_sp'] = RFmap_matrix['plant_sp'].cat.set_categories(axis_0_sort)
     RFmap_matrix = RFmap_matrix.sort_values(['plant_sp'])
     RFmap_matrix = RFmap_matrix.reset_index(drop=True)
+    
     return RFmap_matrix
 
-
-
-
-#### 
-# ________ PLOT FUNCTIONS ________
-####
-
-
 def item_words(strg, line_sep):
-    # Return the input string correctly formatted for plotting
+    
+    '''
+    Return the input string correctly formatted for plotting
+    '''
 
     sep = "\n" if line_sep==True else ""
     words = strg.split(" ", 1)
@@ -339,13 +337,18 @@ def item_words(strg, line_sep):
     return strg
 
 def titles(list_, line_sep=True):
-    # write titles for plots
+    
+    '''
+    write titles for plots
+    '''
+
     return [item_words(i,line_sep) for i in list_]
 
        
 
 
 def plot_shp(length, ncols):
+    
     """
     Given the number of elements to plot, and the number of columns wanted
     return the strings in a format that can be passed to plt.mosaic_plot
@@ -366,6 +369,7 @@ def plot_shp(length, ncols):
     nrows : int
         Number of rows of the plot. 
     """
+
     plot_str =string.ascii_uppercase[:(length+1)]
     plot_shape = '\n'.join(plot_str[i:i + ncols] for i in range(0, len(plot_str), ncols))
     plot_str = plot_str[:-1]
@@ -375,9 +379,11 @@ def plot_shp(length, ncols):
     nrows = math.ceil((length+1)/ncols)
     if len(last)<ncols:
         plot_shape = plot_shape +'.'*(ncols - len(last))
+    
     return plot_str, plot_shape, nrows
 
 def p_matrix_elem(RFmap_matrix, elem, axis):
+    
     """
     Remove all but elem from RFmap_matrix and return the corresponding P_matrix and P_matrix_t
 
@@ -397,6 +403,7 @@ def p_matrix_elem(RFmap_matrix, elem, axis):
     P_matrix_t : numpy array
         Transpose of the probability matrix.
     """
+
     if axis ==1:    
         cols_to_remove = RFmap_matrix.columns.to_list()
         for el in elem:
@@ -418,6 +425,7 @@ def p_matrix_elem(RFmap_matrix, elem, axis):
 
 
 def rank(strength, elem_order, axis =1):
+
     """
     sort the elements of "elem_order" according to the sum of the elements of "strength" along the axis "axis"
 
@@ -439,6 +447,7 @@ def rank(strength, elem_order, axis =1):
         array of elements sorted.
 
     """
+
     sums = np.sum(strength, axis=axis)
     sorter = np.argsort(sums)[::-1]
     species_rank = np.array(elem_order)[sorter]
@@ -448,6 +457,7 @@ def rank(strength, elem_order, axis =1):
 
 
 def func_color(att_list):
+
     '''
     Create a dictionary that maps each element of a list to a color.
 
@@ -465,8 +475,8 @@ def func_color(att_list):
         Dict object attr: color.
         
     '''
-    # Some default colors for our ecological functions
 
+    # Some default colors for our ecological functions
     if set(att_list) == set(['decomposition','fungal pathogenicity','herbivory','nutrient uptake','pollination','seed dispersal']):
         func_to_color= {'herbivory': 'tab:purple',
          'plant': 'tab:green',
@@ -481,12 +491,8 @@ def func_color(att_list):
         func_to_color = {att_list[item]: colors[item] for item in range(len(att_list))}
     return func_to_color
 
-
-####
-# ________ NETWORK PLOT FUNCTIONS ________
-####
-
 def bipartite_pos(groupL, groupR, ratioL=4/3, ratioR = 4/3):
+    
     """
     Compute bipartite node positions for a horizontally aligned bipartite graph.
     Parameters
@@ -507,6 +513,7 @@ def bipartite_pos(groupL, groupR, ratioL=4/3, ratioR = 4/3):
     pos_labels : dict
         Dictionary of label positions keyed by node.
     """
+
     pos = {}
     pos_labels = {}
     gapR = ratioR/ len(groupR)
@@ -521,12 +528,11 @@ def bipartite_pos(groupL, groupR, ratioL=4/3, ratioR = 4/3):
         pos[l] = (-1, ycord)
         pos_labels[l] = (-1.1, ycord)
         ycord -= gapL
+
     return pos, pos_labels
 
-
-
-
 def layer_layout(G, layout='spring', k=2, seed=1234):
+   
     """
     Compute the position dictionary of G using the specified layout.
     Parameters
@@ -542,6 +548,7 @@ def layer_layout(G, layout='spring', k=2, seed=1234):
     pos : dict
         A dictionary of positions keyed by node
     """
+
     if len(G.nodes) == 5: # Some default positions for our ecological functions
 
         pos_arr = [np.array([1., 0.]), 
@@ -561,17 +568,11 @@ def layer_layout(G, layout='spring', k=2, seed=1234):
         pos = nx.nx_agraph.graphviz_layout(G,prog="twopi")
     else:
         pos = nx.random_layout(G)
+    
     return pos
 
-
-
-
-####
-# ________ PLOT TENSOR ________
-####
-
-
 def func_cmap(att_list,function,dic_colors_fn={},cmp = 'Reds'):
+    
     '''Returns a colormap dic,
        discretized into the number of (different) colors
        found in the attribute.
@@ -592,7 +593,7 @@ def func_cmap(att_list,function,dic_colors_fn={},cmp = 'Reds'):
         Dict object attr: color.
        
     '''
-    
+
     N = 256
     vals = np.ones((N, 4))
     vals[:, 0] = np.linspace(90/256, 1, N)
@@ -639,9 +640,8 @@ def func_cmap(att_list,function,dic_colors_fn={},cmp = 'Reds'):
    
     return func_to_cmp
 
-
-
 def threedplot_sort_speces(head, separator, data_path, matrix_order):
+   
     """
     Returns the species, functions and individals sorted in a way that 
         the plot of the tensor is clear and reduce overlaping
@@ -676,7 +676,6 @@ def threedplot_sort_speces(head, separator, data_path, matrix_order):
         Array with the order of interactions.
 
     """
-
 
     # add order columns for species and interaction types for each row
     # based on their order in the matrix_order dataframe
@@ -734,6 +733,11 @@ def threedplot_sort_speces(head, separator, data_path, matrix_order):
 
 
 def legend_cmap(att_list, dic_colors_fn, functions_axis, func_to_cmp):
+    
+    '''
+    colormap for legendS
+    '''
+
     legend_elements= []
     if Counter(att_list) == Counter(['decomposition','fungal pathogenicity','herbivory','nutrient uptake','pollination','seed dispersal']):
         for fun in att_list:
@@ -763,7 +767,6 @@ def legend_cmap(att_list, dic_colors_fn, functions_axis, func_to_cmp):
 def plot_dendrogram_with_names(dissimilarity_matrix, leaf_names):
     # Perform hierarchical clustering
     linkage_matrix = hierarchy.linkage(dissimilarity_matrix, method='complete')
-
     # Plot the dendrogram with leaf names
     # Override the default linewidth.
     plt.rcParams['lines.linewidth'] = 2.5
@@ -773,8 +776,6 @@ def plot_dendrogram_with_names(dissimilarity_matrix, leaf_names):
     plt.ylabel('Scale', fontsize=18)
     #plt.title('Hierarchical Clustering Dendrogram')
     plt.show()
-
-
 
 def plot_heatmap(array, x_labels, y_labels,heatmap_name):
     plt.figure(figsize=(15, 4))
@@ -798,8 +799,6 @@ def largest_connected_component(adj_matrix):
     largest_component_indices = np.where(labels == largest_component_label)[0]
     return largest_component_indices
     
-
-
 def percolacion_funciones(matriz_p,cual):
     #cual 0 --> funciones
     #cual 1 --> plantas
@@ -856,6 +855,5 @@ def percolacion_funciones(matriz_p,cual):
                     min_LCC_list=LCC
     elif(cual==1):
         print('INCOMPLEEEEETE')
-        
-            
+                
     return AUC_w_max,max_AUC_list,AUC_w_min,min_AUC_list,vector_AUC_w,max_LCC_list,min_LCC_list
