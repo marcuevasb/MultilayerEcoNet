@@ -36,7 +36,7 @@ In `P_analytics.ipynb`:
 
 # Nestedness 
 
-`NODF_WNODF` contains all the necessary material to reproduce NODF and WNODF results from the main text using fortran90 using the resource-function matrix $\mathbf{P}$ of the paper generated in `FullCode.ipynb`. 
+`NODF_WNODF` contains all the necessary material to reproduce NODF and WNODF results and null models from the main text using fortran90 using the resource-function matrix $\mathbf{P}$ of the paper generated in `FullCode.ipynb`. 
 
 For NODF:
 
