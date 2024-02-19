@@ -804,9 +804,9 @@ def percolacion_funciones(matriz_p,cual):
     #cual 1 --> plantas
     #lista de funciones
     lista_funciones = ['decomposition','fungal pathogenicity','nutrient uptake','herbivory','pollination','seed dispersal']
-    lista_plantas = ['Withania frutescens', 'Lavatera maritima', 'Olea europaea var. sylvestris', 'Euphorbia dendroides', 'Medicago arborea', 'Suaeda vera', 'Limonium sp', 'Diplotaxis ibicensis', 'Arisarum vulgare', 'Geranium molle', 'Narcissus tazetta', 'Ephedra fragilis', 'Fagonia cretica', 'Asparagus horridus', 'Chenopodium murale', 'Heliotropium sp']
+    lista_plantas = ['Withania frutescens', 'Lavatera maritima', 'Olea europaea', 'Euphorbia dendroides', 'Medicago arborea', 'Suaeda vera', 'Limonium sp', 'Diplotaxis ibicensis', 'Arisarum vulgare', 'Geranium molle', 'Narcissus tazetta', 'Ephedra fragilis', 'Fagonia cretica', 'Asparagus horridus', 'Chenopodium murale', 'Heliotropium europaeum']
     function_dict = {"decomposition":0, "fungal pathogenicity":1,"nutrient uptake":2, "herbivory":3,"pollination": 4,"seed dispersal":5}
-    plant_dict ={'Withania frutescens':0, 'Lavatera maritima':1, 'Olea europaea var. sylvestris':2, 'Euphorbia dendroides':3, 'Medicago arborea':4, 'Suaeda vera':5, 'Limonium sp':6, 'Diplotaxis ibicensis':7, 'Arisarum vulgare':8, 'Geranium molle':9, 'Narcissus tazetta':10, 'Ephedra fragilis':11, 'Fagonia cretica':12, 'Asparagus horridus':13, 'Chenopodium murale':14, 'Heliotropium sp':15}
+    plant_dict ={'Withania frutescens':0, 'Lavatera maritima':1, 'Olea europaea':2, 'Euphorbia dendroides':3, 'Medicago arborea':4, 'Suaeda vera':5, 'Limonium sp':6, 'Diplotaxis ibicensis':7, 'Arisarum vulgare':8, 'Geranium molle':9, 'Narcissus tazetta':10, 'Ephedra fragilis':11, 'Fagonia cretica':12, 'Asparagus horridus':13, 'Chenopodium murale':14, 'Heliotropium europaeum':15}
     #hago permutacion en la lista
     vector_AUC_w=[]
     vector_AUC=[]

@@ -1,0 +1,1538 @@
+plant_sp,animal_sp,interaction_type,frequency_of_occurrence_weighted_by_sampling_effort
+Withania frutescens,ASV_2,fungal pathogenicity,0.106925208
+Withania frutescens,ASV_4,fungal pathogenicity,0.036288089
+Withania frutescens,ASV_288,fungal pathogenicity,0.006648199
+Withania frutescens,ASV_228,fungal pathogenicity,0.005263158
+Withania frutescens,ASV_45,fungal pathogenicity,0.004709141
+Withania frutescens,ASV_243,fungal pathogenicity,0.002770083
+Withania frutescens,ASV_69,fungal pathogenicity,0.002770083
+Withania frutescens,ASV_162,fungal pathogenicity,0.002216066
+Withania frutescens,ASV_28,fungal pathogenicity,0.001939058
+Withania frutescens,ASV_267,fungal pathogenicity,0.00166205
+Withania frutescens,ASV_368,fungal pathogenicity,0.001385042
+Withania frutescens,ASV_80,fungal pathogenicity,0.001108033
+Withania frutescens,ASV_624,fungal pathogenicity,0.000831025
+Withania frutescens,ASV_67,fungal pathogenicity,0.000554017
+Withania frutescens,ASV_705,fungal pathogenicity,0.000554017
+Withania frutescens,ASV_765,fungal pathogenicity,0.000554017
+Withania frutescens,ASV_107,fungal pathogenicity,0.000277008
+Withania frutescens,ASV_144,fungal pathogenicity,0.000277008
+Withania frutescens,ASV_215,fungal pathogenicity,0.000277008
+Withania frutescens,ASV_484,fungal pathogenicity,0.000277008
+Withania frutescens,ASV_645,fungal pathogenicity,0.000277008
+Withania frutescens,ASV_799,fungal pathogenicity,0.000277008
+Withania frutescens,ASV_11,decomposition,0.357188498
+Withania frutescens,ASV_38,decomposition,0.296485623
+Withania frutescens,ASV_12,decomposition,0.265175719
+Withania frutescens,ASV_17,decomposition,0.251118211
+Withania frutescens,ASV_51,decomposition,0.217891374
+Withania frutescens,ASV_63,decomposition,0.184025559
+Withania frutescens,ASV_8,decomposition,0.072204473
+Withania frutescens,ASV_132,decomposition,0.067092652
+Withania frutescens,ASV_47,decomposition,0.061980831
+Withania frutescens,ASV_14,decomposition,0.05686901
+Withania frutescens,ASV_19,decomposition,0.05686901
+Withania frutescens,ASV_106,decomposition,0.0485623
+Withania frutescens,ASV_16,decomposition,0.040255591
+Withania frutescens,ASV_20,decomposition,0.037699681
+Withania frutescens,ASV_134,decomposition,0.031309904
+Withania frutescens,ASV_26,decomposition,0.022364217
+Withania frutescens,ASV_49,decomposition,0.017252396
+Withania frutescens,ASV_15,decomposition,0.015974441
+Withania frutescens,ASV_58,decomposition,0.015335463
+Withania frutescens,ASV_79,decomposition,0.01341853
+Withania frutescens,ASV_3,decomposition,0.012779553
+Withania frutescens,ASV_389,decomposition,0.008306709
+Withania frutescens,ASV_366,decomposition,0.007667732
+Withania frutescens,ASV_155,decomposition,0.007028754
+Withania frutescens,ASV_206,decomposition,0.006389776
+Withania frutescens,ASV_404,decomposition,0.006389776
+Withania frutescens,ASV_82,decomposition,0.005750799
+Withania frutescens,ASV_492,decomposition,0.005111821
+Withania frutescens,ASV_198,decomposition,0.003833866
+Withania frutescens,ASV_290,decomposition,0.003833866
+Withania frutescens,ASV_518,decomposition,0.003833866
+Withania frutescens,ASV_533,decomposition,0.003833866
+Withania frutescens,ASV_83,decomposition,0.002555911
+Withania frutescens,ASV_89,decomposition,0.002555911
+Withania frutescens,ASV_573,decomposition,0.002555911
+Withania frutescens,ASV_40,decomposition,0.001916933
+Withania frutescens,ASV_86,decomposition,0.001916933
+Withania frutescens,ASV_166,decomposition,0.001916933
+Withania frutescens,ASV_369,decomposition,0.001916933
+Withania frutescens,ASV_655,decomposition,0.001916933
+Withania frutescens,ASV_669,decomposition,0.001916933
+Withania frutescens,ASV_73,decomposition,0.001277955
+Withania frutescens,ASV_124,decomposition,0.001277955
+Withania frutescens,ASV_149,decomposition,0.001277955
+Withania frutescens,ASV_152,decomposition,0.001277955
+Withania frutescens,ASV_412,decomposition,0.001277955
+Withania frutescens,ASV_510,decomposition,0.001277955
+Withania frutescens,ASV_593,decomposition,0.001277955
+Withania frutescens,ASV_696,decomposition,0.001277955
+Withania frutescens,ASV_698,decomposition,0.001277955
+Withania frutescens,ASV_703,decomposition,0.001277955
+Withania frutescens,ASV_731,decomposition,0.001277955
+Withania frutescens,ASV_37,decomposition,0.000639
+Withania frutescens,ASV_127,decomposition,0.000639
+Withania frutescens,ASV_157,decomposition,0.000639
+Withania frutescens,ASV_164,decomposition,0.000639
+Withania frutescens,ASV_180,decomposition,0.000639
+Withania frutescens,ASV_229,decomposition,0.000639
+Withania frutescens,ASV_388,decomposition,0.000639
+Withania frutescens,ASV_440,decomposition,0.000639
+Withania frutescens,ASV_473,decomposition,0.000639
+Withania frutescens,ASV_519,decomposition,0.000639
+Withania frutescens,ASV_723,decomposition,0.000639
+Withania frutescens,ASV_741,decomposition,0.000639
+Withania frutescens,ASV_788,decomposition,0.000639
+Withania frutescens,ASV_807,decomposition,0.000639
+Withania frutescens,ASV_816,decomposition,0.000639
+Withania frutescens,ASV_870,decomposition,0.000639
+Withania frutescens,ASV_899,decomposition,0.000639
+Withania frutescens,ASV_195,nutrient uptake,0.078817734
+Withania frutescens,ASV_94,nutrient uptake,0.041050903
+Withania frutescens,ASV_190,nutrient uptake,0.036124795
+Withania frutescens,ASV_118,nutrient uptake,0.034482759
+Withania frutescens,ASV_142,nutrient uptake,0.031198686
+Withania frutescens,ASV_287,nutrient uptake,0.022988506
+Withania frutescens,ASV_52,nutrient uptake,0.016420361
+Withania frutescens,ASV_357,nutrient uptake,0.016420361
+Withania frutescens,ASV_444,nutrient uptake,0.016420361
+Withania frutescens,ASV_181,nutrient uptake,0.014778325
+Withania frutescens,ASV_452,nutrient uptake,0.014778325
+Withania frutescens,ASV_57,nutrient uptake,0.013136289
+Withania frutescens,ASV_269,nutrient uptake,0.013136289
+Withania frutescens,ASV_205,nutrient uptake,0.011494253
+Withania frutescens,ASV_251,nutrient uptake,0.011494253
+Withania frutescens,ASV_511,nutrient uptake,0.011494253
+Withania frutescens,ASV_41,nutrient uptake,0.009852217
+Withania frutescens,ASV_103,nutrient uptake,0.009852217
+Withania frutescens,ASV_238,nutrient uptake,0.009852217
+Withania frutescens,ASV_529,nutrient uptake,0.009852217
+Withania frutescens,ASV_112,nutrient uptake,0.006568144
+Withania frutescens,ASV_254,nutrient uptake,0.006568144
+Withania frutescens,ASV_572,nutrient uptake,0.006568144
+Withania frutescens,ASV_84,nutrient uptake,0.004926108
+Withania frutescens,ASV_419,nutrient uptake,0.004926108
+Withania frutescens,ASV_472,nutrient uptake,0.004926108
+Withania frutescens,ASV_551,nutrient uptake,0.004926108
+Withania frutescens,ASV_629,nutrient uptake,0.004926108
+Withania frutescens,ASV_640,nutrient uptake,0.004926108
+Withania frutescens,ASV_21,nutrient uptake,0.003284072
+Withania frutescens,ASV_95,nutrient uptake,0.003284072
+Withania frutescens,ASV_126,nutrient uptake,0.003284072
+Withania frutescens,ASV_191,nutrient uptake,0.003284072
+Withania frutescens,ASV_196,nutrient uptake,0.003284072
+Withania frutescens,ASV_246,nutrient uptake,0.003284072
+Withania frutescens,ASV_247,nutrient uptake,0.003284072
+Withania frutescens,ASV_416,nutrient uptake,0.003284072
+Withania frutescens,ASV_724,nutrient uptake,0.003284072
+Withania frutescens,ASV_768,nutrient uptake,0.003284072
+Withania frutescens,ASV_90,nutrient uptake,0.001642036
+Withania frutescens,ASV_339,nutrient uptake,0.001642036
+Withania frutescens,ASV_385,nutrient uptake,0.001642036
+Withania frutescens,ASV_856,nutrient uptake,0.001642036
+Withania frutescens,ASV_895,nutrient uptake,0.001642036
+Withania frutescens,Podarcis lilfordi,pollination,0.379310345
+Withania frutescens,Ancistocerus ebusianus,pollination,0.103448276
+Withania frutescens,Tineidae,pollination,0.103448276
+Withania frutescens,Amegilla sp.,pollination,0.034482759
+Withania frutescens,Anthophora balearica,pollination,0.034482759
+Withania frutescens,Coenosia sp.,pollination,0.034482759
+Withania frutescens,Eristalis tenax,pollination,0.034482759
+Withania frutescens,Parasyrphus macularis,pollination,0.034482759
+Withania frutescens,Sylvia sarda,pollination,0.034482759
+Withania frutescens,Podarcis lilfordi,seed dispersal,1.0
+Withania frutescens,Camponotus sp.,seed dispersal,0.066666667
+Withania frutescens,Larus michahellis,seed dispersal,0.033333333
+Withania frutescens,Paseriforme,seed dispersal,0.016666667
+Withania frutescens,Sarcophaga sp. ,herbivory,0.6
+Withania frutescens,Anthicus sp.,herbivory,0.5
+Withania frutescens,Tineidae,herbivory,0.400000008
+Withania frutescens,Macrolophus sp.,herbivory,0.3
+Withania frutescens,Tettigometra (Mitricephalus) sp.,herbivory,0.3
+Withania frutescens,Anthomyidae,herbivory,0.1
+Withania frutescens,Aphididae sp.1,herbivory,0.1
+Withania frutescens,Dicyphus sp.,herbivory,0.1
+Withania frutescens,Reticulitermes lucifugus,herbivory,0.1
+Withania frutescens,Rhodometra sacraria,herbivory,0.1
+Withania frutescens,Spilostethus pandurus,herbivory,0.1
+Suaeda vera,ASV_5,fungal pathogenicity,0.674515235
+Suaeda vera,ASV_22,fungal pathogenicity,0.047922438
+Suaeda vera,ASV_121,fungal pathogenicity,0.032963989
+Suaeda vera,ASV_186,fungal pathogenicity,0.015789474
+Suaeda vera,ASV_4,fungal pathogenicity,0.014404432
+Suaeda vera,ASV_30,fungal pathogenicity,0.014127424
+Suaeda vera,ASV_96,fungal pathogenicity,0.011911357
+Suaeda vera,ASV_56,fungal pathogenicity,0.010249307
+Suaeda vera,ASV_193,fungal pathogenicity,0.009972299
+Suaeda vera,ASV_306,fungal pathogenicity,0.005540166
+Suaeda vera,ASV_332,fungal pathogenicity,0.00498615
+Suaeda vera,ASV_141,fungal pathogenicity,0.003878116
+Suaeda vera,ASV_395,fungal pathogenicity,0.003601108
+Suaeda vera,ASV_2,fungal pathogenicity,0.002770083
+Suaeda vera,ASV_364,fungal pathogenicity,0.001385042
+Suaeda vera,ASV_28,fungal pathogenicity,0.001108033
+Suaeda vera,ASV_69,fungal pathogenicity,0.000831025
+Suaeda vera,ASV_144,fungal pathogenicity,0.000554017
+Suaeda vera,ASV_525,fungal pathogenicity,0.000554017
+Suaeda vera,ASV_711,fungal pathogenicity,0.000554017
+Suaeda vera,ASV_243,fungal pathogenicity,0.000277008
+Suaeda vera,ASV_24,decomposition,0.548881789
+Suaeda vera,ASV_168,decomposition,0.042172524
+Suaeda vera,ASV_15,decomposition,0.017891374
+Suaeda vera,ASV_66,decomposition,0.015974441
+Suaeda vera,ASV_281,decomposition,0.014057508
+Suaeda vera,ASV_3,decomposition,0.012779553
+Suaeda vera,ASV_17,decomposition,0.006389776
+Suaeda vera,ASV_12,decomposition,0.005111821
+Suaeda vera,ASV_478,decomposition,0.005111821
+Suaeda vera,ASV_16,decomposition,0.004472843
+Suaeda vera,ASV_552,decomposition,0.003194888
+Suaeda vera,ASV_55,decomposition,0.002555911
+Suaeda vera,ASV_19,decomposition,0.001916933
+Suaeda vera,ASV_213,decomposition,0.001916933
+Suaeda vera,ASV_630,decomposition,0.001916933
+Suaeda vera,ASV_682,decomposition,0.001916933
+Suaeda vera,ASV_37,decomposition,0.001277955
+Suaeda vera,ASV_50,decomposition,0.001277955
+Suaeda vera,ASV_83,decomposition,0.001277955
+Suaeda vera,ASV_86,decomposition,0.001277955
+Suaeda vera,ASV_283,decomposition,0.001277955
+Suaeda vera,ASV_405,decomposition,0.001277955
+Suaeda vera,ASV_418,decomposition,0.001277955
+Suaeda vera,ASV_425,decomposition,0.001277955
+Suaeda vera,ASV_471,decomposition,0.001277955
+Suaeda vera,ASV_593,decomposition,0.001277955
+Suaeda vera,ASV_770,decomposition,0.001277955
+Suaeda vera,ASV_782,decomposition,0.001277955
+Suaeda vera,ASV_8,decomposition,0.000639
+Suaeda vera,ASV_20,decomposition,0.000639
+Suaeda vera,ASV_49,decomposition,0.000639
+Suaeda vera,ASV_134,decomposition,0.000639
+Suaeda vera,ASV_155,decomposition,0.000639
+Suaeda vera,ASV_331,decomposition,0.000639
+Suaeda vera,ASV_502,decomposition,0.000639
+Suaeda vera,ASV_850,decomposition,0.000639
+Suaeda vera,ASV_103,nutrient uptake,0.008210181
+Suaeda vera,ASV_21,nutrient uptake,0.006568144
+Suaeda vera,ASV_90,nutrient uptake,0.006568144
+Suaeda vera,ASV_252,nutrient uptake,0.003284072
+Suaeda vera,ASV_341,nutrient uptake,0.003284072
+Suaeda vera,ASV_739,nutrient uptake,0.003284072
+Suaeda vera,ASV_41,nutrient uptake,0.001642036
+Suaeda vera,ASV_196,nutrient uptake,0.001642036
+Suaeda vera,ASV_220,nutrient uptake,0.001642036
+Suaeda vera,ASV_249,nutrient uptake,0.001642036
+Suaeda vera,Podarcis lilfordi,pollination,0.034482759
+Suaeda vera,Larus michahellis,seed dispersal,0.05
+Suaeda vera,Camponotus sp.,seed dispersal,0.016666667
+Suaeda vera,Podarcis lilfordi,seed dispersal,0.016666667
+Suaeda vera,Coleoptera sp.2,herbivory,1.0
+Suaeda vera,Tettigometra (Mitricephalus) sp.,herbivory,0.5
+Suaeda vera,Aphididae sp.1,herbivory,0.2
+Suaeda vera,Colydiidae,herbivory,0.1
+Suaeda vera,Dasytes nigroaeneus  ,herbivory,0.1
+Suaeda vera,Sarcophaga sp. ,herbivory,0.1
+Olea europaea,ASV_28,fungal pathogenicity,0.063434903
+Olea europaea,ASV_2,fungal pathogenicity,0.02299169
+Olea europaea,ASV_30,fungal pathogenicity,0.019113573
+Olea europaea,ASV_1,fungal pathogenicity,0.015789474
+Olea europaea,ASV_22,fungal pathogenicity,0.015512465
+Olea europaea,ASV_56,fungal pathogenicity,0.006925208
+Olea europaea,ASV_96,fungal pathogenicity,0.003601108
+Olea europaea,ASV_69,fungal pathogenicity,0.001385042
+Olea europaea,ASV_368,fungal pathogenicity,0.000831025
+Olea europaea,ASV_602,fungal pathogenicity,0.000831025
+Olea europaea,ASV_141,fungal pathogenicity,0.000277008
+Olea europaea,ASV_162,fungal pathogenicity,0.000277008
+Olea europaea,ASV_193,fungal pathogenicity,0.000277008
+Olea europaea,ASV_223,fungal pathogenicity,0.000277008
+Olea europaea,ASV_243,fungal pathogenicity,0.000277008
+Olea europaea,ASV_364,fungal pathogenicity,0.000277008
+Olea europaea,ASV_525,fungal pathogenicity,0.000277008
+Olea europaea,ASV_80,fungal pathogenicity,0.000277008
+Olea europaea,ASV_815,fungal pathogenicity,0.000277008
+Olea europaea,ASV_25,decomposition,0.512460064
+Olea europaea,ASV_19,decomposition,0.388498403
+Olea europaea,ASV_8,decomposition,0.246645367
+Olea europaea,ASV_16,decomposition,0.192332268
+Olea europaea,ASV_3,decomposition,0.152076677
+Olea europaea,ASV_40,decomposition,0.138658147
+Olea europaea,ASV_12,decomposition,0.10798722
+Olea europaea,ASV_47,decomposition,0.079872204
+Olea europaea,ASV_15,decomposition,0.075399361
+Olea europaea,ASV_26,decomposition,0.07284345
+Olea europaea,ASV_14,decomposition,0.049201278
+Olea europaea,ASV_17,decomposition,0.036421725
+Olea europaea,ASV_20,decomposition,0.022364217
+Olea europaea,ASV_79,decomposition,0.019169329
+Olea europaea,ASV_111,decomposition,0.009584665
+Olea europaea,ASV_106,decomposition,0.005750799
+Olea europaea,ASV_134,decomposition,0.005750799
+Olea europaea,ASV_89,decomposition,0.004472843
+Olea europaea,ASV_298,decomposition,0.004472843
+Olea europaea,ASV_66,decomposition,0.003833866
+Olea europaea,ASV_258,decomposition,0.003833866
+Olea europaea,ASV_164,decomposition,0.003194888
+Olea europaea,ASV_425,decomposition,0.003194888
+Olea europaea,ASV_37,decomposition,0.002555911
+Olea europaea,ASV_85,decomposition,0.002555911
+Olea europaea,ASV_256,decomposition,0.002555911
+Olea europaea,ASV_280,decomposition,0.002555911
+Olea europaea,ASV_331,decomposition,0.002555911
+Olea europaea,ASV_502,decomposition,0.002555911
+Olea europaea,ASV_105,decomposition,0.001916933
+Olea europaea,ASV_198,decomposition,0.001916933
+Olea europaea,ASV_420,decomposition,0.001916933
+Olea europaea,ASV_491,decomposition,0.001916933
+Olea europaea,ASV_523,decomposition,0.001916933
+Olea europaea,ASV_653,decomposition,0.001916933
+Olea europaea,ASV_668,decomposition,0.001916933
+Olea europaea,ASV_180,decomposition,0.001277955
+Olea europaea,ASV_290,decomposition,0.001277955
+Olea europaea,ASV_388,decomposition,0.001277955
+Olea europaea,ASV_440,decomposition,0.001277955
+Olea europaea,ASV_524,decomposition,0.001277955
+Olea europaea,ASV_643,decomposition,0.001277955
+Olea europaea,ASV_49,decomposition,0.000639
+Olea europaea,ASV_60,decomposition,0.000639
+Olea europaea,ASV_86,decomposition,0.000639
+Olea europaea,ASV_155,decomposition,0.000639
+Olea europaea,ASV_163,decomposition,0.000639
+Olea europaea,ASV_226,decomposition,0.000639
+Olea europaea,ASV_279,decomposition,0.000639
+Olea europaea,ASV_283,decomposition,0.000639
+Olea europaea,ASV_366,decomposition,0.000639
+Olea europaea,ASV_510,decomposition,0.000639
+Olea europaea,ASV_662,decomposition,0.000639
+Olea europaea,ASV_802,decomposition,0.000639
+Olea europaea,ASV_830,decomposition,0.000639
+Olea europaea,ASV_892,decomposition,0.000639
+Olea europaea,ASV_178,nutrient uptake,0.062397373
+Olea europaea,ASV_201,nutrient uptake,0.0591133
+Olea europaea,ASV_102,nutrient uptake,0.057471264
+Olea europaea,ASV_254,nutrient uptake,0.045977011
+Olea europaea,ASV_297,nutrient uptake,0.036124795
+Olea europaea,ASV_59,nutrient uptake,0.032840722
+Olea europaea,ASV_129,nutrient uptake,0.032840722
+Olea europaea,ASV_150,nutrient uptake,0.026272578
+Olea europaea,ASV_181,nutrient uptake,0.026272578
+Olea europaea,ASV_84,nutrient uptake,0.02134647
+Olea europaea,ASV_90,nutrient uptake,0.019704433
+Olea europaea,ASV_308,nutrient uptake,0.019704433
+Olea europaea,ASV_103,nutrient uptake,0.016420361
+Olea europaea,ASV_196,nutrient uptake,0.016420361
+Olea europaea,ASV_205,nutrient uptake,0.016420361
+Olea europaea,ASV_434,nutrient uptake,0.016420361
+Olea europaea,ASV_139,nutrient uptake,0.013136289
+Olea europaea,ASV_94,nutrient uptake,0.011494253
+Olea europaea,ASV_230,nutrient uptake,0.011494253
+Olea europaea,ASV_131,nutrient uptake,0.009852217
+Olea europaea,ASV_146,nutrient uptake,0.009852217
+Olea europaea,ASV_151,nutrient uptake,0.009852217
+Olea europaea,ASV_526,nutrient uptake,0.009852217
+Olea europaea,ASV_257,nutrient uptake,0.008210181
+Olea europaea,ASV_419,nutrient uptake,0.008210181
+Olea europaea,ASV_194,nutrient uptake,0.006568144
+Olea europaea,ASV_576,nutrient uptake,0.006568144
+Olea europaea,ASV_224,nutrient uptake,0.004926108
+Olea europaea,ASV_327,nutrient uptake,0.004926108
+Olea europaea,ASV_349,nutrient uptake,0.004926108
+Olea europaea,ASV_482,nutrient uptake,0.004926108
+Olea europaea,ASV_627,nutrient uptake,0.004926108
+Olea europaea,ASV_191,nutrient uptake,0.003284072
+Olea europaea,ASV_351,nutrient uptake,0.003284072
+Olea europaea,ASV_383,nutrient uptake,0.003284072
+Olea europaea,ASV_409,nutrient uptake,0.003284072
+Olea europaea,ASV_708,nutrient uptake,0.003284072
+Olea europaea,ASV_57,nutrient uptake,0.001642036
+Olea europaea,ASV_225,nutrient uptake,0.001642036
+Olea europaea,ASV_385,nutrient uptake,0.001642036
+Olea europaea,Larus michahellis,seed dispersal,0.516666667
+Olea europaea,Camponotus sp.,seed dispersal,0.016666667
+Olea europaea,Tettigometra (Mitricephalus) sp.,herbivory,0.9
+Olea europaea,Ectopsocus sp.,herbivory,0.8
+Olea europaea,Anthicus sp.,herbivory,0.3
+Olea europaea,Ectobius sp. ,herbivory,0.2
+Olea europaea,Danacea sp.,herbivory,0.1
+Olea europaea,Spilostethus pandurus,herbivory,0.1
+Narcissus tazetta,ASV_2,fungal pathogenicity,0.46565097
+Narcissus tazetta,ASV_4,fungal pathogenicity,0.342105263
+Narcissus tazetta,ASV_107,fungal pathogenicity,0.039058172
+Narcissus tazetta,ASV_162,fungal pathogenicity,0.012188366
+Narcissus tazetta,ASV_56,fungal pathogenicity,0.005263158
+Narcissus tazetta,ASV_28,fungal pathogenicity,0.001385042
+Narcissus tazetta,ASV_67,fungal pathogenicity,0.000831025
+Narcissus tazetta,ASV_133,fungal pathogenicity,0.000277008
+Narcissus tazetta,ASV_69,fungal pathogenicity,0.000277008
+Narcissus tazetta,ASV_784,fungal pathogenicity,0.000277008
+Narcissus tazetta,ASV_8,decomposition,0.371246006
+Narcissus tazetta,ASV_58,decomposition,0.157827476
+Narcissus tazetta,ASV_16,decomposition,0.109265176
+Narcissus tazetta,ASV_17,decomposition,0.054313099
+Narcissus tazetta,ASV_65,decomposition,0.053674121
+Narcissus tazetta,ASV_149,decomposition,0.051118211
+Narcissus tazetta,ASV_12,decomposition,0.030031949
+Narcissus tazetta,ASV_104,decomposition,0.029392971
+Narcissus tazetta,ASV_20,decomposition,0.028115016
+Narcissus tazetta,ASV_40,decomposition,0.027476038
+Narcissus tazetta,ASV_47,decomposition,0.014696486
+Narcissus tazetta,ASV_106,decomposition,0.014057508
+Narcissus tazetta,ASV_19,decomposition,0.011501597
+Narcissus tazetta,ASV_85,decomposition,0.006389776
+Narcissus tazetta,ASV_432,decomposition,0.005750799
+Narcissus tazetta,ASV_454,decomposition,0.005111821
+Narcissus tazetta,ASV_15,decomposition,0.004472843
+Narcissus tazetta,ASV_79,decomposition,0.003833866
+Narcissus tazetta,ASV_473,decomposition,0.003833866
+Narcissus tazetta,ASV_3,decomposition,0.003194888
+Narcissus tazetta,ASV_198,decomposition,0.003194888
+Narcissus tazetta,ASV_298,decomposition,0.002555911
+Narcissus tazetta,ASV_520,decomposition,0.002555911
+Narcissus tazetta,ASV_134,decomposition,0.001916933
+Narcissus tazetta,ASV_290,decomposition,0.001916933
+Narcissus tazetta,ASV_11,decomposition,0.001277955
+Narcissus tazetta,ASV_83,decomposition,0.001277955
+Narcissus tazetta,ASV_777,decomposition,0.001277955
+Narcissus tazetta,ASV_26,decomposition,0.000639
+Narcissus tazetta,ASV_229,decomposition,0.000639
+Narcissus tazetta,ASV_463,decomposition,0.000639
+Narcissus tazetta,ASV_131,nutrient uptake,0.02134647
+Narcissus tazetta,ASV_224,nutrient uptake,0.016420361
+Narcissus tazetta,ASV_252,nutrient uptake,0.013136289
+Narcissus tazetta,ASV_330,nutrient uptake,0.013136289
+Narcissus tazetta,ASV_181,nutrient uptake,0.011494253
+Narcissus tazetta,ASV_205,nutrient uptake,0.008210181
+Narcissus tazetta,ASV_381,nutrient uptake,0.008210181
+Narcissus tazetta,ASV_84,nutrient uptake,0.006568144
+Narcissus tazetta,ASV_112,nutrient uptake,0.006568144
+Narcissus tazetta,ASV_151,nutrient uptake,0.004926108
+Narcissus tazetta,ASV_313,nutrient uptake,0.004926108
+Narcissus tazetta,ASV_341,nutrient uptake,0.004926108
+Narcissus tazetta,ASV_550,nutrient uptake,0.004926108
+Narcissus tazetta,ASV_194,nutrient uptake,0.001642036
+Narcissus tazetta,ASV_246,nutrient uptake,0.001642036
+Narcissus tazetta,ASV_249,nutrient uptake,0.001642036
+Narcissus tazetta,ASV_396,nutrient uptake,0.001642036
+Narcissus tazetta,ASV_886,nutrient uptake,0.001642036
+Narcissus tazetta,Macroglossum stellatarum,pollination,0.068965517
+Narcissus tazetta,Coenosia sp.,pollination,0.034482759
+Narcissus tazetta,Eristalis tenax,pollination,0.034482759
+Medicago arborea,ASV_2,fungal pathogenicity,0.103878116
+Medicago arborea,ASV_4,fungal pathogenicity,0.06565097
+Medicago arborea,ASV_28,fungal pathogenicity,0.034626039
+Medicago arborea,ASV_209,fungal pathogenicity,0.012742382
+Medicago arborea,ASV_56,fungal pathogenicity,0.003878116
+Medicago arborea,ASV_398,fungal pathogenicity,0.0033241
+Medicago arborea,ASV_107,fungal pathogenicity,0.00166205
+Medicago arborea,ASV_500,fungal pathogenicity,0.001108033
+Medicago arborea,ASV_677,fungal pathogenicity,0.000831025
+Medicago arborea,ASV_133,fungal pathogenicity,0.000554017
+Medicago arborea,ASV_141,fungal pathogenicity,0.000554017
+Medicago arborea,ASV_267,fungal pathogenicity,0.000554017
+Medicago arborea,ASV_368,fungal pathogenicity,0.000554017
+Medicago arborea,ASV_676,fungal pathogenicity,0.000554017
+Medicago arborea,ASV_775,fungal pathogenicity,0.000554017
+Medicago arborea,ASV_80,fungal pathogenicity,0.000554017
+Medicago arborea,ASV_162,fungal pathogenicity,0.000277008
+Medicago arborea,ASV_386,fungal pathogenicity,0.000277008
+Medicago arborea,ASV_67,fungal pathogenicity,0.000277008
+Medicago arborea,ASV_69,fungal pathogenicity,0.000277008
+Medicago arborea,ASV_796,fungal pathogenicity,0.000277008
+Medicago arborea,ASV_839,fungal pathogenicity,0.000277008
+Medicago arborea,ASV_11,decomposition,0.675399361
+Medicago arborea,ASV_3,decomposition,0.229392971
+Medicago arborea,ASV_46,decomposition,0.204472843
+Medicago arborea,ASV_91,decomposition,0.115015974
+Medicago arborea,ASV_85,decomposition,0.111821086
+Medicago arborea,ASV_8,decomposition,0.111182109
+Medicago arborea,ASV_19,decomposition,0.104153355
+Medicago arborea,ASV_26,decomposition,0.100319489
+Medicago arborea,ASV_15,decomposition,0.077955272
+Medicago arborea,ASV_65,decomposition,0.065814696
+Medicago arborea,ASV_154,decomposition,0.040894569
+Medicago arborea,ASV_104,decomposition,0.021086262
+Medicago arborea,ASV_12,decomposition,0.019808307
+Medicago arborea,ASV_106,decomposition,0.019169329
+Medicago arborea,ASV_40,decomposition,0.014696486
+Medicago arborea,ASV_164,decomposition,0.012779553
+Medicago arborea,ASV_324,decomposition,0.012140575
+Medicago arborea,ASV_155,decomposition,0.01086262
+Medicago arborea,ASV_163,decomposition,0.01086262
+Medicago arborea,ASV_279,decomposition,0.01086262
+Medicago arborea,ASV_16,decomposition,0.010223642
+Medicago arborea,ASV_17,decomposition,0.008945687
+Medicago arborea,ASV_79,decomposition,0.008945687
+Medicago arborea,ASV_377,decomposition,0.008945687
+Medicago arborea,ASV_373,decomposition,0.008306709
+Medicago arborea,ASV_408,decomposition,0.007667732
+Medicago arborea,ASV_37,decomposition,0.006389776
+Medicago arborea,ASV_198,decomposition,0.006389776
+Medicago arborea,ASV_369,decomposition,0.006389776
+Medicago arborea,ASV_290,decomposition,0.005750799
+Medicago arborea,ASV_455,decomposition,0.005750799
+Medicago arborea,ASV_458,decomposition,0.005750799
+Medicago arborea,ASV_256,decomposition,0.005111821
+Medicago arborea,ASV_47,decomposition,0.004472843
+Medicago arborea,ASV_89,decomposition,0.004472843
+Medicago arborea,ASV_348,decomposition,0.004472843
+Medicago arborea,ASV_157,decomposition,0.003194888
+Medicago arborea,ASV_397,decomposition,0.003194888
+Medicago arborea,ASV_537,decomposition,0.003194888
+Medicago arborea,ASV_577,decomposition,0.002555911
+Medicago arborea,ASV_605,decomposition,0.002555911
+Medicago arborea,ASV_152,decomposition,0.001916933
+Medicago arborea,ASV_523,decomposition,0.001916933
+Medicago arborea,ASV_531,decomposition,0.001916933
+Medicago arborea,ASV_666,decomposition,0.001916933
+Medicago arborea,ASV_688,decomposition,0.001916933
+Medicago arborea,ASV_203,decomposition,0.001277955
+Medicago arborea,ASV_236,decomposition,0.001277955
+Medicago arborea,ASV_366,decomposition,0.001277955
+Medicago arborea,ASV_582,decomposition,0.001277955
+Medicago arborea,ASV_685,decomposition,0.001277955
+Medicago arborea,ASV_700,decomposition,0.001277955
+Medicago arborea,ASV_717,decomposition,0.001277955
+Medicago arborea,ASV_738,decomposition,0.001277955
+Medicago arborea,ASV_759,decomposition,0.001277955
+Medicago arborea,ASV_14,decomposition,0.000639
+Medicago arborea,ASV_73,decomposition,0.000639
+Medicago arborea,ASV_105,decomposition,0.000639
+Medicago arborea,ASV_134,decomposition,0.000639
+Medicago arborea,ASV_280,decomposition,0.000639
+Medicago arborea,ASV_440,decomposition,0.000639
+Medicago arborea,ASV_481,decomposition,0.000639
+Medicago arborea,ASV_785,decomposition,0.000639
+Medicago arborea,ASV_792,decomposition,0.000639
+Medicago arborea,ASV_808,decomposition,0.000639
+Medicago arborea,ASV_865,decomposition,0.000639
+Medicago arborea,ASV_875,decomposition,0.000639
+Medicago arborea,ASV_21,nutrient uptake,0.070607553
+Medicago arborea,ASV_94,nutrient uptake,0.052545156
+Medicago arborea,ASV_241,nutrient uptake,0.047619048
+Medicago arborea,ASV_320,nutrient uptake,0.031198686
+Medicago arborea,ASV_220,nutrient uptake,0.022988506
+Medicago arborea,ASV_460,nutrient uptake,0.014778325
+Medicago arborea,ASV_103,nutrient uptake,0.013136289
+Medicago arborea,ASV_506,nutrient uptake,0.011494253
+Medicago arborea,ASV_52,nutrient uptake,0.009852217
+Medicago arborea,ASV_150,nutrient uptake,0.009852217
+Medicago arborea,ASV_95,nutrient uptake,0.006568144
+Medicago arborea,ASV_129,nutrient uptake,0.006568144
+Medicago arborea,ASV_603,nutrient uptake,0.006568144
+Medicago arborea,ASV_57,nutrient uptake,0.003284072
+Medicago arborea,ASV_90,nutrient uptake,0.001642036
+Medicago arborea,ASV_196,nutrient uptake,0.001642036
+Medicago arborea,ASV_838,nutrient uptake,0.001642036
+Medicago arborea,Podarcis lilfordi,pollination,0.137931034
+Medicago arborea,Colias croceus,pollination,0.034482759
+Medicago arborea,Episyrphus balteatus,pollination,0.034482759
+Medicago arborea,Eristalis tenax,pollination,0.034482759
+Medicago arborea,Camponotus sp.,seed dispersal,0.1
+Medicago arborea,Anthicus sp.,herbivory,0.5
+Medicago arborea,Aphididae sp.1,herbivory,0.3
+Medicago arborea,Indeter sp.1,herbivory,0.2
+Medicago arborea,Ectobius sp. ,herbivory,0.1
+Medicago arborea,Ectopsocus sp.,herbivory,0.1
+Medicago arborea,Sarcophaga sp. ,herbivory,0.1
+Limonium sp,Podarcis lilfordi,seed dispersal,0.133333333
+Limonium sp,Camponotus sp.,seed dispersal,0.05
+Limonium sp,ASV_22,fungal pathogenicity,0.143767313
+Limonium sp,ASV_30,fungal pathogenicity,0.083379501
+Limonium sp,ASV_319,fungal pathogenicity,0.005263158
+Limonium sp,ASV_4,fungal pathogenicity,0.005263158
+Limonium sp,ASV_376,fungal pathogenicity,0.003878116
+Limonium sp,ASV_141,fungal pathogenicity,0.0033241
+Limonium sp,ASV_535,fungal pathogenicity,0.00166205
+Limonium sp,ASV_45,fungal pathogenicity,0.001385042
+Limonium sp,ASV_562,fungal pathogenicity,0.001385042
+Limonium sp,ASV_67,fungal pathogenicity,0.001385042
+Limonium sp,ASV_2,fungal pathogenicity,0.000831025
+Limonium sp,ASV_42,fungal pathogenicity,0.000831025
+Limonium sp,ASV_461,fungal pathogenicity,0.000831025
+Limonium sp,ASV_649,fungal pathogenicity,0.000831025
+Limonium sp,ASV_657,fungal pathogenicity,0.000831025
+Limonium sp,ASV_96,fungal pathogenicity,0.000831025
+Limonium sp,ASV_135,fungal pathogenicity,0.000277008
+Limonium sp,ASV_790,fungal pathogenicity,0.000277008
+Limonium sp,ASV_13,decomposition,1.0
+Limonium sp,ASV_33,decomposition,0.338019169
+Limonium sp,ASV_15,decomposition,0.21341853
+Limonium sp,ASV_200,decomposition,0.030670927
+Limonium sp,ASV_237,decomposition,0.018530351
+Limonium sp,ASV_164,decomposition,0.008306709
+Limonium sp,ASV_258,decomposition,0.008306709
+Limonium sp,ASV_393,decomposition,0.008306709
+Limonium sp,ASV_280,decomposition,0.007028754
+Limonium sp,ASV_283,decomposition,0.007028754
+Limonium sp,ASV_417,decomposition,0.007028754
+Limonium sp,ASV_394,decomposition,0.006389776
+Limonium sp,ASV_439,decomposition,0.006389776
+Limonium sp,ASV_86,decomposition,0.005111821
+Limonium sp,ASV_517,decomposition,0.003833866
+Limonium sp,ASV_342,decomposition,0.003194888
+Limonium sp,ASV_555,decomposition,0.003194888
+Limonium sp,ASV_16,decomposition,0.002555911
+Limonium sp,ASV_487,decomposition,0.002555911
+Limonium sp,ASV_648,decomposition,0.001916933
+Limonium sp,ASV_656,decomposition,0.001916933
+Limonium sp,ASV_680,decomposition,0.001916933
+Limonium sp,ASV_3,decomposition,0.001277955
+Limonium sp,ASV_111,decomposition,0.001277955
+Limonium sp,ASV_350,decomposition,0.001277955
+Limonium sp,ASV_375,decomposition,0.001277955
+Limonium sp,ASV_714,decomposition,0.001277955
+Limonium sp,ASV_761,decomposition,0.001277955
+Limonium sp,ASV_769,decomposition,0.001277955
+Limonium sp,ASV_771,decomposition,0.001277955
+Limonium sp,ASV_20,decomposition,0.000639
+Limonium sp,ASV_801,decomposition,0.000639
+Limonium sp,ASV_823,decomposition,0.000639
+Limonium sp,ASV_828,decomposition,0.000639
+Limonium sp,ASV_872,decomposition,0.000639
+Limonium sp,ASV_52,nutrient uptake,0.44499179
+Limonium sp,ASV_61,nutrient uptake,0.435139573
+Limonium sp,ASV_57,nutrient uptake,0.390804598
+Limonium sp,ASV_92,nutrient uptake,0.280788177
+Limonium sp,ASV_148,nutrient uptake,0.136288998
+Limonium sp,ASV_102,nutrient uptake,0.042692939
+Limonium sp,ASV_129,nutrient uptake,0.02955665
+Limonium sp,ASV_150,nutrient uptake,0.018062397
+Limonium sp,ASV_409,nutrient uptake,0.011494253
+Limonium sp,ASV_686,nutrient uptake,0.004926108
+Limonium sp,ASV_697,nutrient uptake,0.001642036
+Lavatera maritima,ASV_2,fungal pathogenicity,0.088919668
+Lavatera maritima,ASV_4,fungal pathogenicity,0.049584488
+Lavatera maritima,ASV_174,fungal pathogenicity,0.016897507
+Lavatera maritima,ASV_45,fungal pathogenicity,0.013019391
+Lavatera maritima,ASV_69,fungal pathogenicity,0.011080332
+Lavatera maritima,ASV_267,fungal pathogenicity,0.002216066
+Lavatera maritima,ASV_484,fungal pathogenicity,0.001939058
+Lavatera maritima,ASV_368,fungal pathogenicity,0.001108033
+Lavatera maritima,ASV_583,fungal pathogenicity,0.001108033
+Lavatera maritima,ASV_361,fungal pathogenicity,0.000831025
+Lavatera maritima,ASV_632,fungal pathogenicity,0.000831025
+Lavatera maritima,ASV_28,fungal pathogenicity,0.000277008
+Lavatera maritima,ASV_16,decomposition,0.208945687
+Lavatera maritima,ASV_19,decomposition,0.134824281
+Lavatera maritima,ASV_14,decomposition,0.106709265
+Lavatera maritima,ASV_99,decomposition,0.104153355
+Lavatera maritima,ASV_8,decomposition,0.076038339
+Lavatera maritima,ASV_40,decomposition,0.074760383
+Lavatera maritima,ASV_26,decomposition,0.07028754
+Lavatera maritima,ASV_127,decomposition,0.060702875
+Lavatera maritima,ASV_89,decomposition,0.053674121
+Lavatera maritima,ASV_76,decomposition,0.040894569
+Lavatera maritima,ASV_166,decomposition,0.037699681
+Lavatera maritima,ASV_179,decomposition,0.037699681
+Lavatera maritima,ASV_20,decomposition,0.033226837
+Lavatera maritima,ASV_12,decomposition,0.030031949
+Lavatera maritima,ASV_17,decomposition,0.030031949
+Lavatera maritima,ASV_226,decomposition,0.024920128
+Lavatera maritima,ASV_58,decomposition,0.023003195
+Lavatera maritima,ASV_239,decomposition,0.022364217
+Lavatera maritima,ASV_79,decomposition,0.019169329
+Lavatera maritima,ASV_25,decomposition,0.017891374
+Lavatera maritima,ASV_198,decomposition,0.016613419
+Lavatera maritima,ASV_47,decomposition,0.014696486
+Lavatera maritima,ASV_3,decomposition,0.01086262
+Lavatera maritima,ASV_387,decomposition,0.008306709
+Lavatera maritima,ASV_15,decomposition,0.006389776
+Lavatera maritima,ASV_348,decomposition,0.005750799
+Lavatera maritima,ASV_451,decomposition,0.005750799
+Lavatera maritima,ASV_481,decomposition,0.004472843
+Lavatera maritima,ASV_152,decomposition,0.003833866
+Lavatera maritima,ASV_134,decomposition,0.003194888
+Lavatera maritima,ASV_229,decomposition,0.003194888
+Lavatera maritima,ASV_519,decomposition,0.003194888
+Lavatera maritima,ASV_532,decomposition,0.003194888
+Lavatera maritima,ASV_164,decomposition,0.002555911
+Lavatera maritima,ASV_180,decomposition,0.002555911
+Lavatera maritima,ASV_280,decomposition,0.002555911
+Lavatera maritima,ASV_463,decomposition,0.002555911
+Lavatera maritima,ASV_524,decomposition,0.002555911
+Lavatera maritima,ASV_596,decomposition,0.002555911
+Lavatera maritima,ASV_83,decomposition,0.001916933
+Lavatera maritima,ASV_106,decomposition,0.001916933
+Lavatera maritima,ASV_471,decomposition,0.001916933
+Lavatera maritima,ASV_531,decomposition,0.001916933
+Lavatera maritima,ASV_639,decomposition,0.001916933
+Lavatera maritima,ASV_681,decomposition,0.001916933
+Lavatera maritima,ASV_104,decomposition,0.001277955
+Lavatera maritima,ASV_155,decomposition,0.001277955
+Lavatera maritima,ASV_290,decomposition,0.001277955
+Lavatera maritima,ASV_491,decomposition,0.001277955
+Lavatera maritima,ASV_520,decomposition,0.001277955
+Lavatera maritima,ASV_582,decomposition,0.001277955
+Lavatera maritima,ASV_742,decomposition,0.001277955
+Lavatera maritima,ASV_744,decomposition,0.001277955
+Lavatera maritima,ASV_764,decomposition,0.001277955
+Lavatera maritima,ASV_780,decomposition,0.001277955
+Lavatera maritima,ASV_49,decomposition,0.000639
+Lavatera maritima,ASV_111,decomposition,0.000639
+Lavatera maritima,ASV_473,decomposition,0.000639
+Lavatera maritima,ASV_821,decomposition,0.000639
+Lavatera maritima,ASV_835,decomposition,0.000639
+Lavatera maritima,ASV_893,decomposition,0.000639
+Lavatera maritima,ASV_94,nutrient uptake,0.162561576
+Lavatera maritima,ASV_90,nutrient uptake,0.147783251
+Lavatera maritima,ASV_84,nutrient uptake,0.123152709
+Lavatera maritima,ASV_95,nutrient uptake,0.118226601
+Lavatera maritima,ASV_151,nutrient uptake,0.11001642
+Lavatera maritima,ASV_131,nutrient uptake,0.090311987
+Lavatera maritima,ASV_59,nutrient uptake,0.087027915
+Lavatera maritima,ASV_115,nutrient uptake,0.062397373
+Lavatera maritima,ASV_194,nutrient uptake,0.055829228
+Lavatera maritima,ASV_230,nutrient uptake,0.05090312
+Lavatera maritima,ASV_231,nutrient uptake,0.049261084
+Lavatera maritima,ASV_146,nutrient uptake,0.044334975
+Lavatera maritima,ASV_126,nutrient uptake,0.039408867
+Lavatera maritima,ASV_224,nutrient uptake,0.037766831
+Lavatera maritima,ASV_216,nutrient uptake,0.036124795
+Lavatera maritima,ASV_246,nutrient uptake,0.034482759
+Lavatera maritima,ASV_311,nutrient uptake,0.032840722
+Lavatera maritima,ASV_272,nutrient uptake,0.026272578
+Lavatera maritima,ASV_370,nutrient uptake,0.024630542
+Lavatera maritima,ASV_41,nutrient uptake,0.022988506
+Lavatera maritima,ASV_372,nutrient uptake,0.022988506
+Lavatera maritima,ASV_191,nutrient uptake,0.02134647
+Lavatera maritima,ASV_339,nutrient uptake,0.02134647
+Lavatera maritima,ASV_225,nutrient uptake,0.019704433
+Lavatera maritima,ASV_178,nutrient uptake,0.016420361
+Lavatera maritima,ASV_383,nutrient uptake,0.016420361
+Lavatera maritima,ASV_161,nutrient uptake,0.014778325
+Lavatera maritima,ASV_385,nutrient uptake,0.014778325
+Lavatera maritima,ASV_103,nutrient uptake,0.009852217
+Lavatera maritima,ASV_381,nutrient uptake,0.009852217
+Lavatera maritima,ASV_514,nutrient uptake,0.009852217
+Lavatera maritima,ASV_357,nutrient uptake,0.008210181
+Lavatera maritima,ASV_220,nutrient uptake,0.006568144
+Lavatera maritima,ASV_238,nutrient uptake,0.006568144
+Lavatera maritima,ASV_482,nutrient uptake,0.006568144
+Lavatera maritima,ASV_92,nutrient uptake,0.004926108
+Lavatera maritima,ASV_679,nutrient uptake,0.004926108
+Lavatera maritima,ASV_196,nutrient uptake,0.003284072
+Lavatera maritima,ASV_327,nutrient uptake,0.001642036
+Lavatera maritima,ASV_855,nutrient uptake,0.001642036
+Lavatera maritima,Podarcis lilfordi,pollination,1.0
+Lavatera maritima,Sylvia balearica,pollination,0.275862069
+Lavatera maritima,Amegilla albigena,pollination,0.068965517
+Lavatera maritima,Macroglossum stellatarum,pollination,0.068965517
+Lavatera maritima,Anthophora balearica,pollination,0.034482759
+Lavatera maritima,Coenosia sp.,pollination,0.034482759
+Lavatera maritima,Pheidole pallidula,pollination,0.034482759
+Lavatera maritima,Sylvia melanocephala,pollination,0.034482759
+Lavatera maritima,Camponotus sp.,seed dispersal,0.033333333
+Lavatera maritima,Sarcophaga sp. ,herbivory,0.4
+Lavatera maritima,Coleoptera sp.2,herbivory,0.3
+Lavatera maritima,Tineidae,herbivory,0.200000004
+Lavatera maritima,Ectobius sp. ,herbivory,0.2
+Lavatera maritima,Dicyphus sp.,herbivory,0.1
+Lavatera maritima,Tettigometra (Mitricephalus) sp.,herbivory,0.1
+Heliotropium europaeum,ASV_67,fungal pathogenicity,0.063711911
+Heliotropium europaeum,ASV_4,fungal pathogenicity,0.041274238
+Heliotropium europaeum,ASV_123,fungal pathogenicity,0.031578947
+Heliotropium europaeum,ASV_80,fungal pathogenicity,0.027977839
+Heliotropium europaeum,ASV_133,fungal pathogenicity,0.019944598
+Heliotropium europaeum,ASV_167,fungal pathogenicity,0.018559557
+Heliotropium europaeum,ASV_202,fungal pathogenicity,0.013296399
+Heliotropium europaeum,ASV_215,fungal pathogenicity,0.007479224
+Heliotropium europaeum,ASV_328,fungal pathogenicity,0.00498615
+Heliotropium europaeum,ASV_399,fungal pathogenicity,0.003047091
+Heliotropium europaeum,ASV_411,fungal pathogenicity,0.003047091
+Heliotropium europaeum,ASV_45,fungal pathogenicity,0.001939058
+Heliotropium europaeum,ASV_415,fungal pathogenicity,0.00166205
+Heliotropium europaeum,ASV_530,fungal pathogenicity,0.00166205
+Heliotropium europaeum,ASV_461,fungal pathogenicity,0.001385042
+Heliotropium europaeum,ASV_567,fungal pathogenicity,0.001385042
+Heliotropium europaeum,ASV_69,fungal pathogenicity,0.001385042
+Heliotropium europaeum,ASV_243,fungal pathogenicity,0.001108033
+Heliotropium europaeum,ASV_30,fungal pathogenicity,0.001108033
+Heliotropium europaeum,ASV_608,fungal pathogenicity,0.001108033
+Heliotropium europaeum,ASV_610,fungal pathogenicity,0.001108033
+Heliotropium europaeum,ASV_621,fungal pathogenicity,0.000831025
+Heliotropium europaeum,ASV_631,fungal pathogenicity,0.000831025
+Heliotropium europaeum,ASV_240,fungal pathogenicity,0.000554017
+Heliotropium europaeum,ASV_60,decomposition,0.191693291
+Heliotropium europaeum,ASV_15,decomposition,0.177635783
+Heliotropium europaeum,ASV_74,decomposition,0.1514377
+Heliotropium europaeum,ASV_86,decomposition,0.096485623
+Heliotropium europaeum,ASV_143,decomposition,0.05686901
+Heliotropium europaeum,ASV_210,decomposition,0.029392971
+Heliotropium europaeum,ASV_221,decomposition,0.026837061
+Heliotropium europaeum,ASV_12,decomposition,0.02428115
+Heliotropium europaeum,ASV_180,decomposition,0.022364217
+Heliotropium europaeum,ASV_16,decomposition,0.019808307
+Heliotropium europaeum,ASV_265,decomposition,0.019169329
+Heliotropium europaeum,ASV_271,decomposition,0.017891374
+Heliotropium europaeum,ASV_11,decomposition,0.015974441
+Heliotropium europaeum,ASV_17,decomposition,0.012140575
+Heliotropium europaeum,ASV_321,decomposition,0.012140575
+Heliotropium europaeum,ASV_89,decomposition,0.006389776
+Heliotropium europaeum,ASV_449,decomposition,0.006389776
+Heliotropium europaeum,ASV_104,decomposition,0.005750799
+Heliotropium europaeum,ASV_342,decomposition,0.005750799
+Heliotropium europaeum,ASV_50,decomposition,0.005111821
+Heliotropium europaeum,ASV_203,decomposition,0.005111821
+Heliotropium europaeum,ASV_476,decomposition,0.005111821
+Heliotropium europaeum,ASV_485,decomposition,0.005111821
+Heliotropium europaeum,ASV_486,decomposition,0.005111821
+Heliotropium europaeum,ASV_346,decomposition,0.004472843
+Heliotropium europaeum,ASV_397,decomposition,0.004472843
+Heliotropium europaeum,ASV_507,decomposition,0.004472843
+Heliotropium europaeum,ASV_318,decomposition,0.003194888
+Heliotropium europaeum,ASV_47,decomposition,0.002555911
+Heliotropium europaeum,ASV_545,decomposition,0.002555911
+Heliotropium europaeum,ASV_40,decomposition,0.001916933
+Heliotropium europaeum,ASV_204,decomposition,0.001916933
+Heliotropium europaeum,ASV_664,decomposition,0.001916933
+Heliotropium europaeum,ASV_678,decomposition,0.001916933
+Heliotropium europaeum,ASV_8,decomposition,0.001277955
+Heliotropium europaeum,ASV_106,decomposition,0.001277955
+Heliotropium europaeum,ASV_154,decomposition,0.001277955
+Heliotropium europaeum,ASV_404,decomposition,0.001277955
+Heliotropium europaeum,ASV_527,decomposition,0.001277955
+Heliotropium europaeum,ASV_745,decomposition,0.001277955
+Heliotropium europaeum,ASV_747,decomposition,0.001277955
+Heliotropium europaeum,ASV_757,decomposition,0.001277955
+Heliotropium europaeum,ASV_280,decomposition,0.000639
+Heliotropium europaeum,ASV_454,decomposition,0.000639
+Heliotropium europaeum,ASV_684,decomposition,0.000639
+Heliotropium europaeum,ASV_723,decomposition,0.000639
+Heliotropium europaeum,ASV_851,decomposition,0.000639
+Heliotropium europaeum,ASV_869,decomposition,0.000639
+Heliotropium europaeum,ASV_550,nutrient uptake,0.001642036
+Heliotropium europaeum,Utetheisa pulchella,pollination,0.137931034
+Heliotropium europaeum,Ancistocerus ebusianus,pollination,0.034482759
+Heliotropium europaeum,Podarcis lilfordi,pollination,0.034482759
+Geranium molle,Camponotus sp.,seed dispersal,0.016666667
+Geranium molle,ASV_9,fungal pathogenicity,0.141828255
+Geranium molle,ASV_43,fungal pathogenicity,0.071745152
+Geranium molle,ASV_4,fungal pathogenicity,0.04099723
+Geranium molle,ASV_18,fungal pathogenicity,0.03434903
+Geranium molle,ASV_144,fungal pathogenicity,0.01800554
+Geranium molle,ASV_45,fungal pathogenicity,0.01634349
+Geranium molle,ASV_69,fungal pathogenicity,0.008587258
+Geranium molle,ASV_299,fungal pathogenicity,0.005817175
+Geranium molle,ASV_28,fungal pathogenicity,0.005540166
+Geranium molle,ASV_274,fungal pathogenicity,0.004432133
+Geranium molle,ASV_282,fungal pathogenicity,0.003601108
+Geranium molle,ASV_329,fungal pathogenicity,0.003601108
+Geranium molle,ASV_267,fungal pathogenicity,0.002770083
+Geranium molle,ASV_503,fungal pathogenicity,0.001939058
+Geranium molle,ASV_543,fungal pathogenicity,0.001385042
+Geranium molle,ASV_141,fungal pathogenicity,0.001108033
+Geranium molle,ASV_604,fungal pathogenicity,0.001108033
+Geranium molle,ASV_671,fungal pathogenicity,0.000831025
+Geranium molle,ASV_692,fungal pathogenicity,0.000831025
+Geranium molle,ASV_243,fungal pathogenicity,0.000554017
+Geranium molle,ASV_415,fungal pathogenicity,0.000554017
+Geranium molle,ASV_445,fungal pathogenicity,0.000554017
+Geranium molle,ASV_5,fungal pathogenicity,0.000554017
+Geranium molle,ASV_133,fungal pathogenicity,0.000277008
+Geranium molle,ASV_30,fungal pathogenicity,0.000277008
+Geranium molle,ASV_336,fungal pathogenicity,0.000277008
+Geranium molle,ASV_500,fungal pathogenicity,0.000277008
+Geranium molle,ASV_594,fungal pathogenicity,0.000277008
+Geranium molle,ASV_67,fungal pathogenicity,0.000277008
+Geranium molle,ASV_841,fungal pathogenicity,0.000277008
+Geranium molle,ASV_882,fungal pathogenicity,0.000277008
+Geranium molle,ASV_76,decomposition,0.102875399
+Geranium molle,ASV_111,decomposition,0.021086262
+Geranium molle,ASV_55,decomposition,0.020447284
+Geranium molle,ASV_255,decomposition,0.020447284
+Geranium molle,ASV_15,decomposition,0.01341853
+Geranium molle,ASV_16,decomposition,0.010223642
+Geranium molle,ASV_65,decomposition,0.009584665
+Geranium molle,ASV_374,decomposition,0.008306709
+Geranium molle,ASV_152,decomposition,0.007028754
+Geranium molle,ASV_435,decomposition,0.006389776
+Geranium molle,ASV_430,decomposition,0.005750799
+Geranium molle,ASV_164,decomposition,0.005111821
+Geranium molle,ASV_337,decomposition,0.005111821
+Geranium molle,ASV_420,decomposition,0.005111821
+Geranium molle,ASV_203,decomposition,0.004472843
+Geranium molle,ASV_392,decomposition,0.003833866
+Geranium molle,ASV_528,decomposition,0.003833866
+Geranium molle,ASV_540,decomposition,0.003194888
+Geranium molle,ASV_542,decomposition,0.003194888
+Geranium molle,ASV_544,decomposition,0.003194888
+Geranium molle,ASV_17,decomposition,0.002555911
+Geranium molle,ASV_580,decomposition,0.002555911
+Geranium molle,ASV_600,decomposition,0.002555911
+Geranium molle,ASV_37,decomposition,0.001916933
+Geranium molle,ASV_50,decomposition,0.001916933
+Geranium molle,ASV_266,decomposition,0.001916933
+Geranium molle,ASV_471,decomposition,0.001916933
+Geranium molle,ASV_82,decomposition,0.001277955
+Geranium molle,ASV_154,decomposition,0.001277955
+Geranium molle,ASV_292,decomposition,0.001277955
+Geranium molle,ASV_293,decomposition,0.001277955
+Geranium molle,ASV_748,decomposition,0.001277955
+Geranium molle,ASV_760,decomposition,0.001277955
+Geranium molle,ASV_11,decomposition,0.000639
+Geranium molle,ASV_20,decomposition,0.000639
+Geranium molle,ASV_78,decomposition,0.000639
+Geranium molle,ASV_83,decomposition,0.000639
+Geranium molle,ASV_86,decomposition,0.000639
+Geranium molle,ASV_89,decomposition,0.000639
+Geranium molle,ASV_157,decomposition,0.000639
+Geranium molle,ASV_258,decomposition,0.000639
+Geranium molle,ASV_279,decomposition,0.000639
+Geranium molle,ASV_318,decomposition,0.000639
+Geranium molle,ASV_427,decomposition,0.000639
+Geranium molle,ASV_502,decomposition,0.000639
+Geranium molle,ASV_527,decomposition,0.000639
+Geranium molle,ASV_559,decomposition,0.000639
+Geranium molle,ASV_804,decomposition,0.000639
+Geranium molle,ASV_805,decomposition,0.000639
+Geranium molle,ASV_810,decomposition,0.000639
+Geranium molle,ASV_840,decomposition,0.000639
+Geranium molle,ASV_842,decomposition,0.000639
+Geranium molle,ASV_868,decomposition,0.000639
+Geranium molle,ASV_876,decomposition,0.000639
+Geranium molle,ASV_884,decomposition,0.000639
+Geranium molle,ASV_21,nutrient uptake,0.065681445
+Geranium molle,ASV_262,nutrient uptake,0.049261084
+Geranium molle,ASV_41,nutrient uptake,0.018062397
+Geranium molle,ASV_424,nutrient uptake,0.018062397
+Geranium molle,ASV_102,nutrient uptake,0.011494253
+Geranium molle,ASV_508,nutrient uptake,0.011494253
+Geranium molle,ASV_150,nutrient uptake,0.009852217
+Geranium molle,ASV_95,nutrient uptake,0.008210181
+Geranium molle,ASV_273,nutrient uptake,0.008210181
+Geranium molle,ASV_129,nutrient uptake,0.006568144
+Geranium molle,ASV_182,nutrient uptake,0.006568144
+Geranium molle,ASV_584,nutrient uptake,0.006568144
+Geranium molle,ASV_595,nutrient uptake,0.006568144
+Geranium molle,ASV_616,nutrient uptake,0.006568144
+Geranium molle,ASV_195,nutrient uptake,0.004926108
+Geranium molle,ASV_625,nutrient uptake,0.004926108
+Geranium molle,ASV_766,nutrient uptake,0.003284072
+Geranium molle,ASV_90,nutrient uptake,0.001642036
+Geranium molle,ASV_216,nutrient uptake,0.001642036
+Geranium molle,ASV_234,nutrient uptake,0.001642036
+Geranium molle,ASV_585,nutrient uptake,0.001642036
+Geranium molle,ASV_697,nutrient uptake,0.001642036
+Geranium molle,ASV_853,nutrient uptake,0.001642036
+Geranium molle,Podarcis lilfordi,pollination,1.0
+Geranium molle,Diptera sp.3,pollination,0.034482759
+Fagonia cretica,ASV_1,fungal pathogenicity,1.0
+Fagonia cretica,ASV_120,fungal pathogenicity,0.033240997
+Fagonia cretica,ASV_223,fungal pathogenicity,0.011357341
+Fagonia cretica,ASV_441,fungal pathogenicity,0.002770083
+Fagonia cretica,ASV_28,fungal pathogenicity,0.002216066
+Fagonia cretica,ASV_2,fungal pathogenicity,0.001108033
+Fagonia cretica,ASV_30,fungal pathogenicity,0.000554017
+Fagonia cretica,ASV_45,fungal pathogenicity,0.000554017
+Fagonia cretica,ASV_750,fungal pathogenicity,0.000554017
+Fagonia cretica,ASV_15,decomposition,0.074121406
+Fagonia cretica,ASV_17,decomposition,0.045367412
+Fagonia cretica,ASV_55,decomposition,0.014696486
+Fagonia cretica,ASV_66,decomposition,0.014696486
+Fagonia cretica,ASV_37,decomposition,0.011501597
+Fagonia cretica,ASV_3,decomposition,0.008945687
+Fagonia cretica,ASV_213,decomposition,0.008306709
+Fagonia cretica,ASV_111,decomposition,0.005750799
+Fagonia cretica,ASV_164,decomposition,0.002555911
+Fagonia cretica,ASV_16,decomposition,0.001916933
+Fagonia cretica,ASV_78,decomposition,0.001277955
+Fagonia cretica,ASV_89,decomposition,0.001277955
+Fagonia cretica,ASV_152,decomposition,0.001277955
+Fagonia cretica,ASV_180,decomposition,0.001277955
+Fagonia cretica,ASV_709,decomposition,0.001277955
+Fagonia cretica,ASV_49,decomposition,0.000639
+Fagonia cretica,ASV_192,decomposition,0.000639
+Fagonia cretica,ASV_206,decomposition,0.000639
+Fagonia cretica,ASV_384,decomposition,0.000639
+Fagonia cretica,ASV_545,decomposition,0.000639
+Fagonia cretica,ASV_273,nutrient uptake,0.009852217
+Fagonia cretica,ASV_129,nutrient uptake,0.003284072
+Fagonia cretica,ASV_252,nutrient uptake,0.003284072
+Fagonia cretica,ASV_131,nutrient uptake,0.001642036
+Fagonia cretica,ASV_142,nutrient uptake,0.001642036
+Fagonia cretica,ASV_341,nutrient uptake,0.001642036
+Fagonia cretica,ASV_894,nutrient uptake,0.001642036
+Fagonia cretica,Agromyzidae,pollination,0.068965517
+Fagonia cretica,Amegilla albigena,pollination,0.034482759
+Fagonia cretica,Anthophora balearica,pollination,0.034482759
+Fagonia cretica,Podarcis lilfordi,pollination,0.034482759
+Fagonia cretica,Camponotus sp.,seed dispersal,0.05
+Euphorbia dendroides,ASV_2,fungal pathogenicity,0.072022161
+Euphorbia dendroides,ASV_4,fungal pathogenicity,0.041551247
+Euphorbia dendroides,ASV_69,fungal pathogenicity,0.020775623
+Euphorbia dendroides,ASV_217,fungal pathogenicity,0.010803324
+Euphorbia dendroides,ASV_28,fungal pathogenicity,0.007479224
+Euphorbia dendroides,ASV_45,fungal pathogenicity,0.006094183
+Euphorbia dendroides,ASV_176,fungal pathogenicity,0.005817175
+Euphorbia dendroides,ASV_141,fungal pathogenicity,0.004709141
+Euphorbia dendroides,ASV_294,fungal pathogenicity,0.004432133
+Euphorbia dendroides,ASV_402,fungal pathogenicity,0.0033241
+Euphorbia dendroides,ASV_410,fungal pathogenicity,0.003047091
+Euphorbia dendroides,ASV_436,fungal pathogenicity,0.002770083
+Euphorbia dendroides,ASV_437,fungal pathogenicity,0.002770083
+Euphorbia dendroides,ASV_22,fungal pathogenicity,0.002493075
+Euphorbia dendroides,ASV_144,fungal pathogenicity,0.002216066
+Euphorbia dendroides,ASV_667,fungal pathogenicity,0.000831025
+Euphorbia dendroides,ASV_193,fungal pathogenicity,0.000554017
+Euphorbia dendroides,ASV_30,fungal pathogenicity,0.000554017
+Euphorbia dendroides,ASV_329,fungal pathogenicity,0.000554017
+Euphorbia dendroides,ASV_364,fungal pathogenicity,0.000554017
+Euphorbia dendroides,ASV_525,fungal pathogenicity,0.000554017
+Euphorbia dendroides,ASV_715,fungal pathogenicity,0.000554017
+Euphorbia dendroides,ASV_602,fungal pathogenicity,0.000277008
+Euphorbia dendroides,ASV_673,fungal pathogenicity,0.000277008
+Euphorbia dendroides,ASV_80,fungal pathogenicity,0.000277008
+Euphorbia dendroides,ASV_3,decomposition,0.690095847
+Euphorbia dendroides,ASV_17,decomposition,0.077316294
+Euphorbia dendroides,ASV_78,decomposition,0.060702875
+Euphorbia dendroides,ASV_16,decomposition,0.0485623
+Euphorbia dendroides,ASV_15,decomposition,0.012140575
+Euphorbia dendroides,ASV_66,decomposition,0.011501597
+Euphorbia dendroides,ASV_152,decomposition,0.01086262
+Euphorbia dendroides,ASV_292,decomposition,0.01086262
+Euphorbia dendroides,ASV_55,decomposition,0.009584665
+Euphorbia dendroides,ASV_352,decomposition,0.009584665
+Euphorbia dendroides,ASV_362,decomposition,0.009584665
+Euphorbia dendroides,ASV_256,decomposition,0.007667732
+Euphorbia dendroides,ASV_429,decomposition,0.007028754
+Euphorbia dendroides,ASV_447,decomposition,0.006389776
+Euphorbia dendroides,ASV_418,decomposition,0.005750799
+Euphorbia dendroides,ASV_89,decomposition,0.005111821
+Euphorbia dendroides,ASV_111,decomposition,0.004472843
+Euphorbia dendroides,ASV_258,decomposition,0.004472843
+Euphorbia dendroides,ASV_279,decomposition,0.003833866
+Euphorbia dendroides,ASV_166,decomposition,0.003194888
+Euphorbia dendroides,ASV_422,decomposition,0.003194888
+Euphorbia dendroides,ASV_549,decomposition,0.003194888
+Euphorbia dendroides,ASV_558,decomposition,0.003194888
+Euphorbia dendroides,ASV_213,decomposition,0.002555911
+Euphorbia dendroides,ASV_8,decomposition,0.001916933
+Euphorbia dendroides,ASV_82,decomposition,0.001916933
+Euphorbia dendroides,ASV_480,decomposition,0.001916933
+Euphorbia dendroides,ASV_622,decomposition,0.001916933
+Euphorbia dendroides,ASV_636,decomposition,0.001916933
+Euphorbia dendroides,ASV_638,decomposition,0.001916933
+Euphorbia dendroides,ASV_646,decomposition,0.001916933
+Euphorbia dendroides,ASV_690,decomposition,0.001916933
+Euphorbia dendroides,ASV_134,decomposition,0.001277955
+Euphorbia dendroides,ASV_556,decomposition,0.001277955
+Euphorbia dendroides,ASV_691,decomposition,0.001277955
+Euphorbia dendroides,ASV_733,decomposition,0.001277955
+Euphorbia dendroides,ASV_735,decomposition,0.001277955
+Euphorbia dendroides,ASV_767,decomposition,0.001277955
+Euphorbia dendroides,ASV_13,decomposition,0.000639
+Euphorbia dendroides,ASV_20,decomposition,0.000639
+Euphorbia dendroides,ASV_40,decomposition,0.000639
+Euphorbia dendroides,ASV_50,decomposition,0.000639
+Euphorbia dendroides,ASV_136,decomposition,0.000639
+Euphorbia dendroides,ASV_527,decomposition,0.000639
+Euphorbia dendroides,ASV_557,decomposition,0.000639
+Euphorbia dendroides,ASV_643,decomposition,0.000639
+Euphorbia dendroides,ASV_824,decomposition,0.000639
+Euphorbia dendroides,ASV_59,nutrient uptake,0.379310345
+Euphorbia dendroides,ASV_122,nutrient uptake,0.188834154
+Euphorbia dendroides,ASV_21,nutrient uptake,0.183908046
+Euphorbia dendroides,ASV_137,nutrient uptake,0.159277504
+Euphorbia dendroides,ASV_115,nutrient uptake,0.15270936
+Euphorbia dendroides,ASV_139,nutrient uptake,0.142857143
+Euphorbia dendroides,ASV_102,nutrient uptake,0.136288998
+Euphorbia dendroides,ASV_156,nutrient uptake,0.119868637
+Euphorbia dendroides,ASV_172,nutrient uptake,0.10180624
+Euphorbia dendroides,ASV_146,nutrient uptake,0.087027915
+Euphorbia dendroides,ASV_41,nutrient uptake,0.083743842
+Euphorbia dendroides,ASV_129,nutrient uptake,0.08045977
+Euphorbia dendroides,ASV_150,nutrient uptake,0.065681445
+Euphorbia dendroides,ASV_95,nutrient uptake,0.049261084
+Euphorbia dendroides,ASV_126,nutrient uptake,0.049261084
+Euphorbia dendroides,ASV_302,nutrient uptake,0.034482759
+Euphorbia dendroides,ASV_305,nutrient uptake,0.032840722
+Euphorbia dendroides,ASV_52,nutrient uptake,0.031198686
+Euphorbia dendroides,ASV_216,nutrient uptake,0.024630542
+Euphorbia dendroides,ASV_356,nutrient uptake,0.024630542
+Euphorbia dendroides,ASV_194,nutrient uptake,0.02134647
+Euphorbia dendroides,ASV_273,nutrient uptake,0.019704433
+Euphorbia dendroides,ASV_401,nutrient uptake,0.019704433
+Euphorbia dendroides,ASV_250,nutrient uptake,0.018062397
+Euphorbia dendroides,ASV_57,nutrient uptake,0.014778325
+Euphorbia dendroides,ASV_272,nutrient uptake,0.011494253
+Euphorbia dendroides,ASV_94,nutrient uptake,0.009852217
+Euphorbia dendroides,ASV_234,nutrient uptake,0.009852217
+Euphorbia dendroides,ASV_84,nutrient uptake,0.008210181
+Euphorbia dendroides,ASV_178,nutrient uptake,0.008210181
+Euphorbia dendroides,ASV_360,nutrient uptake,0.008210181
+Euphorbia dendroides,ASV_224,nutrient uptake,0.006568144
+Euphorbia dendroides,ASV_249,nutrient uptake,0.004926108
+Euphorbia dendroides,ASV_585,nutrient uptake,0.004926108
+Euphorbia dendroides,ASV_670,nutrient uptake,0.004926108
+Euphorbia dendroides,ASV_383,nutrient uptake,0.003284072
+Euphorbia dendroides,ASV_246,nutrient uptake,0.001642036
+Euphorbia dendroides,ASV_341,nutrient uptake,0.001642036
+Euphorbia dendroides,ASV_409,nutrient uptake,0.001642036
+Euphorbia dendroides,Coleoptera sp.1,pollination,0.103448276
+Euphorbia dendroides,Diptera sp.3,pollination,0.068965517
+Euphorbia dendroides,Diptera sp.4,pollination,0.068965517
+Euphorbia dendroides,Pheidole pallidula,pollination,0.068965517
+Euphorbia dendroides,Amegilla albigena,pollination,0.034482759
+Euphorbia dendroides,Podarcis lilfordi,pollination,0.034482759
+Euphorbia dendroides,Vespidae sp.1,pollination,0.034482759
+Euphorbia dendroides,Camponotus sp.,seed dispersal,0.05
+Euphorbia dendroides,Larus michahellis,seed dispersal,0.033333333
+Euphorbia dendroides,Anthicus sp.,herbivory,0.3
+Euphorbia dendroides,Tettigometra (Mitricephalus) sp.,herbivory,0.3
+Euphorbia dendroides,Aphididae sp.1,herbivory,0.2
+Euphorbia dendroides,Cydnus aterrimus  ,herbivory,0.1
+Euphorbia dendroides,Ectobius sp. ,herbivory,0.1
+Euphorbia dendroides,Tineidae,herbivory,0.1
+Ephedra fragilis,ASV_4,fungal pathogenicity,0.090858726
+Ephedra fragilis,ASV_2,fungal pathogenicity,0.015789474
+Ephedra fragilis,ASV_45,fungal pathogenicity,0.011634349
+Ephedra fragilis,ASV_30,fungal pathogenicity,0.006371191
+Ephedra fragilis,ASV_28,fungal pathogenicity,0.00166205
+Ephedra fragilis,ASV_162,fungal pathogenicity,0.001385042
+Ephedra fragilis,ASV_22,fungal pathogenicity,0.001385042
+Ephedra fragilis,ASV_80,fungal pathogenicity,0.001385042
+Ephedra fragilis,ASV_133,fungal pathogenicity,0.001108033
+Ephedra fragilis,ASV_309,fungal pathogenicity,0.001108033
+Ephedra fragilis,ASV_654,fungal pathogenicity,0.000831025
+Ephedra fragilis,ASV_217,fungal pathogenicity,0.000554017
+Ephedra fragilis,ASV_718,fungal pathogenicity,0.000554017
+Ephedra fragilis,ASV_141,fungal pathogenicity,0.000277008
+Ephedra fragilis,ASV_783,fungal pathogenicity,0.000277008
+Ephedra fragilis,ASV_836,fungal pathogenicity,0.000277008
+Ephedra fragilis,ASV_880,fungal pathogenicity,0.000277008
+Ephedra fragilis,ASV_12,decomposition,0.453674121
+Ephedra fragilis,ASV_20,decomposition,0.31884984
+Ephedra fragilis,ASV_16,decomposition,0.203194888
+Ephedra fragilis,ASV_17,decomposition,0.184025559
+Ephedra fragilis,ASV_8,decomposition,0.181469649
+Ephedra fragilis,ASV_83,decomposition,0.115654952
+Ephedra fragilis,ASV_3,decomposition,0.08115016
+Ephedra fragilis,ASV_14,decomposition,0.075399361
+Ephedra fragilis,ASV_79,decomposition,0.061341853
+Ephedra fragilis,ASV_138,decomposition,0.060702875
+Ephedra fragilis,ASV_47,decomposition,0.060063898
+Ephedra fragilis,ASV_124,decomposition,0.060063898
+Ephedra fragilis,ASV_15,decomposition,0.053674121
+Ephedra fragilis,ASV_49,decomposition,0.047923323
+Ephedra fragilis,ASV_163,decomposition,0.033226837
+Ephedra fragilis,ASV_227,decomposition,0.02428115
+Ephedra fragilis,ASV_236,decomposition,0.022364217
+Ephedra fragilis,ASV_26,decomposition,0.021086262
+Ephedra fragilis,ASV_229,decomposition,0.021086262
+Ephedra fragilis,ASV_134,decomposition,0.017252396
+Ephedra fragilis,ASV_222,decomposition,0.016613419
+Ephedra fragilis,ASV_157,decomposition,0.015335463
+Ephedra fragilis,ASV_104,decomposition,0.014696486
+Ephedra fragilis,ASV_105,decomposition,0.014057508
+Ephedra fragilis,ASV_19,decomposition,0.011501597
+Ephedra fragilis,ASV_89,decomposition,0.009584665
+Ephedra fragilis,ASV_127,decomposition,0.008306709
+Ephedra fragilis,ASV_331,decomposition,0.008306709
+Ephedra fragilis,ASV_403,decomposition,0.007667732
+Ephedra fragilis,ASV_298,decomposition,0.007028754
+Ephedra fragilis,ASV_428,decomposition,0.007028754
+Ephedra fragilis,ASV_388,decomposition,0.006389776
+Ephedra fragilis,ASV_86,decomposition,0.005750799
+Ephedra fragilis,ASV_237,decomposition,0.005111821
+Ephedra fragilis,ASV_155,decomposition,0.004472843
+Ephedra fragilis,ASV_412,decomposition,0.004472843
+Ephedra fragilis,ASV_40,decomposition,0.003194888
+Ephedra fragilis,ASV_164,decomposition,0.003194888
+Ephedra fragilis,ASV_480,decomposition,0.003194888
+Ephedra fragilis,ASV_180,decomposition,0.002555911
+Ephedra fragilis,ASV_570,decomposition,0.002555911
+Ephedra fragilis,ASV_82,decomposition,0.001916933
+Ephedra fragilis,ASV_300,decomposition,0.001916933
+Ephedra fragilis,ASV_106,decomposition,0.001277955
+Ephedra fragilis,ASV_152,decomposition,0.001277955
+Ephedra fragilis,ASV_280,decomposition,0.001277955
+Ephedra fragilis,ASV_283,decomposition,0.001277955
+Ephedra fragilis,ASV_440,decomposition,0.001277955
+Ephedra fragilis,ASV_743,decomposition,0.001277955
+Ephedra fragilis,ASV_58,decomposition,0.000639
+Ephedra fragilis,ASV_77,decomposition,0.000639
+Ephedra fragilis,ASV_226,decomposition,0.000639
+Ephedra fragilis,ASV_290,decomposition,0.000639
+Ephedra fragilis,ASV_384,decomposition,0.000639
+Ephedra fragilis,ASV_425,decomposition,0.000639
+Ephedra fragilis,ASV_510,decomposition,0.000639
+Ephedra fragilis,ASV_557,decomposition,0.000639
+Ephedra fragilis,ASV_691,decomposition,0.000639
+Ephedra fragilis,ASV_827,decomposition,0.000639
+Ephedra fragilis,ASV_832,decomposition,0.000639
+Ephedra fragilis,ASV_848,decomposition,0.000639
+Ephedra fragilis,ASV_881,decomposition,0.000639
+Ephedra fragilis,ASV_95,nutrient uptake,0.060755337
+Ephedra fragilis,ASV_126,nutrient uptake,0.027914614
+Ephedra fragilis,ASV_103,nutrient uptake,0.024630542
+Ephedra fragilis,ASV_190,nutrient uptake,0.02134647
+Ephedra fragilis,ASV_433,nutrient uptake,0.016420361
+Ephedra fragilis,ASV_181,nutrient uptake,0.014778325
+Ephedra fragilis,ASV_231,nutrient uptake,0.014778325
+Ephedra fragilis,ASV_90,nutrient uptake,0.013136289
+Ephedra fragilis,ASV_131,nutrient uptake,0.011494253
+Ephedra fragilis,ASV_147,nutrient uptake,0.009852217
+Ephedra fragilis,ASV_534,nutrient uptake,0.009852217
+Ephedra fragilis,ASV_205,nutrient uptake,0.008210181
+Ephedra fragilis,ASV_208,nutrient uptake,0.008210181
+Ephedra fragilis,ASV_272,nutrient uptake,0.008210181
+Ephedra fragilis,ASV_316,nutrient uptake,0.006568144
+Ephedra fragilis,ASV_587,nutrient uptake,0.006568144
+Ephedra fragilis,ASV_617,nutrient uptake,0.006568144
+Ephedra fragilis,ASV_161,nutrient uptake,0.004926108
+Ephedra fragilis,ASV_182,nutrient uptake,0.004926108
+Ephedra fragilis,ASV_196,nutrient uptake,0.004926108
+Ephedra fragilis,ASV_225,nutrient uptake,0.004926108
+Ephedra fragilis,ASV_260,nutrient uptake,0.004926108
+Ephedra fragilis,ASV_312,nutrient uptake,0.004926108
+Ephedra fragilis,ASV_381,nutrient uptake,0.004926108
+Ephedra fragilis,ASV_419,nutrient uptake,0.004926108
+Ephedra fragilis,ASV_224,nutrient uptake,0.003284072
+Ephedra fragilis,ASV_776,nutrient uptake,0.003284072
+Ephedra fragilis,ASV_194,nutrient uptake,0.001642036
+Ephedra fragilis,ASV_216,nutrient uptake,0.001642036
+Ephedra fragilis,ASV_230,nutrient uptake,0.001642036
+Ephedra fragilis,ASV_248,nutrient uptake,0.001642036
+Ephedra fragilis,Dasytidae,pollination,0.034482759
+Ephedra fragilis,Diptera sp.1,pollination,0.034482759
+Ephedra fragilis,Podarcis lilfordi,pollination,0.034482759
+Ephedra fragilis,Braconidae,herbivory,0.1
+Diplotaxis ibicensis,ASV_10,fungal pathogenicity,0.502493075
+Diplotaxis ibicensis,ASV_22,fungal pathogenicity,0.009972299
+Diplotaxis ibicensis,ASV_176,fungal pathogenicity,0.009695291
+Diplotaxis ibicensis,ASV_69,fungal pathogenicity,0.009141274
+Diplotaxis ibicensis,ASV_1,fungal pathogenicity,0.006371191
+Diplotaxis ibicensis,ASV_361,fungal pathogenicity,0.0033241
+Diplotaxis ibicensis,ASV_96,fungal pathogenicity,0.003047091
+Diplotaxis ibicensis,ASV_141,fungal pathogenicity,0.002216066
+Diplotaxis ibicensis,ASV_294,fungal pathogenicity,0.00166205
+Diplotaxis ibicensis,ASV_30,fungal pathogenicity,0.000831025
+Diplotaxis ibicensis,ASV_45,fungal pathogenicity,0.000554017
+Diplotaxis ibicensis,ASV_80,fungal pathogenicity,0.000554017
+Diplotaxis ibicensis,ASV_193,fungal pathogenicity,0.000277008
+Diplotaxis ibicensis,ASV_2,fungal pathogenicity,0.000277008
+Diplotaxis ibicensis,ASV_499,fungal pathogenicity,0.000277008
+Diplotaxis ibicensis,ASV_525,fungal pathogenicity,0.000277008
+Diplotaxis ibicensis,ASV_3,decomposition,0.568051118
+Diplotaxis ibicensis,ASV_37,decomposition,0.265814696
+Diplotaxis ibicensis,ASV_14,decomposition,0.203833866
+Diplotaxis ibicensis,ASV_17,decomposition,0.126517572
+Diplotaxis ibicensis,ASV_26,decomposition,0.083067093
+Diplotaxis ibicensis,ASV_8,decomposition,0.047923323
+Diplotaxis ibicensis,ASV_19,decomposition,0.044728435
+Diplotaxis ibicensis,ASV_175,decomposition,0.038338658
+Diplotaxis ibicensis,ASV_15,decomposition,0.035782748
+Diplotaxis ibicensis,ASV_285,decomposition,0.010223642
+Diplotaxis ibicensis,ASV_354,decomposition,0.009584665
+Diplotaxis ibicensis,ASV_363,decomposition,0.009584665
+Diplotaxis ibicensis,ASV_222,decomposition,0.008945687
+Diplotaxis ibicensis,ASV_427,decomposition,0.005750799
+Diplotaxis ibicensis,ASV_459,decomposition,0.005750799
+Diplotaxis ibicensis,ASV_467,decomposition,0.005750799
+Diplotaxis ibicensis,ASV_40,decomposition,0.003833866
+Diplotaxis ibicensis,ASV_516,decomposition,0.003833866
+Diplotaxis ibicensis,ASV_83,decomposition,0.003194888
+Diplotaxis ibicensis,ASV_86,decomposition,0.003194888
+Diplotaxis ibicensis,ASV_157,decomposition,0.003194888
+Diplotaxis ibicensis,ASV_547,decomposition,0.003194888
+Diplotaxis ibicensis,ASV_164,decomposition,0.002555911
+Diplotaxis ibicensis,ASV_598,decomposition,0.002555911
+Diplotaxis ibicensis,ASV_614,decomposition,0.002555911
+Diplotaxis ibicensis,ASV_16,decomposition,0.001916933
+Diplotaxis ibicensis,ASV_25,decomposition,0.001916933
+Diplotaxis ibicensis,ASV_50,decomposition,0.001916933
+Diplotaxis ibicensis,ASV_105,decomposition,0.001916933
+Diplotaxis ibicensis,ASV_20,decomposition,0.001277955
+Diplotaxis ibicensis,ASV_89,decomposition,0.001277955
+Diplotaxis ibicensis,ASV_180,decomposition,0.001277955
+Diplotaxis ibicensis,ASV_430,decomposition,0.001277955
+Diplotaxis ibicensis,ASV_684,decomposition,0.001277955
+Diplotaxis ibicensis,ASV_753,decomposition,0.001277955
+Diplotaxis ibicensis,ASV_12,decomposition,0.000639
+Diplotaxis ibicensis,ASV_47,decomposition,0.000639
+Diplotaxis ibicensis,ASV_76,decomposition,0.000639
+Diplotaxis ibicensis,ASV_106,decomposition,0.000639
+Diplotaxis ibicensis,ASV_300,decomposition,0.000639
+Diplotaxis ibicensis,ASV_373,decomposition,0.000639
+Diplotaxis ibicensis,ASV_505,decomposition,0.000639
+Diplotaxis ibicensis,ASV_809,decomposition,0.000639
+Diplotaxis ibicensis,ASV_822,decomposition,0.000639
+Diplotaxis ibicensis,ASV_834,decomposition,0.000639
+Diplotaxis ibicensis,ASV_858,decomposition,0.000639
+Diplotaxis ibicensis,ASV_890,decomposition,0.000639
+Diplotaxis ibicensis,ASV_201,nutrient uptake,0.006568144
+Diplotaxis ibicensis,ASV_90,nutrient uptake,0.004926108
+Diplotaxis ibicensis,ASV_103,nutrient uptake,0.003284072
+Diplotaxis ibicensis,ASV_178,nutrient uptake,0.001642036
+Diplotaxis ibicensis,Agromyzidae,pollination,0.137931034
+Diplotaxis ibicensis,Anthophora balearica,pollination,0.068965517
+Diplotaxis ibicensis,Amegilla albigena,pollination,0.034482759
+Diplotaxis ibicensis,Diptera sp.1,pollination,0.034482759
+Diplotaxis ibicensis,Episyrphus balteatus,pollination,0.034482759
+Diplotaxis ibicensis,Podarcis lilfordi,pollination,0.034482759
+Diplotaxis ibicensis,Utetheisa pulchella,pollination,0.034482759
+Diplotaxis ibicensis,Tineidae,herbivory,0.2
+Diplotaxis ibicensis,Tettigometra (Mitricephalus) sp.,herbivory,0.1
+Chenopodium murale,ASV_9,fungal pathogenicity,0.370637119
+Chenopodium murale,ASV_18,fungal pathogenicity,0.310803324
+Chenopodium murale,ASV_56,fungal pathogenicity,0.05401662
+Chenopodium murale,ASV_4,fungal pathogenicity,0.029639889
+Chenopodium murale,ASV_80,fungal pathogenicity,0.005817175
+Chenopodium murale,ASV_228,fungal pathogenicity,0.00498615
+Chenopodium murale,ASV_340,fungal pathogenicity,0.003601108
+Chenopodium murale,ASV_407,fungal pathogenicity,0.0033241
+Chenopodium murale,ASV_133,fungal pathogenicity,0.001385042
+Chenopodium murale,ASV_162,fungal pathogenicity,0.001108033
+Chenopodium murale,ASV_243,fungal pathogenicity,0.001108033
+Chenopodium murale,ASV_30,fungal pathogenicity,0.001108033
+Chenopodium murale,ASV_613,fungal pathogenicity,0.001108033
+Chenopodium murale,ASV_626,fungal pathogenicity,0.000831025
+Chenopodium murale,ASV_704,fungal pathogenicity,0.000554017
+Chenopodium murale,ASV_728,fungal pathogenicity,0.000554017
+Chenopodium murale,ASV_282,fungal pathogenicity,0.000277008
+Chenopodium murale,ASV_499,fungal pathogenicity,0.000277008
+Chenopodium murale,ASV_39,decomposition,0.284984026
+Chenopodium murale,ASV_73,decomposition,0.152715655
+Chenopodium murale,ASV_82,decomposition,0.117571885
+Chenopodium murale,ASV_136,decomposition,0.061341853
+Chenopodium murale,ASV_26,decomposition,0.043450479
+Chenopodium murale,ASV_3,decomposition,0.032587859
+Chenopodium murale,ASV_276,decomposition,0.016613419
+Chenopodium murale,ASV_50,decomposition,0.007667732
+Chenopodium murale,ASV_266,decomposition,0.007028754
+Chenopodium murale,ASV_46,decomposition,0.006389776
+Chenopodium murale,ASV_152,decomposition,0.006389776
+Chenopodium murale,ASV_446,decomposition,0.006389776
+Chenopodium murale,ASV_346,decomposition,0.005750799
+Chenopodium murale,ASV_466,decomposition,0.005750799
+Chenopodium murale,ASV_384,decomposition,0.005111821
+Chenopodium murale,ASV_300,decomposition,0.004472843
+Chenopodium murale,ASV_318,decomposition,0.004472843
+Chenopodium murale,ASV_392,decomposition,0.004472843
+Chenopodium murale,ASV_15,decomposition,0.003833866
+Chenopodium murale,ASV_17,decomposition,0.003833866
+Chenopodium murale,ASV_86,decomposition,0.003833866
+Chenopodium murale,ASV_505,decomposition,0.003833866
+Chenopodium murale,ASV_568,decomposition,0.003194888
+Chenopodium murale,ASV_12,decomposition,0.002555911
+Chenopodium murale,ASV_104,decomposition,0.002555911
+Chenopodium murale,ASV_203,decomposition,0.002555911
+Chenopodium murale,ASV_285,decomposition,0.002555911
+Chenopodium murale,ASV_589,decomposition,0.002555911
+Chenopodium murale,ASV_641,decomposition,0.001916933
+Chenopodium murale,ASV_47,decomposition,0.001277955
+Chenopodium murale,ASV_256,decomposition,0.001277955
+Chenopodium murale,ASV_16,decomposition,0.000639
+Chenopodium murale,ASV_19,decomposition,0.000639
+Chenopodium murale,ASV_85,decomposition,0.000639
+Chenopodium murale,ASV_222,decomposition,0.000639
+Chenopodium murale,ASV_369,decomposition,0.000639
+Chenopodium murale,ASV_374,decomposition,0.000639
+Chenopodium murale,ASV_427,decomposition,0.000639
+Chenopodium murale,ASV_612,decomposition,0.000639
+Chenopodium murale,ASV_726,decomposition,0.000639
+Chenopodium murale,ASV_781,decomposition,0.000639
+Chenopodium murale,ASV_889,decomposition,0.000639
+Chenopodium murale,ASV_896,decomposition,0.000639
+Chenopodium murale,ASV_385,nutrient uptake,0.001642036
+Chenopodium murale,Podarcis lilfordi,pollination,0.034482759
+Asparagus horridus,ASV_62,fungal pathogenicity,0.080055402
+Asparagus horridus,ASV_1,fungal pathogenicity,0.042382271
+Asparagus horridus,ASV_135,fungal pathogenicity,0.026592798
+Asparagus horridus,ASV_96,fungal pathogenicity,0.025484765
+Asparagus horridus,ASV_45,fungal pathogenicity,0.025207756
+Asparagus horridus,ASV_22,fungal pathogenicity,0.020221607
+Asparagus horridus,ASV_30,fungal pathogenicity,0.018559557
+Asparagus horridus,ASV_28,fungal pathogenicity,0.002493075
+Asparagus horridus,ASV_364,fungal pathogenicity,0.001939058
+Asparagus horridus,ASV_193,fungal pathogenicity,0.00166205
+Asparagus horridus,ASV_69,fungal pathogenicity,0.001108033
+Asparagus horridus,ASV_162,fungal pathogenicity,0.000831025
+Asparagus horridus,ASV_642,fungal pathogenicity,0.000831025
+Asparagus horridus,ASV_650,fungal pathogenicity,0.000831025
+Asparagus horridus,ASV_2,fungal pathogenicity,0.000277008
+Asparagus horridus,ASV_368,fungal pathogenicity,0.000277008
+Asparagus horridus,ASV_67,fungal pathogenicity,0.000277008
+Asparagus horridus,ASV_14,decomposition,0.498402556
+Asparagus horridus,ASV_20,decomposition,0.266453674
+Asparagus horridus,ASV_49,decomposition,0.149520767
+Asparagus horridus,ASV_11,decomposition,0.101597444
+Asparagus horridus,ASV_3,decomposition,0.098402556
+Asparagus horridus,ASV_15,decomposition,0.096485623
+Asparagus horridus,ASV_108,decomposition,0.09456869
+Asparagus horridus,ASV_114,decomposition,0.084345048
+Asparagus horridus,ASV_12,decomposition,0.081789137
+Asparagus horridus,ASV_78,decomposition,0.072204473
+Asparagus horridus,ASV_105,decomposition,0.070926518
+Asparagus horridus,ASV_8,decomposition,0.064536741
+Asparagus horridus,ASV_26,decomposition,0.05686901
+Asparagus horridus,ASV_13,decomposition,0.038338658
+Asparagus horridus,ASV_155,decomposition,0.017252396
+Asparagus horridus,ASV_17,decomposition,0.014057508
+Asparagus horridus,ASV_16,decomposition,0.012779553
+Asparagus horridus,ASV_19,decomposition,0.01086262
+Asparagus horridus,ASV_152,decomposition,0.009584665
+Asparagus horridus,ASV_359,decomposition,0.009584665
+Asparagus horridus,ASV_79,decomposition,0.007667732
+Asparagus horridus,ASV_25,decomposition,0.006389776
+Asparagus horridus,ASV_37,decomposition,0.006389776
+Asparagus horridus,ASV_157,decomposition,0.006389776
+Asparagus horridus,ASV_405,decomposition,0.006389776
+Asparagus horridus,ASV_438,decomposition,0.006389776
+Asparagus horridus,ASV_477,decomposition,0.005111821
+Asparagus horridus,ASV_490,decomposition,0.005111821
+Asparagus horridus,ASV_180,decomposition,0.004472843
+Asparagus horridus,ASV_494,decomposition,0.004472843
+Asparagus horridus,ASV_512,decomposition,0.004472843
+Asparagus horridus,ASV_24,decomposition,0.003833866
+Asparagus horridus,ASV_422,decomposition,0.003833866
+Asparagus horridus,ASV_281,decomposition,0.002555911
+Asparagus horridus,ASV_463,decomposition,0.002555911
+Asparagus horridus,ASV_487,decomposition,0.002555911
+Asparagus horridus,ASV_618,decomposition,0.002555911
+Asparagus horridus,ASV_85,decomposition,0.001916933
+Asparagus horridus,ASV_227,decomposition,0.001916933
+Asparagus horridus,ASV_394,decomposition,0.001916933
+Asparagus horridus,ASV_491,decomposition,0.001916933
+Asparagus horridus,ASV_556,decomposition,0.001916933
+Asparagus horridus,ASV_628,decomposition,0.001916933
+Asparagus horridus,ASV_637,decomposition,0.001916933
+Asparagus horridus,ASV_659,decomposition,0.001916933
+Asparagus horridus,ASV_661,decomposition,0.001916933
+Asparagus horridus,ASV_665,decomposition,0.001916933
+Asparagus horridus,ASV_689,decomposition,0.001916933
+Asparagus horridus,ASV_40,decomposition,0.001277955
+Asparagus horridus,ASV_86,decomposition,0.001277955
+Asparagus horridus,ASV_125,decomposition,0.001277955
+Asparagus horridus,ASV_258,decomposition,0.001277955
+Asparagus horridus,ASV_510,decomposition,0.001277955
+Asparagus horridus,ASV_701,decomposition,0.001277955
+Asparagus horridus,ASV_713,decomposition,0.001277955
+Asparagus horridus,ASV_736,decomposition,0.001277955
+Asparagus horridus,ASV_740,decomposition,0.001277955
+Asparagus horridus,ASV_83,decomposition,0.000639
+Asparagus horridus,ASV_89,decomposition,0.000639
+Asparagus horridus,ASV_104,decomposition,0.000639
+Asparagus horridus,ASV_106,decomposition,0.000639
+Asparagus horridus,ASV_111,decomposition,0.000639
+Asparagus horridus,ASV_222,decomposition,0.000639
+Asparagus horridus,ASV_283,decomposition,0.000639
+Asparagus horridus,ASV_425,decomposition,0.000639
+Asparagus horridus,ASV_532,decomposition,0.000639
+Asparagus horridus,ASV_741,decomposition,0.000639
+Asparagus horridus,ASV_798,decomposition,0.000639
+Asparagus horridus,ASV_891,decomposition,0.000639
+Asparagus horridus,ASV_21,nutrient uptake,0.044334975
+Asparagus horridus,ASV_90,nutrient uptake,0.019704433
+Asparagus horridus,ASV_95,nutrient uptake,0.011494253
+Asparagus horridus,ASV_103,nutrient uptake,0.009852217
+Asparagus horridus,ASV_241,nutrient uptake,0.009852217
+Asparagus horridus,ASV_178,nutrient uptake,0.008210181
+Asparagus horridus,ASV_220,nutrient uptake,0.006568144
+Asparagus horridus,ASV_252,nutrient uptake,0.006568144
+Asparagus horridus,ASV_182,nutrient uptake,0.004926108
+Asparagus horridus,ASV_225,nutrient uptake,0.004926108
+Asparagus horridus,ASV_249,nutrient uptake,0.004926108
+Asparagus horridus,ASV_339,nutrient uptake,0.004926108
+Asparagus horridus,ASV_413,nutrient uptake,0.004926108
+Asparagus horridus,ASV_327,nutrient uptake,0.003284072
+Asparagus horridus,ASV_396,nutrient uptake,0.003284072
+Asparagus horridus,ASV_551,nutrient uptake,0.003284072
+Asparagus horridus,ASV_112,nutrient uptake,0.001642036
+Asparagus horridus,ASV_151,nutrient uptake,0.001642036
+Asparagus horridus,ASV_196,nutrient uptake,0.001642036
+Asparagus horridus,ASV_482,nutrient uptake,0.001642036
+Asparagus horridus,ASV_861,nutrient uptake,0.001642036
+Arisarum vulgare,ASV_1,fungal pathogenicity,0.271468144
+Arisarum vulgare,ASV_2,fungal pathogenicity,0.180609418
+Arisarum vulgare,ASV_28,fungal pathogenicity,0.031024931
+Arisarum vulgare,ASV_45,fungal pathogenicity,0.018836565
+Arisarum vulgare,ASV_309,fungal pathogenicity,0.004432133
+Arisarum vulgare,ASV_379,fungal pathogenicity,0.003878116
+Arisarum vulgare,ASV_243,fungal pathogenicity,0.0033241
+Arisarum vulgare,ASV_133,fungal pathogenicity,0.002216066
+Arisarum vulgare,ASV_386,fungal pathogenicity,0.002216066
+Arisarum vulgare,ASV_67,fungal pathogenicity,0.001939058
+Arisarum vulgare,ASV_539,fungal pathogenicity,0.001385042
+Arisarum vulgare,ASV_162,fungal pathogenicity,0.001108033
+Arisarum vulgare,ASV_228,fungal pathogenicity,0.001108033
+Arisarum vulgare,ASV_340,fungal pathogenicity,0.001108033
+Arisarum vulgare,ASV_499,fungal pathogenicity,0.001108033
+Arisarum vulgare,ASV_415,fungal pathogenicity,0.000831025
+Arisarum vulgare,ASV_675,fungal pathogenicity,0.000831025
+Arisarum vulgare,ASV_10,fungal pathogenicity,0.000554017
+Arisarum vulgare,ASV_217,fungal pathogenicity,0.000554017
+Arisarum vulgare,ASV_645,fungal pathogenicity,0.000554017
+Arisarum vulgare,ASV_673,fungal pathogenicity,0.000554017
+Arisarum vulgare,ASV_80,fungal pathogenicity,0.000277008
+Arisarum vulgare,ASV_77,decomposition,0.143769968
+Arisarum vulgare,ASV_88,decomposition,0.118210863
+Arisarum vulgare,ASV_17,decomposition,0.082428115
+Arisarum vulgare,ASV_16,decomposition,0.061980831
+Arisarum vulgare,ASV_8,decomposition,0.053674121
+Arisarum vulgare,ASV_12,decomposition,0.020447284
+Arisarum vulgare,ASV_15,decomposition,0.019808307
+Arisarum vulgare,ASV_26,decomposition,0.019169329
+Arisarum vulgare,ASV_104,decomposition,0.019169329
+Arisarum vulgare,ASV_20,decomposition,0.014057508
+Arisarum vulgare,ASV_301,decomposition,0.01341853
+Arisarum vulgare,ASV_124,decomposition,0.01086262
+Arisarum vulgare,ASV_3,decomposition,0.010223642
+Arisarum vulgare,ASV_344,decomposition,0.010223642
+Arisarum vulgare,ASV_89,decomposition,0.005750799
+Arisarum vulgare,ASV_498,decomposition,0.004472843
+Arisarum vulgare,ASV_73,decomposition,0.002555911
+Arisarum vulgare,ASV_384,decomposition,0.002555911
+Arisarum vulgare,ASV_609,decomposition,0.002555911
+Arisarum vulgare,ASV_11,decomposition,0.001916933
+Arisarum vulgare,ASV_85,decomposition,0.001916933
+Arisarum vulgare,ASV_106,decomposition,0.001916933
+Arisarum vulgare,ASV_164,decomposition,0.001916933
+Arisarum vulgare,ASV_612,decomposition,0.001916933
+Arisarum vulgare,ASV_633,decomposition,0.001916933
+Arisarum vulgare,ASV_83,decomposition,0.001277955
+Arisarum vulgare,ASV_432,decomposition,0.001277955
+Arisarum vulgare,ASV_694,decomposition,0.001277955
+Arisarum vulgare,ASV_702,decomposition,0.001277955
+Arisarum vulgare,ASV_716,decomposition,0.001277955
+Arisarum vulgare,ASV_763,decomposition,0.001277955
+Arisarum vulgare,ASV_65,decomposition,0.000639
+Arisarum vulgare,ASV_781,decomposition,0.000639
+Arisarum vulgare,ASV_786,decomposition,0.000639
+Arisarum vulgare,ASV_813,decomposition,0.000639
+Arisarum vulgare,ASV_21,nutrient uptake,1.0
+Arisarum vulgare,ASV_41,nutrient uptake,0.449917898
+Arisarum vulgare,ASV_97,nutrient uptake,0.274220033
+Arisarum vulgare,ASV_110,nutrient uptake,0.231527094
+Arisarum vulgare,ASV_112,nutrient uptake,0.210180624
+Arisarum vulgare,ASV_84,nutrient uptake,0.162561576
+Arisarum vulgare,ASV_57,nutrient uptake,0.072249589
+Arisarum vulgare,ASV_191,nutrient uptake,0.062397373
+Arisarum vulgare,ASV_233,nutrient uptake,0.062397373
+Arisarum vulgare,ASV_245,nutrient uptake,0.055829228
+Arisarum vulgare,ASV_247,nutrient uptake,0.052545156
+Arisarum vulgare,ASV_61,nutrient uptake,0.049261084
+Arisarum vulgare,ASV_52,nutrient uptake,0.037766831
+Arisarum vulgare,ASV_250,nutrient uptake,0.036124795
+Arisarum vulgare,ASV_234,nutrient uptake,0.031198686
+Arisarum vulgare,ASV_353,nutrient uptake,0.024630542
+Arisarum vulgare,ASV_95,nutrient uptake,0.018062397
+Arisarum vulgare,ASV_126,nutrient uptake,0.018062397
+Arisarum vulgare,ASV_142,nutrient uptake,0.016420361
+Arisarum vulgare,ASV_246,nutrient uptake,0.014778325
+Arisarum vulgare,ASV_201,nutrient uptake,0.013136289
+Arisarum vulgare,ASV_380,nutrient uptake,0.011494253
+Arisarum vulgare,ASV_216,nutrient uptake,0.008210181
+Arisarum vulgare,ASV_238,nutrient uptake,0.008210181
+Arisarum vulgare,ASV_565,nutrient uptake,0.008210181
+Arisarum vulgare,ASV_129,nutrient uptake,0.006568144
+Arisarum vulgare,ASV_607,nutrient uptake,0.006568144
+Arisarum vulgare,ASV_151,nutrient uptake,0.004926108
+Arisarum vulgare,ASV_252,nutrient uptake,0.003284072
+Arisarum vulgare,ASV_546,nutrient uptake,0.003284072
+Arisarum vulgare,ASV_719,nutrient uptake,0.003284072
+Arisarum vulgare,ASV_385,nutrient uptake,0.001642036
+Arisarum vulgare,ASV_396,nutrient uptake,0.001642036

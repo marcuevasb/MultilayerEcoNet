@@ -6,9 +6,9 @@ from netgraph import Graph, get_community_layout
 import networkx as nx
 import numpy as np
 
-# '''DATA'''
-data_path = '../data/input/data_test.csv'
-abundance_path = None
+'''DATA'''
+data_path = '../data/input/NaRedona_observed_6layers.csv'
+abundance_path = '../data/input/NaRedona_Plant_abundance.csv'
 
 head = 0 #header
 sep=','
