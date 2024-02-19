@@ -47,3 +47,6 @@ $ f90 -O3 read_w.f. nest_wnodf.f dranxor.f -o nest_w.x
 
 The random number generator used is:
 https://ifisc.uib-csic.es//raul/CURSOS/Stochastic_Simulation_Methods/dranxor.f90
+
+# Authors
+- Mar Cuevas-Blanco, Lucas Lacasa, Carlos J. Melian and Victor M. Eguiluz

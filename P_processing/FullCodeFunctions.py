@@ -125,7 +125,7 @@ def RFmap_prob(head, separator, data_path, save_path, abundance_path = None):
     
     return df
 
-def RFmap_mat(df, save_path):
+def RFmap_mat(df):
     
     ''' Build df in matrix mode.
     
@@ -133,8 +133,6 @@ def RFmap_mat(df, save_path):
     ----------
     df: pandas DataFrame
         Pandas DataFrame with columns ['plant_sp', 'interaction_type', 'probability', 'abundance', 'cover'], 
-    save_path: str
-        Path to save output df.
     
     Returns
     ----------
@@ -171,7 +169,6 @@ def RFmap_mat(df, save_path):
                 value = 0 #if it does nor participate, the probability is assigned to 0
             array.append(value)
         RFmap_matrix[function] = array
-    RFmap_matrix.loc[:, ["plant_sp"] + [fun for fun in functions]].to_csv(save_path + '/P_matrix.csv',index=False)
     
     return RFmap_matrix, species, functions
 
@@ -245,7 +242,7 @@ def dic_sp(species_list,len_species):
 
     return dic_species
 
-def p_matrix(RFmap_matrix, functions):
+def p_matrix(RFmap_matrix, functions, save_path):
     
     ''' Build plant dictionary for labels using the first three letters of each word.
     
@@ -257,6 +254,8 @@ def p_matrix(RFmap_matrix, functions):
         ie. P_{i,alpha} = 1 - \prod_{j=1}^{j} (1 - f_{i,alpha,j}).
     functions: list
         List of interaction types.
+    save_path: str
+        Path to save output df.
         
     Returns
     ----------
@@ -281,6 +280,8 @@ def p_matrix(RFmap_matrix, functions):
     P_matrix_df = P_matrix_df.reset_index(drop=True) 
     P_matrix    = P_matrix_df.values[:, 1:].astype(float)
     P_matrix_t  = np.transpose(P_matrix_df.values[:, 1:].astype(float))
+
+    P_matrix_df.to_csv(save_path + '/P_matrix.csv',index=False)
     return P_matrix_df, P_matrix, P_matrix_t
 
 def sort_RFmap_matrix(RFmap_matrix, axis_1_sort, axis_0_sort):
