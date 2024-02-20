@@ -45,7 +45,7 @@ c.............................................................
       
       dnest_av=dnest_av + dnest
       enddo
-      print*, 'Nestedness rand='  dnest_av/dble(nrun), 'p < ', dble(nc)/dble(nrun)
+      print*,'Nestedness rand='  dnest_av/dble(nrun), 'p < ', dble(nc)/dble(nrun)
       
       
       end

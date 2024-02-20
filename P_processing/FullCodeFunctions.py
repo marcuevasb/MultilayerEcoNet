@@ -282,6 +282,7 @@ def p_matrix(RFmap_matrix, functions, save_path):
     P_matrix_t  = np.transpose(P_matrix_df.values[:, 1:].astype(float))
 
     P_matrix_df.to_csv(save_path + '/P_matrix.csv',index=False)
+    P_matrix.to_csv(save_path + '/P_matrix_matrix.csv',index=False)
     return P_matrix_df, P_matrix, P_matrix_t
 
 def sort_RFmap_matrix(RFmap_matrix, axis_1_sort, axis_0_sort):
