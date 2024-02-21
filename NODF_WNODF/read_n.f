@@ -2,13 +2,15 @@
       double precision dp(np,nf), dpi(np,np), dfi(nf,nf)
       double precision dnest, a, dnest_av, dnest_av2, dnest0
       double precision dp_r(np,nf), dpi_r(np,np), dfi_r(nf,nf)
-      
+      character*32 name1, name2     
+
       call dran_ini(98981765)
       
       open(1,file='../data/input/P_matrix.csv')
       
+      read(1,*) 
       do i=1, np
-	read(1,*) dp(i,1:nf)
+	read(1,*) name1, name2, dp(i,1:nf)
       enddo
       
       
@@ -45,8 +47,7 @@ c.............................................................
       
       dnest_av=dnest_av + dnest
       enddo
-      print*,'Nestedness rand=',  dnest_av/dble(nrun)
-      print*, 'p < ', dble(nc)/dble(nrun)
+      print*,'Nestedness rand=', dnest_av/dble(nrun), 'p < ', dble(nc)/dble(nrun)
       
       
       end
