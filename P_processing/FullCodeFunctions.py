@@ -858,3 +858,155 @@ def percolacion_funciones(matriz_p,cual):
         print('INCOMPLEEEEETE')
                 
     return AUC_w_max,max_AUC_list,AUC_w_min,min_AUC_list,vector_AUC_w,max_LCC_list,min_LCC_list
+
+
+####
+# ________ Prunning analysis ________
+####
+
+def create_percolation_list(list_functions, list_species, interaction_matrix):
+    
+    """
+    Create a list of percolation events from the interaction matrix and the coding and decoding dictionaries.
+
+    Parameters:
+    list_functions: list
+        List of functions.
+    list_species: list
+        List of species.
+    interaction_matrix: array
+        Interaction matrix.
+
+    Returns:
+    df pandas DataFrame: 
+        DataFrame with columns 'function' and 'species' indicating the percolation events.
+    fun_to_int: dict
+        Dictionary to map functions to integers.
+    int_to_fun: dict
+        Dictionary to map integers to functions.
+    sp_to_int: dict 
+        Dictionary to map species to integers.
+    int_to_sp: dict
+        Dictionary to map integers to species.
+    """
+
+    fun_to_int = {fun: i for i, fun in enumerate(list_functions)}
+    int_to_fun = {i: fun for i, fun in enumerate(list_functions)}
+    sp_to_int = {sp: i for i, sp in enumerate(list_species)}
+    int_to_sp = {i: sp for i, sp in enumerate(list_species)}
+
+    # check if the matrix is in the right format, if not transpose it
+    if interaction_matrix.shape[0] != len(list_functions):
+        interaction_matrix = interaction_matrix.T
+
+    fun_list = []
+    sp_list = []
+    for i in range(len(list_functions)):
+        for j in range(len(list_species)):
+            if interaction_matrix[i,j] > 0:
+                fun_list.append(i)
+                sp_list.append(j) 
+
+    perc_df = pd.DataFrame({'function': fun_list, 'species': sp_list})
+
+    return perc_df, fun_to_int, int_to_fun, sp_to_int, int_to_sp
+
+def percolation_given_ranking(R, perc_df, perc_dim = "function", Ntot=None):
+    
+    '''
+    Perform percolation given ranking
+
+    Parameters:
+    R: list 
+        Order to perform prunning
+    perc_df: pandas dataframe
+        DataFrame with columns 'function' and 'species' indicating the percolation events.
+    perc_dim: str
+        Dimension to perform the prunning analysis. Available are 'species', 'function', default: 'function'.
+    Ntot: 
+        Number of percolation events, default: None.
+
+    Returns:
+    N_extinc: array 
+        Number of extinction after every percolation event.
+    area: array
+        AUC after every percolation event.
+    '''
+
+    # take the column that is not perc_dim
+    perc_col = perc_df.columns[0] if perc_dim == perc_df.columns[1] else perc_df.columns[1]
+
+    Ntot = len(perc_df[perc_col].unique()) if Ntot is None else Ntot
+    Nperc = len(perc_df[perc_dim].unique())
+
+    N_extinct = np.zeros(Nperc+1)
+    for i,r in enumerate(R):
+    
+        perc_df = perc_df[perc_df[perc_dim] != r]
+        N_extinct[i+1] = Ntot - len(perc_df[perc_col].unique())
+
+    area = np.sum(N_extinct[1:])
+    return N_extinct, area
+
+def create_random_rankings(N=100, n=5):
+    
+    '''
+    create N random rankings of the values from 0 to n-1, without repetition
+    '''
+   
+    np.random.seed(1234)
+    # check if N is larger than the number of possible permutations
+    N_max = np.prod(range(1,n+1))   
+    if N > N_max:
+        print(f"Warning: N={N} is larger than the number of possible permutations, taking N= ({N_max})")
+        N = N_max
+    RR = np.zeros((N,n), dtype=int)
+    rr = np.arange(n)
+    # RR[0] = rr
+    i = 0
+    while i < N:
+        np.random.shuffle(rr)
+        if not np.any(np.all(RR[:i,:] == rr, axis=1)):
+            RR[i] = rr
+            i += 1
+    return RR
+
+def percolation_given_rankings(RR, **kwargs):
+
+    '''
+    Perform percolation given for each ranking
+    '''
+
+    areas = np.zeros(len(RR))
+    N_E = np.zeros((len(RR), len(RR[0])+1))
+    for i, rr in enumerate(RR):
+        N_extinct, area = percolation_given_ranking(rr, **kwargs)
+        areas[i] = area
+        N_E[i] = N_extinct
+
+    return N_E, areas
+
+def compare_rankings(RR, R, perc_dim,  **kwargs):
+    '''
+    Return percolation analysis outputs
+
+    Parameters: 
+    RR: array
+        array of random rankings for null model
+    R: list
+        Order to perform prunning
+    perc_dim: str
+        Dimension to perform the prunning analysis. Available are 'species', 'function', default: 'function'.
+
+    Returns:
+    
+    '''
+
+    N_E, areas = percolation_given_rankings(RR,perc_dim = perc_dim, **kwargs)
+    N_E_R, area_R = percolation_given_ranking(R,perc_dim = perc_dim, **kwargs)
+    N_E_R_inv, area_R_inv = percolation_given_ranking(R[::-1],perc_dim = perc_dim, **kwargs)
+
+    p = np.sum(areas < area_R) / len(areas) * 100
+    p_inv = np.sum(areas <area_R_inv) / len(areas) * 100
+
+    return N_E, N_E_R, N_E_R_inv, areas, area_R, area_R_inv
