@@ -1,6 +1,6 @@
 # MultilayerEcoNet
 
-GitHub repository for the manuscript **On the structure of species-function participation in multilayer ecological networks** and its supplementary information. Here, you'll find all the necessary materials to reproduce all results contained in the manuscript, including input data stored in the 'data/input' folder and output results stored in the 'data/output' folder.
+GitHub repository for the manuscript **On the structure of species-function participation in multilayer ecological networks** and its supplementary information. Here, you'll find all the necessary materials to reproduce all results contained in the manuscript (Hervias-Parejo, S., Cuevas-Blanco, M., Lacasa, L., Traveset, A., Donoso, I., Heleno, R., ... & Eguiluz, V. M. (2023). The architecture of multifunctional ecological networks. bioRxiv, 2023-07.), including input data stored in the 'data/input' folder and output results stored in the 'data/output' folder.
 
 
 # P processing
@@ -60,6 +60,16 @@ The random number generator used is:
 https://ifisc.uib-csic.es//raul/CURSOS/Stochastic_Simulation_Methods/dranxor.f90
 
 # Authors
+
+Study site, field sampling and data curation:
+- Sandra Hervı́as-Parejo
+- Anna Traveset
+- Isabel Donoso
+- Ruben Heleno
+- Manuel Nogales
+- Susana Rodrı́guez-Echeverrı́a
+  
+Mathematical modelling, Network analysis, Data analysis and Simulations:
 - Mar Cuevas-Blanco
 - Lucas Lacasa
 - Carlos J. Melian
