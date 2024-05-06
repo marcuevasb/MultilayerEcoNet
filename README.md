@@ -69,7 +69,7 @@ Study site, Field sampling and Data curation:
 - Manuel Nogales
 - Susana Rodrı́guez-Echeverrı́a
   
-Mathematical modelling, Network analysis, Data analysis and Simulations:
+Data analysis, Mathematical modelling, Network analysis and Simulations:
 - Mar Cuevas-Blanco
 - Lucas Lacasa
 - Carlos J. Melian
