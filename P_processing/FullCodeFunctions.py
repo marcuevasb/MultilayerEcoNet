@@ -25,7 +25,8 @@ from scipy.sparse.csgraph import connected_components
 
 def creat_dir(path, saving=False):
     
-    ''' Create folder for saving.
+    ''' 
+    Create folder for saving.
     
     Parameters
     ----------
@@ -49,6 +50,9 @@ def createSinAbundance(abundance_path, dataDF, data_path):
     
     """
     Create a synthetic abundance file if it is not provided.
+
+    Parameters
+    ----------
     abundance_path: str or None
         Path to plant abundance and cover dataset. Default None if abundance and cover are not sampled.
         Columns must be ['plant_sp','Estimated_number_of_individuals', 'species_cover (cm)'].
@@ -56,10 +60,11 @@ def createSinAbundance(abundance_path, dataDF, data_path):
         Pandas DataFrame containing the data.
     data_path: str
         string containing the path to the data.
+
     Returns
     ----------
     abundance_path: str
-        if abundance_path is None, it returns the path to the synthetic abundance file. Otherwise, it returns the same path.
+        If abundance_path is None, it returns the path to the synthetic abundance file. Otherwise, it returns the same path.
 
     """
    
@@ -77,7 +82,8 @@ def createSinAbundance(abundance_path, dataDF, data_path):
 
 def RFmap_prob(head, separator, data_path, save_path, abundance_path = None):
     
-    ''' Build probability dataframe.
+    ''' 
+    Build probability dataframe.
     
     Parameters
     ----------
@@ -127,12 +133,13 @@ def RFmap_prob(head, separator, data_path, save_path, abundance_path = None):
 
 def RFmap_mat(df):
     
-    ''' Build df in matrix mode.
+    ''' 
+    Build df in matrix mode.
     
     Parameters
     ----------
     df: pandas DataFrame
-        Pandas DataFrame with columns ['plant_sp', 'interaction_type', 'probability', 'abundance', 'cover'], 
+        Pandas DataFrame with columns ['plant_sp', 'interaction_type', 'probability', 'abundance', 'cover'].
     
     Returns
     ----------
@@ -188,7 +195,8 @@ def acronyms(stng):
 
 def dic_fun(function_list):
     
-    ''' Build functions dictionary for labels using the first letter of each word .
+    ''' 
+    Build functions dictionary for labels using the first letter of each word.
     
     Parameters
     ----------
@@ -218,11 +226,12 @@ def dic_fun(function_list):
 
 def dic_sp(species_list,len_species):
     
-    ''' Build plant dictionary for labels using the first three letters of each word.
+    ''' 
+    Build plant dictionary for labels using the first three letters of each word.
     
     Parameters
     ----------
-    specues_list: list
+    species_list: list
         List of plant species.
     len_species: int
         Number of species.
@@ -244,7 +253,8 @@ def dic_sp(species_list,len_species):
 
 def p_matrix(RFmap_matrix, functions, save_path):
     
-    ''' Build plant dictionary for labels using the first three letters of each word.
+    ''' 
+    Build plant dictionary for labels using the first three letters of each word.
     
     Parameters
     ----------
@@ -287,21 +297,21 @@ def p_matrix(RFmap_matrix, functions, save_path):
 def sort_RFmap_matrix(RFmap_matrix, axis_1_sort, axis_0_sort):
     
     """
-    Sort the matrix by the ecological function and plant species
+    Sort the matrix by the ecological function and plant species.
 
     Parameters
     ----------
     RFmap_matrix : pandas dataframe
-        dataframe with the matrix
+        Dataframe with the matrix.
     axis_1_sort : list
-        list with the ecological functions in the order they should be sorted
+        List with the ecological functions in the order they should be sorted.
     axis_0_sort : list
-        list with the plant species in the order they should be sorted
+        List with the plant species in the order they should be sorted.
 
     Returns
     -------
     RFmap_matrix : pandas dataframe
-        dataframe with the matrix sorted and columns "cover" and "abundance" removed
+        Dataframe with the matrix sorted and columns "cover" and "abundance" removed.
     """
 
     RFmap_matrix = RFmap_matrix.loc[:, ["plant_sp"] + list(axis_1_sort)]
@@ -315,7 +325,7 @@ def sort_RFmap_matrix(RFmap_matrix, axis_1_sort, axis_0_sort):
 def item_words(strg, line_sep):
     
     '''
-    Return the input string correctly formatted for plotting
+    Return the input string correctly formatted for plotting.
     '''
 
     sep = "\n" if line_sep==True else ""
@@ -340,7 +350,7 @@ def item_words(strg, line_sep):
 def titles(list_, line_sep=True):
     
     '''
-    write titles for plots
+    write titles for plots.
     '''
 
     return [item_words(i,line_sep) for i in list_]
@@ -352,7 +362,7 @@ def plot_shp(length, ncols):
     
     """
     Given the number of elements to plot, and the number of columns wanted
-    return the strings in a format that can be passed to plt.mosaic_plot
+    return the strings in a format that can be passed to plt.mosaic_plot .
 
     Parameters
     ----------
@@ -386,7 +396,7 @@ def plot_shp(length, ncols):
 def p_matrix_elem(RFmap_matrix, elem, axis):
     
     """
-    Remove all but elem from RFmap_matrix and return the corresponding P_matrix and P_matrix_t
+    Remove all but elem from RFmap_matrix and return the corresponding P_matrix and P_matrix_t.
 
     Parameters
     ----------
@@ -428,25 +438,24 @@ def p_matrix_elem(RFmap_matrix, elem, axis):
 def rank(strength, elem_order, axis =1):
 
     """
-    sort the elements of "elem_order" according to the sum of the elements of "strength" along the axis "axis"
+    Sort the elements of "elem_order" according to the sum of the elements of "strength" along the axis "axis".
 
     Parameters
     ----------
     strength : array
-        array of strength of each element.
+        Array of strength of each element.
     elem_order : array
-        array of elements.
+        Array of elements.
     axis : int, optional
 
     Returns
     -------
     sums : array
-        array of sum of strength of each element.
+        Array of sum of strength of each element.
     strength_rank : array
-        array of strength of each element sorted.
+        Array of strength of each element sorted.
     species_rank : array
-        array of elements sorted.
-
+        Array of elements sorted.
     """
 
     sums = np.sum(strength, axis=axis)
@@ -461,20 +470,18 @@ def func_color(att_list):
 
     '''
     Create a dictionary that maps each element of a list to a color.
-
     If the list is the list of functions, the colors are the ones used in the paper.
-
     Otherwise, the colors are randomly generated using the function get_colors from the module dsp. 
     
     Parameters
     ----------
-    att_list: attributes list
+    att_list: list
+        Attributes list.
     
     Returns
     ----------
     func_to_color: dict
-        Dict object attr: color.
-        
+        Dict object attr: color.  
     '''
 
     # Some default colors for our ecological functions
@@ -496,6 +503,7 @@ def bipartite_pos(groupL, groupR, ratioL=4/3, ratioR = 4/3):
     
     """
     Compute bipartite node positions for a horizontally aligned bipartite graph.
+    
     Parameters
     ----------
     groupL : list
@@ -536,18 +544,19 @@ def layer_layout(G, layout='spring', k=2, seed=1234):
    
     """
     Compute the position dictionary of G using the specified layout.
+    
     Parameters
     ----------
     G : graph
         A networkx graph
     layout : string
-        The layout algorithm to use. Available are "spring", "circular", "shell" or "tree"
+        The layout algorithm to use. Available are "spring", "circular", "shell" or "tree".
     seed : int
-        Seed for random layout
+        Seed for random layout.
     Returns
     -------
     pos : dict
-        A dictionary of positions keyed by node
+        A dictionary of positions keyed by node.
     """
 
     if len(G.nodes) == 5: # Some default positions for our ecological functions
@@ -574,25 +583,22 @@ def layer_layout(G, layout='spring', k=2, seed=1234):
 
 def func_cmap(att_list,function,dic_colors_fn={},cmp = 'Reds'):
     
-    '''Returns a colormap dic,
-       discretized into the number of (different) colors
-       found in the attribute.
+    '''
+    Returns a colormap dic, discretized into the number of (different) colors found in the attribute.
    
     Parameters
     ----------
-    att_list: attributes list
+    att_list: list
+        Attributes list
    
     Returns
     ----------
     cmp_edges: cmap
         Cmap of edges.
-   
     colors: array
-        array of edges attributs in G.edges order.
-       
+        Array of edges attributs in G.edges order.
     func_to_color: dict
-        Dict object attr: color.
-       
+        Dict object attr: color.  
     '''
 
     N = 256
@@ -645,7 +651,7 @@ def threedplot_sort_speces(head, separator, data_path, matrix_order):
    
     """
     Returns the species, functions and individals sorted in a way that 
-        the plot of the tensor is clear and reduce overlaping
+    the plot of the tensor is clear and reduce overlaping.
 
     Parameters
     ----------
@@ -675,7 +681,6 @@ def threedplot_sort_speces(head, separator, data_path, matrix_order):
         Array with the animals names (used in plot labels).
     interaction_array : array
         Array with the order of interactions.
-
     """
 
     # add order columns for species and interaction types for each row
@@ -736,7 +741,7 @@ def threedplot_sort_speces(head, separator, data_path, matrix_order):
 def legend_cmap(att_list, dic_colors_fn, functions_axis, func_to_cmp):
     
     '''
-    colormap for legendS
+    Colormap for legends.
     '''
 
     legend_elements= []
@@ -869,7 +874,8 @@ def create_percolation_list(list_functions, list_species, interaction_matrix):
     """
     Create a list of percolation events from the interaction matrix and the coding and decoding dictionaries.
 
-    Parameters:
+    Parameters
+    ----------
     list_functions: list
         List of functions.
     list_species: list
@@ -877,7 +883,8 @@ def create_percolation_list(list_functions, list_species, interaction_matrix):
     interaction_matrix: array
         Interaction matrix.
 
-    Returns:
+    Returns
+    -------
     df pandas DataFrame: 
         DataFrame with columns 'function' and 'species' indicating the percolation events.
     fun_to_int: dict
@@ -914,11 +921,12 @@ def create_percolation_list(list_functions, list_species, interaction_matrix):
 def percolation_given_ranking(R, perc_df, perc_dim = "function", Ntot=None):
     
     '''
-    Perform percolation given ranking
+    Perform percolation given ranking.
 
-    Parameters:
-    R: list 
-        Order to perform prunning
+    Parameters
+    ----------
+    R: array
+        Order to perform prunning.
     perc_df: pandas dataframe
         DataFrame with columns 'function' and 'species' indicating the percolation events.
     perc_dim: str
@@ -926,7 +934,8 @@ def percolation_given_ranking(R, perc_df, perc_dim = "function", Ntot=None):
     Ntot: 
         Number of percolation events, default: None.
 
-    Returns:
+    Returns
+    -------
     N_extinc: array 
         Number of extinction after every percolation event.
     area: array
@@ -951,7 +960,19 @@ def percolation_given_ranking(R, perc_df, perc_dim = "function", Ntot=None):
 def create_random_rankings(N=100, n=5):
     
     '''
-    create N random rankings of the values from 0 to n-1, without repetition
+    create N random rankings of the values from 0 to n-1, without repetition.
+
+    Parameters
+    ----------
+    N: int
+        Number of random rankings.
+    n: int
+        Number of elements in the ranking.
+
+    Returns
+    -------
+    RR: array
+        Array of random rankings for null model.
     '''
    
     np.random.seed(1234)
@@ -974,7 +995,21 @@ def create_random_rankings(N=100, n=5):
 def percolation_given_rankings(RR, **kwargs):
 
     '''
-    Perform percolation given for each ranking
+    Perform percolation given for each ranking.
+
+    Parameters
+    ----------
+    RR: array
+        Array of random rankings for null model.
+    **kwargs:
+        Parameters for percolation_given_ranking.
+
+    Returns
+    -------
+    N_E: array
+        Number of extinction after every percolation event for each random rankings.
+    areas: array
+        AUC after every percolation event for each random rankings.
     '''
 
     areas = np.zeros(len(RR))
@@ -987,19 +1022,33 @@ def percolation_given_rankings(RR, **kwargs):
     return N_E, areas
 
 def compare_rankings(RR, R, perc_dim,  **kwargs):
+   
     '''
-    Return percolation analysis outputs
+    Return percolation analysis outputs.
 
-    Parameters: 
+    Parameters
+    ----------
     RR: array
-        array of random rankings for null model
-    R: list
-        Order to perform prunning
+        Array of random rankings for null model.
+    R: array
+        Order to perform prunning analysis for the ranking R.
     perc_dim: str
         Dimension to perform the prunning analysis. Available are 'species', 'function', default: 'function'.
 
-    Returns:
-    
+    Returns
+    -------
+    N_E: array
+        Number of extinction after every percolation event for teach random rankings.
+    N_E_R: array
+        Number of extinction after every percolation event for the ranking R.
+    N_E_R_inv: array
+        Number of extinction after every percolation event for the inverse of the ranking R.
+    areas: array
+        AUC after every percolation event for each random ranking.
+    area_R: array
+        AUC after every percolation event for the ranking R.
+    area_R_inv: array
+        AUC after every percolation event for the inverse of the ranking R.
     '''
 
     N_E, areas = percolation_given_rankings(RR,perc_dim = perc_dim, **kwargs)
