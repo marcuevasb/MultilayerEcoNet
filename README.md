@@ -70,7 +70,7 @@ Study site, Field sampling and Data curation:
 - Susana Rodrı́guez-Echeverrı́a
   
 Data analysis, Mathematical modelling, Network analysis and Simulations:
-- Mar Cuevas-Blanco
-- Lucas Lacasa
-- Carlos J. Melian
-- Victor M. Eguiluz
+- Mar Cuevas-Blanco (P processing)
+- Lucas Lacasa (P analytics)
+- Victor M. Eguiluz (NODF_WNODF)
+- Carlos J. Melian (provided guidance and advice)
