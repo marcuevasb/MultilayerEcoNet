@@ -1,6 +1,6 @@
 # MultilayerEcoNet
 
-GitHub repository for the manuscript **On the structure of species-function participation in multilayer ecological networks** and its supplementary information. Here, you'll find all the necessary materials to reproduce all results contained in the manuscript (https://doi.org/10.1101/2023.07.02.547400), including input data stored in the 'data/input' folder and output results stored in the 'data/output' folder.
+GitHub repository for the manuscript **On the structure of species-function participation in multilayer ecological networks** and its Supplementary Information. Here, you'll find all the necessary materials to reproduce all results contained in the manuscript (https://doi.org/10.1101/2023.07.02.547400), including input data stored in the 'data/input' folder and output results stored in the 'data/output' folder.
 
 
 # P processing
@@ -12,7 +12,7 @@ python3_enviroment contains the requirements.txt and enviroment_droplet.yml file
 
 2- `FullCode.ipynb` is the notebook, and functions used are stored in `FullCodeFunctions.py`.
 
-3- Two very resource consuming plots have been separated from the rest. They are in the folder `MFENplot`, wchich contains two python scripts to depict the Multifunctional Ecological Network (MFEN) (`Print_MultiGraphs.py` generates Figure 2 from the main manusccripy and `Print_MultiGraphs_info_multi.py` Figure 1a from SI) and a third one with the functions used in both (`Plot_Mcomm_Lib.py`) using Netgraph.
+3- Two very resource consuming plots have been separated from the rest. They are in the folder `MFENplot`, wchich contains two python scripts to depict the Multifunctional Ecological Network (MFEN) (`Print_MultiGraphs.py` generates Figure 2 from the main manusccripy and `Print_MultiGraphs_info_multi.py` Figure 1a from SI) and a third one with the functions used in both (`Plot_Mcomm_Lib.py`) using Netgraph (https://github.com/paulbrodersen/netgraph).
 
 
 # P analytics
@@ -70,7 +70,7 @@ Study site, Field sampling and Data curation:
 - Susana Rodrı́guez-Echeverrı́a
   
 Data analysis, Mathematical modelling, Network analysis and Simulations:
-- Mar Cuevas-Blanco (P processing)
+- Mar Cuevas-Blanco (P processing and MFENplot)
 - Lucas Lacasa (P analytics)
 - Victor M. Eguiluz (NODF_WNODF)
 - Carlos J. Melian (provided guidance and advice)
