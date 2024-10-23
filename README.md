@@ -1,6 +1,6 @@
 # MultilayerEcoNet
 
-GitHub repository for the manuscript **On the structure of species-function participation in multilayer ecological networks** and its Supplementary Information. Here, you'll find all the necessary materials to reproduce all results contained in the manuscript (https://doi.org/10.1101/2023.07.02.547400), including input data stored in the 'data/input' folder and output results stored in the 'data/output' folder.
+GitHub repository for the manuscript **On the structure of species-function participation in multilayer ecological networks** and its Supplementary Information. Here, you'll find all the necessary materials to reproduce all results contained in the manuscript [https://www.nature.com/articles/s41467-024-53001-1](https://www.nature.com/articles/s41467-024-53001-1), including input data stored in the 'data/input' folder and output results stored in the 'data/output' folder.
 
 
 # P processing
@@ -74,3 +74,5 @@ Data analysis, Mathematical modelling, Network analysis and Simulations:
 - Lucas Lacasa (P analytics)
 - Victor M. Eguiluz (NODF_WNODF)
 - Carlos J. Melian (provided guidance and advice)
+
+Feel free to reach out to me anytime! 💫
